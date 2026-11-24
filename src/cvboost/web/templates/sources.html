@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "macros.html" import csrf %}
+{% block title %}Sources{% endblock %}
+{% block content %}
+<h1>Sources</h1>
+<table class="grid">
+  <thead><tr><th>Source</th><th>Type</th><th>On</th><th>Interval</th><th>Last run</th><th>Success</th><th>Failures</th><th>Next</th><th>Jobs</th><th>Error</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+  <tr>
+    <td data-label="Source"><strong>{{ r.name }}</strong><br><span class="muted">{{ r.attribution }}</span></td>
+    <td data-label="Type">{{ r.kind }}</td>
+    <td data-label="On">
+      <form method="post" action="/sources/{{ r.name }}/enabled" class="inline">
+        {{ csrf(csrf_token) }}
+        <input type="hidden" name="enabled" value="{{ 0 if r.enabled else 1 }}">
+        <button type="submit" class="btn {{ 'on' if r.enabled else '' }}">{{ "enabled" if r.enabled else "disabled" }}</button>
+      </form>
+    </td>
+    <td data-label="Interval">{{ r.interval }}{% if r.interval_override_s %} <span class="chip">override</span>{% endif %}
+      <form method="post" action="/sources/{{ r.name }}/interval" class="inline">
+        {{ csrf(csrf_token) }}
+        <select name="seconds" aria-label="Interval {{ r.name }}">
+          <option value="">default</option>
+          {% for c in choices %}{% if c >= r.min_interval_s %}<option value="{{ c }}"{% if r.interval_override_s == c %} selected{% endif %}>{{ (c // 3600) }} h</option>{% endif %}{% endfor %}
+        </select>
+        <button type="submit" class="btn">OK</button>
+      </form>
+    </td>
+    <td data-label="Last run">{{ r.last_run }}</td>
+    <td data-label="Success">{{ r.last_success }}</td>
+    <td data-label="Failures">{{ r.fails }}</td>
+    <td data-label="Next">{{ r.next_due }}</td>
+    <td data-label="Jobs">{{ r.jobs }}</td>
+    <td data-label="Error" class="err">{{ r.last_error }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

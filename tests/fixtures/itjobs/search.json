@@ -1,0 +1,222 @@
+{
+ "total": 6,
+ "page": 1,
+ "limit": 50,
+ "query": "data",
+ "results": [
+  {
+   "id": 300001,
+   "company": {
+    "id": 501,
+    "name": "Litware Information Technology",
+    "slug": "litware-information-technology"
+   },
+   "companyId": 501,
+   "title": "Data Engineer",
+   "body": "<p>Data Engineer. SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": 40000,
+   "salaryMax": 55000,
+   "workModel": 1,
+   "types": [
+    {
+     "id": "1",
+     "name": "Full Time"
+    }
+   ],
+   "contracts": [
+    {
+     "id": "1",
+     "name": "Contrato sem termo"
+    }
+   ],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Lisboa"
+    }
+   ],
+   "publishedAt": "2026-11-05 12:17:18",
+   "updatedAt": "2026-11-05 12:17:18",
+   "slug": "data-engineer"
+  },
+  {
+   "id": 300002,
+   "company": {
+    "id": 502,
+    "name": "Contoso Portugal",
+    "slug": "contoso-portugal"
+   },
+   "companyId": 502,
+   "title": "Analytics Engineer",
+   "body": "<p>Analytics Engineer. SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "workModel": 2,
+   "types": [
+    {
+     "id": "1",
+     "name": "Full Time"
+    }
+   ],
+   "contracts": [
+    {
+     "id": "1",
+     "name": "Contrato a termo"
+    }
+   ],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Porto"
+    }
+   ],
+   "publishedAt": "2026-11-06 09:00:00",
+   "updatedAt": "2026-11-06 09:00:00",
+   "slug": "analytics-engineer"
+  },
+  {
+   "id": 300003,
+   "company": {
+    "id": 503,
+    "name": "Fabrikam Consulting",
+    "slug": "fabrikam-consulting"
+   },
+   "companyId": 503,
+   "title": "BigQuery Consultant",
+   "body": "<p>BigQuery Consultant. SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "workModel": 1,
+   "types": [
+    {
+     "id": "1",
+     "name": "Full Time"
+    }
+   ],
+   "contracts": [
+    {
+     "id": "1",
+     "name": "Presta\u00e7\u00e3o de servi\u00e7os"
+    }
+   ],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Lisboa"
+    },
+    {
+     "id": "14",
+     "name": "Remoto"
+    }
+   ],
+   "publishedAt": "2026-11-04 15:30:00",
+   "updatedAt": "2026-11-04 15:30:00",
+   "slug": "bigquery-consultant"
+  },
+  {
+   "id": 300004,
+   "company": {
+    "id": 504,
+    "name": "Tailspin Media",
+    "slug": "tailspin-media"
+   },
+   "companyId": 504,
+   "title": "Data Analyst (Part-time)",
+   "body": "<p>Data Analyst (Part-time). SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": 12000,
+   "salaryMax": 18000,
+   "workModel": 0,
+   "types": [
+    {
+     "id": "2",
+     "name": "Part Time"
+    }
+   ],
+   "contracts": [
+    {
+     "id": "1",
+     "name": "Contrato a termo"
+    }
+   ],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Braga"
+    }
+   ],
+   "publishedAt": "2026-11-03 10:00:00",
+   "updatedAt": "2026-11-03 10:00:00",
+   "slug": "data-analyst-part-time"
+  },
+  {
+   "id": 300005,
+   "company": {
+    "id": 505,
+    "name": "Wingtip Toys",
+    "slug": "wingtip-toys"
+   },
+   "companyId": 505,
+   "title": "Looker Developer",
+   "body": "<p>Looker Developer. SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "types": [
+    {
+     "id": "1",
+     "name": "Full Time"
+    }
+   ],
+   "contracts": [],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Lisboa"
+    }
+   ],
+   "publishedAt": "2026-11-02 08:45:00",
+   "updatedAt": "2026-11-02 08:45:00",
+   "slug": "looker-developer"
+  },
+  {
+   "id": 300006,
+   "company": {
+    "id": 506,
+    "name": "Adventure Works",
+    "slug": "adventure-works"
+   },
+   "companyId": 506,
+   "title": "Marketing Analytics Specialist",
+   "body": "<p>Marketing Analytics Specialist. SQL, dbt, BigQuery, Airflow.</p>",
+   "ref": "",
+   "salaryMin": 30000,
+   "salaryMax": 38000,
+   "workModel": 2,
+   "types": [
+    {
+     "id": "1",
+     "name": "Full Time"
+    }
+   ],
+   "contracts": [
+    {
+     "id": "1",
+     "name": "Contrato sem termo"
+    }
+   ],
+   "locations": [
+    {
+     "id": "14",
+     "name": "Porto"
+    }
+   ],
+   "publishedAt": "2026-11-01 14:20:00",
+   "updatedAt": "2026-11-01 14:20:00",
+   "slug": "marketing-analytics-specialist"
+  }
+ ]
+}

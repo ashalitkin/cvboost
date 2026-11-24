@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "macros.html" import view_filters %}
+{% block title %}Screened out by AI{% endblock %}
+{% block content %}
+<h1>Screened out by AI</h1>
+<p class="muted">Jobs that passed the rules but Haiku judged unsuitable. If the AI was wrong, return the job to the Inbox and explain why: the explanation goes into the Haiku and Opus prompts.</p>
+<form method="get" action="/screened" class="filters" hx-get="/screened" hx-target="#rows" hx-push-url="true" hx-trigger="change, submit">
+  <label>Fit from <input type="number" name="fit_min" min="0" max="100" value="{{ form.fit_min }}"></label>
+  <label>Source
+    <select name="source"><option value="">any</option>
+    {% for s in sources %}<option value="{{ s }}"{% if form.source == s %} selected{% endif %}>{{ s }}</option>{% endfor %}</select></label>
+  <label>Days <input type="number" name="since_days" min="1" max="365" value="{{ form.since_days }}"></label>
+  {{ view_filters(type_values, type_labels, sel_types, unseen_only, sort_values, sort_labels, sort) }}
+  <button type="submit" hidden>Show</button>{# filters apply on change (htmx); hidden button keeps Enter working #}
+</form>
+<div id="rows">
+{% include "partials/screened_rows.html" %}
+</div>
+{% endblock %}

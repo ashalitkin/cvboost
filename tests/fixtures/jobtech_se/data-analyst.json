@@ -1,0 +1,1811 @@
+{
+ "total": {
+  "value": 26
+ },
+ "positions": 28,
+ "query_time_in_millis": 4,
+ "result_time_in_millis": 29,
+ "stats": [],
+ "freetext_concepts": {
+  "skill": [],
+  "occupation": [
+   "data analyst"
+  ],
+  "trait": [],
+  "location": [],
+  "skill_must": [],
+  "occupation_must": [],
+  "trait_must": [],
+  "location_must": [],
+  "skill_must_not": [],
+  "occupation_must_not": [],
+  "trait_must_not": [],
+  "location_must_not": []
+ },
+ "hits": [
+  {
+   "relevance": 1.0,
+   "id": "31699947",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31699947",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5591754279/logotyper/logo.png",
+   "headline": "Data Analyst",
+   "application_deadline": "2026-11-11T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Om företaget\nHos Avaron får du tryggheten i en fast anställning kombinerat med variationen av att arbeta ute hos olika kunder. Vi tillsätter specialister inom allt från teknik, IT och industri till projektledning och affärsstöd – och oavsett uppdrag har du en konsultchef som finns där för dig och din utveckling.\nOm rollen\nVill du se hur data gör verklig skillnad i en logistikverksamhet? Här arbetar du nära verksamheten med hela analyskedjan, från att identifiera behov och relevanta data till analys, visualisering och kommunikation av resultat. Uppdraget är placerat i Solna.\nDu arbetar självständigt och driver analyser från behov till leverans. Du omsätter verksamhetens frågor till insikter och rekommendationer som hjälper teamet fatta bättre beslut.\nDu samarbetar med Data Engineers kring data och datamodeller och bidrar till den fortsatta utvecklingen inom GCP och BigQuery. Det som gör rollen spännande är att du får vara med och forma både analyserna och teamets arbetssätt, bland annat inom AI.\nArbetsuppgifterDu analyserar data och omsätter resultaten till insikter och rekommendationer.\nDu identifierar verksamhetens behov och formulerar analytiska frågeställningar.\nDu preparerar, kombinerar och kvalitetssäkrar data med SQL.\nDu utvecklar KPI:er, analyser, semantiska modeller och visualiseringar i Looker.\nDu samarbetar med Data Engineers och verksamheten kring data och datamodeller.\nDu delar med dig av din erfarenhet och bidrar till kunskapsdelningen i teamet.\nKravMinst 5 års relevant erfarenhet inom dataanalys\nMycket goda kunskaper i SQL och erfarenhet av stora datamängder\nErfarenhet av Looker, inklusive LookML\nErfarenhet av att omsätta verksamhetsbehov till analyser och rekommendationer\nObehindrad svenska och engelska i tal och skrift\nMeriterandeErfarenhet av Tableau\nErfarenhet av GCP och BigQuery\nErfarenhet av dbt och Git/GitHub\nErfarenhet av Connected Sheets\nErfarenhet av AI-assisterat analysarbete\nVi erbjuderFast anställning hos Avaron AB\nTjänstepension\nFriskvårdsbidrag på 5 000 kr per år\nAnsökan\nVi tillsätter löpande – sök gärna så snart du kan.",
+    "text_formatted": "<strong>Om företaget</strong><p>Hos Avaron får du tryggheten i en fast anställning kombinerat med variationen av att arbeta ute hos olika kunder. Vi tillsätter specialister inom allt från teknik, IT och industri till projektledning och affärsstöd – och oavsett uppdrag har du en konsultchef som finns där för dig och din utveckling.</p><strong>Om rollen</strong><p>Vill du se hur data gör verklig skillnad i en logistikverksamhet? Här arbetar du nära verksamheten med hela analyskedjan, från att identifiera behov och relevanta data till analys, visualisering och kommunikation av resultat. Uppdraget är placerat i Solna.</p><p>Du arbetar självständigt och driver analyser från behov till leverans. Du omsätter verksamhetens frågor till insikter och rekommendationer som hjälper teamet fatta bättre beslut.</p><p>Du samarbetar med Data Engineers kring data och datamodeller och bidrar till den fortsatta utvecklingen inom GCP och BigQuery. Det som gör rollen spännande är att du får vara med och forma både analyserna och teamets arbetssätt, bland annat inom AI.</p><strong>Arbetsuppgifter</strong><ul><li>Du analyserar data och omsätter resultaten till insikter och rekommendationer.</li><li>Du identifierar verksamhetens behov och formulerar analytiska frågeställningar.</li><li>Du preparerar, kombinerar och kvalitetssäkrar data med SQL.</li><li>Du utvecklar KPI:er, analyser, semantiska modeller och visualiseringar i Looker.</li><li>Du samarbetar med Data Engineers och verksamheten kring data och datamodeller.</li><li>Du delar med dig av din erfarenhet och bidrar till kunskapsdelningen i teamet.</li></ul><strong>Krav</strong><ul><li>Minst 5 års relevant erfarenhet inom dataanalys</li><li>Mycket goda kunskaper i SQL och erfarenhet av stora datamängder</li><li>Erfarenhet av Looker, inklusive LookML</li><li>Erfarenhet av att omsätta verksamhetsbehov till analyser och rekommendationer</li><li>Obehindrad svenska och engelska i tal och skrift</li></ul><strong>Meriterande</strong><ul><li>Erfarenhet av Tableau</li><li>Erfarenhet av GCP och BigQuery</li><li>Erfarenhet av dbt och Git/GitHub</li><li>Erfarenhet av Connected Sheets</li><li>Erfarenhet av AI-assisterat analysarbete</li></ul><strong>Vi erbjuder</strong><ul><li>Fast anställning hos Avaron AB</li><li>Tjänstepension</li><li>Friskvårdsbidrag på 5 000 kr per år</li></ul><strong>Ansökan</strong><p>Vi tillsätter löpande – sök gärna så snart du kan.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": "https://jobs.avaron.se",
+    "organization_number": "5591754279",
+    "name": "Avaron AB",
+    "workplace": "Avaron AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": "teamtailor-8684825-2285889",
+    "email": null,
+    "via_af": false,
+    "url": "https://jobs.avaron.se/jobs/8684825-data-analyst/applications/new?promotion=2285889-arbetsformedlingen",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Solna",
+    "municipality_code": "0184",
+    "municipality_concept_id": "zHxw_uJZ_NJ8",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Solna station",
+    "postcode": "16968",
+    "city": "Solna",
+    "coordinates": [
+     18.01266621037169,
+     59.36455144821125
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Solna",
+     "municipality_code": "0184",
+     "municipality_concept_id": "zHxw_uJZ_NJ8",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Solna station",
+     "postcode": "16968",
+     "city": "Solna",
+     "coordinates": [
+      18.01266621037169,
+      59.36455144821125
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [
+     {
+      "weight": 10,
+      "concept_id": "zSLA_vw2_FXN",
+      "label": "Svenska",
+      "legacy_ams_taxonomy_id": "502"
+     },
+     {
+      "weight": 10,
+      "concept_id": "NVxJ_hLg_TYS",
+      "label": "Engelska",
+      "legacy_ams_taxonomy_id": "283"
+     }
+    ],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-07T08:05:58",
+   "last_publication_date": "2026-11-11T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1794035158801
+  },
+  {
+   "relevance": 1.0,
+   "id": "31693945",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31693945",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5591754279/logotyper/logo.png",
+   "headline": "Data Analyst",
+   "application_deadline": "2026-11-10T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Om företaget\nHos Avaron får du tryggheten i en fast anställning kombinerat med variationen av att arbeta ute hos olika kunder. Vi tillsätter specialister inom allt från teknik, IT och industri till projektledning och affärsstöd – och oavsett uppdrag har du en konsultchef som finns där för dig och din utveckling.\nOm rollen\nVill du vara med och bygga nästa generations analys- och insiktslösningar? Du blir en del av en strategisk satsning där datadrivna produkter tas fram på kundens moderna dataplattform, med Google Cloud, BigQuery och Looker som grund.\nDu arbetar i ett tvärfunktionellt team och fokuserar på skalbara lösningar med hög datakvalitet, gemensamma definitioner och en användarupplevelse som gör självservice och datadrivet beslutsfattande möjligt. Du arbetar hela vägen från verksamhetsdialog och kravinsamling till datamodellering, analys och kommunikation av insikter.\nRollen passar dig som trivs där produktutveckling, analys och verksamhetsförståelse möts och som vill bygga långsiktiga analytiska förmågor.\nArbetsuppgifterDu utvecklar och förvaltar datamodeller i dbt och semantisk datamodellering i Looker.\nDu bidrar till gemensamma semantiska lager och datamodeller som används av flera verksamhetsområden.\nDu tar fram analyser, KPI:er och datadrivna beslutsunderlag.\nDu utvecklar dashboards och rapporter i Looker eller motsvarande verktyg.\nDu utvecklar interaktiva datavisualiseringar i webbapplikationer med JavaScript/TypeScript och moderna frontend-ramverk.\nDu arbetar nära verksamheten för att identifiera behov och omsätta dem till analytiska lösningar.\nDu säkerställer kvalitet, tydlighet och konsistens i definitioner och mätetal.\nDu samarbetar med utvecklare, projektledare, UX-kompetens och andra analytiker i ett agilt arbetssätt.\nKravGedigen erfarenhet av SQL och dbt, med förmåga att arbeta självständigt och driva analysarbete från behov till leverans.\nErfarenhet av Looker, Tableau eller motsvarande visualiseringsverktyg.\nErfarenhet av datamodellering och arbete med större datamängder.\nMinst 5 års relevant arbetslivserfarenhet som Data Analyst, Analytics Engineer eller liknande.\nDokumenterad erfarenhet av att arbeta nära verksamheten och omsätta affärsbehov till analyslösningar.\nFlytande kunskaper i svenska och engelska, både i tal och skrift.\nMeriterandeErfarenhet av Google Cloud Platform (GCP), BigQuery och GitHub.\nErfarenhet av LookML och semantiska lager.\nErfarenhet av AI-assisterad utveckling, exempelvis med Copilot eller Claude.\nErfarenhet av produktutveckling inom data och analys.\nErfarenhet av självserviceanalys och användarcentrerad rapportutveckling.\nErfarenhet av JavaScript/TypeScript och moderna frontend-ramverk, exempelvis Vue.js, samt av att bygga interaktiva grafer och datavisualiseringar.\nVi erbjuderFast anställning hos Avaron AB\nTjänstepension\nFriskvårdsbidrag på 5 000 kr per år\nAnsökan\nVi tillsätter löpande – sök gärna så snart du kan.",
+    "text_formatted": "<strong>Om företaget</strong><p>Hos Avaron får du tryggheten i en fast anställning kombinerat med variationen av att arbeta ute hos olika kunder. Vi tillsätter specialister inom allt från teknik, IT och industri till projektledning och affärsstöd – och oavsett uppdrag har du en konsultchef som finns där för dig och din utveckling.</p><strong>Om rollen</strong><p>Vill du vara med och bygga nästa generations analys- och insiktslösningar? Du blir en del av en strategisk satsning där datadrivna produkter tas fram på kundens moderna dataplattform, med Google Cloud, BigQuery och Looker som grund.</p><p>Du arbetar i ett tvärfunktionellt team och fokuserar på skalbara lösningar med hög datakvalitet, gemensamma definitioner och en användarupplevelse som gör självservice och datadrivet beslutsfattande möjligt. Du arbetar hela vägen från verksamhetsdialog och kravinsamling till datamodellering, analys och kommunikation av insikter.</p><p>Rollen passar dig som trivs där produktutveckling, analys och verksamhetsförståelse möts och som vill bygga långsiktiga analytiska förmågor.</p><strong>Arbetsuppgifter</strong><ul><li>Du utvecklar och förvaltar datamodeller i dbt och semantisk datamodellering i Looker.</li><li>Du bidrar till gemensamma semantiska lager och datamodeller som används av flera verksamhetsområden.</li><li>Du tar fram analyser, KPI:er och datadrivna beslutsunderlag.</li><li>Du utvecklar dashboards och rapporter i Looker eller motsvarande verktyg.</li><li>Du utvecklar interaktiva datavisualiseringar i webbapplikationer med JavaScript/TypeScript och moderna frontend-ramverk.</li><li>Du arbetar nära verksamheten för att identifiera behov och omsätta dem till analytiska lösningar.</li><li>Du säkerställer kvalitet, tydlighet och konsistens i definitioner och mätetal.</li><li>Du samarbetar med utvecklare, projektledare, UX-kompetens och andra analytiker i ett agilt arbetssätt.</li></ul><strong>Krav</strong><ul><li>Gedigen erfarenhet av SQL och dbt, med förmåga att arbeta självständigt och driva analysarbete från behov till leverans.</li><li>Erfarenhet av Looker, Tableau eller motsvarande visualiseringsverktyg.</li><li>Erfarenhet av datamodellering och arbete med större datamängder.</li><li>Minst 5 års relevant arbetslivserfarenhet som Data Analyst, Analytics Engineer eller liknande.</li><li>Dokumenterad erfarenhet av att arbeta nära verksamheten och omsätta affärsbehov till analyslösningar.</li><li>Flytande kunskaper i svenska och engelska, både i tal och skrift.</li></ul><strong>Meriterande</strong><ul><li>Erfarenhet av Google Cloud Platform (GCP), BigQuery och GitHub.</li><li>Erfarenhet av LookML och semantiska lager.</li><li>Erfarenhet av AI-assisterad utveckling, exempelvis med Copilot eller Claude.</li><li>Erfarenhet av produktutveckling inom data och analys.</li><li>Erfarenhet av självserviceanalys och användarcentrerad rapportutveckling.</li><li>Erfarenhet av JavaScript/TypeScript och moderna frontend-ramverk, exempelvis Vue.js, samt av att bygga interaktiva grafer och datavisualiseringar.</li></ul><strong>Vi erbjuder</strong><ul><li>Fast anställning hos Avaron AB</li><li>Tjänstepension</li><li>Friskvårdsbidrag på 5 000 kr per år</li></ul><strong>Ansökan</strong><p>Vi tillsätter löpande – sök gärna så snart du kan.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": "https://jobs.avaron.se",
+    "organization_number": "5591754279",
+    "name": "Avaron AB",
+    "workplace": "Avaron AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": "teamtailor-8677184-2283403",
+    "email": null,
+    "via_af": false,
+    "url": "https://jobs.avaron.se/jobs/8677184-data-analyst/applications/new?promotion=2283403-arbetsformedlingen",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "vpAN_viS_cFV",
+    "label": "Databasanalytiker",
+    "legacy_ams_taxonomy_id": "7755"
+   },
+   "occupation_group": {
+    "concept_id": "DJh5_yyF_hEM",
+    "label": "Mjukvaru- och systemutvecklare m.fl.",
+    "legacy_ams_taxonomy_id": "2512"
+   },
+   "occupation_field": {
+    "concept_id": "apaJ_2ja_LuF",
+    "label": "Data/IT",
+    "legacy_ams_taxonomy_id": "3"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Solna",
+    "municipality_code": "0184",
+    "municipality_concept_id": "zHxw_uJZ_NJ8",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Solna station",
+    "postcode": "16968",
+    "city": "Solna",
+    "coordinates": [
+     18.01266621037169,
+     59.36455144821125
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Solna",
+     "municipality_code": "0184",
+     "municipality_concept_id": "zHxw_uJZ_NJ8",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Solna station",
+     "postcode": "16968",
+     "city": "Solna",
+     "coordinates": [
+      18.01266621037169,
+      59.36455144821125
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [
+     {
+      "weight": 10,
+      "concept_id": "zSLA_vw2_FXN",
+      "label": "Svenska",
+      "legacy_ams_taxonomy_id": "502"
+     },
+     {
+      "weight": 10,
+      "concept_id": "NVxJ_hLg_TYS",
+      "label": "Engelska",
+      "legacy_ams_taxonomy_id": "283"
+     }
+    ],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-06T08:03:21",
+   "last_publication_date": "2026-11-10T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1793948601552
+  },
+  {
+   "relevance": 0.9885037848414355,
+   "id": "31685349",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31685349",
+   "logo_url": null,
+   "headline": "Data Analyst",
+   "application_deadline": "2027-05-03T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Your New Role\nWe are looking for a Data Analytics Manager to join a European CRM & Outbound team in Stockholm. In this role, you will play a key part in strengthening data-driven decision-making by tracking, analyzing and optimizing CRM campaigns, consumer growth and product registrations across European markets.\nYou will develop standardized performance reports and tracking frameworks, analyze campaign engagement, conversions and ROI, and translate data into actionable insights and recommendations. You will also collaborate with data teams to improve dashboards, enhance data accessibility and support experimentation initiatives. Additionally, you will help establish a centralized CRM data repository and enable local markets to make better use of available data through documentation and training.\nCompany Presentation\nOur client is a global leader in home appliances, operating in markets worldwide. With a strong focus on innovation, sustainability and consumer experience, the company continuously works to develop smarter solutions and strengthen its digital capabilities.\nGood to Know\nScope of employment: Full-time, 100% Type of contract: Fixed-term employment as a consultant via JobBusters Working model: Hybrid Salary: According to agreement Start date: 2026-11-01 End date: 2027-01-31, with the possibility of extension\nTo succeed in this role, you will need:\nA bachelor's degree in Marketing, Business Analytics, Data Science or a related field.\n\n\nProven experience in CRM analytics, marketing data analysis or campaign performance tracking.\n\n\nExperience working with GA4, SQL and Python.\n\n\nKnowledge of data visualization tools such as Power BI, Tableau or Looker.\n\n\nExperience with CRM platforms and data governance.\n\n\nStrong analytical skills and the ability to turn complex data into actionable business insights.\n\n\nExcellent communication and collaboration skills, with experience working across international and cross-functional teams.\n\n\nA proactive, structured and detail-oriented approach.\n\nWhat we Offer\nSecure employment with a collective bargaining agreement, insurance coverage and occupational pension.\n\n\nWellness allowance and employee discounts via Benifex.\n\n\nFlex pension and access to pension advisory services.\n\n\nAdditional compensation during parental leave.\n\n\nOccupational health services.\n\n\nA dedicated Consultant Manager and opportunities to develop your career.\n\nWe look forward to receiving your application\nWe review applications on an ongoing basis. As recruitment processes can move quickly, the position may be filled before the advertised deadline, so we encourage you to apply as soon as possible.\nYou do not need to submit a cover letter. Instead, please respond to the screening questions included in the application process.",
+    "text_formatted": "<p><strong> </strong></p><strong>Your New Role</strong><p>We are looking for a Data Analytics Manager to join a European CRM &amp; Outbound team in Stockholm. In this role, you will play a key part in strengthening data-driven decision-making by tracking, analyzing and optimizing CRM campaigns, consumer growth and product registrations across European markets.</p><p>You will develop standardized performance reports and tracking frameworks, analyze campaign engagement, conversions and ROI, and translate data into actionable insights and recommendations. You will also collaborate with data teams to improve dashboards, enhance data accessibility and support experimentation initiatives. Additionally, you will help establish a centralized CRM data repository and enable local markets to make better use of available data through documentation and training.</p><strong>Company Presentation</strong><p>Our client is a global leader in home appliances, operating in markets worldwide. With a strong focus on innovation, sustainability and consumer experience, the company continuously works to develop smarter solutions and strengthen its digital capabilities.</p><strong>Good to Know</strong><p>Scope of employment: Full-time, 100% Type of contract: Fixed-term employment as a consultant via JobBusters Working model: Hybrid Salary: According to agreement Start date: 2026-11-01 End date: 2027-01-31, with the possibility of extension</p><strong>To succeed in this role, you will need:</strong><ul><li><p>A bachelor's degree in Marketing, Business Analytics, Data Science or a related field.</p></li><li><p>Proven experience in CRM analytics, marketing data analysis or campaign performance tracking.</p></li><li><p>Experience working with GA4, SQL and Python.</p></li><li><p>Knowledge of data visualization tools such as Power BI, Tableau or Looker.</p></li><li><p>Experience with CRM platforms and data governance.</p></li><li><p>Strong analytical skills and the ability to turn complex data into actionable business insights.</p></li><li><p>Excellent communication and collaboration skills, with experience working across international and cross-functional teams.</p></li><li><p>A proactive, structured and detail-oriented approach.</p></li></ul><strong>What we Offer</strong><ul><li><p>Secure employment with a collective bargaining agreement, insurance coverage and occupational pension.</p></li><li><p>Wellness allowance and employee discounts via Benifex.</p></li><li><p>Flex pension and access to pension advisory services.</p></li><li><p>Additional compensation during parental leave.</p></li><li><p>Occupational health services.</p></li><li><p>A dedicated Consultant Manager and opportunities to develop your career.</p></li></ul><strong>We look forward to receiving your application</strong><p>We review applications on an ongoing basis. As recruitment processes can move quickly, the position may be filled before the advertised deadline, so we encourage you to apply as soon as possible.</p><p>You do not need to submit a cover letter. Instead, please respond to the screening questions included in the application process.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "1paU_aCR_nGn",
+    "label": "Behovsanställning",
+    "legacy_ams_taxonomy_id": "4"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": null,
+    "label": null,
+    "legacy_ams_taxonomy_id": null
+   },
+   "working_hours_type": {
+    "concept_id": null,
+    "label": null,
+    "legacy_ams_taxonomy_id": null
+   },
+   "scope_of_work": {
+    "min": null,
+    "max": null
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": "https://www.jobbusters.se",
+    "organization_number": "5568265606",
+    "name": "JobBusters Aktiebolag",
+    "workplace": "JobBusters AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": "teamtailor-8666086-2280579",
+    "email": null,
+    "via_af": false,
+    "url": "https://www.jobbusters.se/jobs/8666086-data-analyst/applications/new?promotion=2280579-arbetsformedlingen",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Vasagatan 28",
+    "postcode": "11120",
+    "city": "Stockholm",
+    "coordinates": [
+     18.0581705667115,
+     59.3322455525803
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Vasagatan 28",
+     "postcode": "11120",
+     "city": "Stockholm",
+     "coordinates": [
+      18.0581705667115,
+      59.3322455525803
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-04T14:35:51",
+   "last_publication_date": "2027-05-03T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1793799351135
+  },
+  {
+   "relevance": 0.9885037848414355,
+   "id": "31555683",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31555683",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5164060021/logotyper/logo.png",
+   "headline": "Data Analyst",
+   "application_deadline": "2027-04-03T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Nordnet is redefining the landscape of savings and investments, guiding over 2.5 million customers in their financial lives. We have spent the last years building a modern data platform and fostering a culture where actionable insights and rapid product refinement are part of our DNA. In our fast-paced environment, this remains a competitive edge - allowing us to ship, learn, and iterate faster than the market.\nNow we are seeking to engage a passionate Data Analyst to join our team.\nThe role\nAs a Data Analyst at Nordnet, you will be a part of Data & Insights, where you have the opportunity to work alongside Data analysts, Data Scientists, Analytics Engineers and Data Engineers.\nYou will be embedded in our Product development teams, where you will be an integral component, working with designers, product leads and developers. You will deep-dive into our users and our products, and turn data into actionable insights.\nWe would love it if you feel excited about at least some of these statements.\n\nGoing beyond simple questions, defining a problem and understanding the right analytical approach\n\n\nConduct statistical analyses on our customer -, financial -, and company data to identify patterns of behaviour\n\n\nDesign experiments to evaluate various hypotheses and design choices\n\n\nUtilize AI and advanced modeling to scale your impact\n\n\nCraft and present compelling stories that will impact our decision makers\n\n\nHelp improve our existing methodologies\n\nThis is you\nYou are passionate about data and learning new things, and you want to contribute with your experience and ideas. In your work, you are organised, methodical and agile in a way that benefits the team’s working climate and ability to deliver solutions.\nTo thrive in this role, we believe that most of these criteria describe you:\n\nProactive, with a strong sense of ownership\n\n\nA strong communicator with the ability to engage both technical and non-technical stakeholders\n\n\nExperience of using SQL, Python, R and dbt\n\n\nHands-on experience with A/B testing\n\n\nDegree in economics, data science, statistics, engineering, mathematics, or similar\n\n\n We think that you have 3+ years experience working as a Data Analyst at a product oriented organisation.\nWhat we offer\nWe are committed to your continuous growth, offering a space where you can learn, contribute, and take ownership of your technical domain over time. At Nordnet, we offer:\n\nA hybrid work model balancing remote flexibility with collaboration in our Stockholm office.\n\n\n5,000 SEK annual wellness contribution (friskvårdsbidrag).\n\n\nA culture that values continuous learning and technical ownership.\n\n\nVisit us on www.nordnetab.com,www.nordnet.se, www.nordnet.no, www.nordnet.dk and www.nordnet.fi.\nApplication\nAt Nordnet, we know that the best products are built by teams with a mix of different backgrounds and perspectives. If you are excited about the challenges we’re solving and see yourself contributing to our team culture, we’d love to hear from you.\nTo ensure a fair and streamlined process for everyone, we only accept applications through our recruitment system. We interview continuously, so feel free to reach out as soon as possible!\nPlease note: Nordnet conducts credit and background checks as well as a drug test on the final candidate as part of our standard process for a digital bank.\nWe look forward to meeting you!",
+    "text_formatted": "<p>Nordnet is redefining the landscape of savings and investments, guiding over 2.5 million customers in their financial lives. We have spent the last years building a modern data platform and fostering a culture where actionable insights and rapid product refinement are part of our DNA. In our fast-paced environment, this remains a competitive edge - allowing us to ship, learn, and iterate faster than the market.</p><p>Now we are seeking to engage a passionate Data Analyst to join our team.</p><strong>The role</strong><p>As a Data Analyst at Nordnet, you will be a part of Data &amp; Insights, where you have the opportunity to work alongside Data analysts, Data Scientists, Analytics Engineers and Data Engineers.</p><p>You will be embedded in our Product development teams, where you will be an integral component, working with designers, product leads and developers. You will deep-dive into our users and our products, and turn data into actionable insights.</p><p>We would love it if you feel excited about at least some of these statements.</p><ul><li><p>Going beyond simple questions, defining a problem and understanding the right analytical approach</p></li><li><p>Conduct statistical analyses on our customer -, financial -, and company data to identify patterns of behaviour</p></li><li><p>Design experiments to evaluate various hypotheses and design choices</p></li><li><p>Utilize AI and advanced modeling to scale your impact</p></li><li><p>Craft and present compelling stories that will impact our decision makers</p></li><li><p>Help improve our existing methodologies</p></li></ul><strong>This is you</strong><p>You are passionate about data and learning new things, and you want to contribute with your experience and ideas. In your work, you are organised, methodical and agile in a way that benefits the team’s working climate and ability to deliver solutions.</p><p>To thrive in this role, we believe that most of these criteria describe you:</p><ul><li><p>Proactive, with a strong sense of ownership</p></li><li><p>A strong communicator with the ability to engage both technical and non-technical stakeholders</p></li><li><p>Experience of using SQL, Python, R and dbt</p></li><li><p>Hands-on experience with A/B testing</p></li><li><p>Degree in economics, data science, statistics, engineering, mathematics, or similar</p></li></ul><p> We think that you have 3+ years experience working as a Data Analyst at a product oriented organisation.</p><p><strong>What we offer</strong></p><p>We are committed to your continuous growth, offering a space where you can learn, contribute, and take ownership of your technical domain over time. At Nordnet, we offer:</p><ul><li><p>A hybrid work model balancing remote flexibility with collaboration in our Stockholm office.</p></li><li><p>5,000 SEK annual wellness contribution (friskvårdsbidrag).</p></li><li><p>A culture that values continuous learning and technical ownership.</p></li></ul><p>Visit us on www.nordnetab.com,www.nordnet.se, www.nordnet.no, www.nordnet.dk and www.nordnet.fi.</p><strong>Application</strong><p>At Nordnet, we know that the best products are built by teams with a mix of different backgrounds and perspectives. If you are excited about the challenges we’re solving and see yourself contributing to our team culture, we’d love to hear from you.</p><p>To ensure a fair and streamlined process for everyone, we only accept applications through our recruitment system. We interview continuously, so feel free to reach out as soon as possible!</p><p>Please note: Nordnet conducts credit and background checks as well as a drug test on the final candidate as part of our standard process for a digital bank.</p><p>We look forward to meeting you!</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": "https://career.nordnetab.com",
+    "organization_number": "5164060021",
+    "name": "Nordnet Bank AB",
+    "workplace": "Nordnet"
+   },
+   "application_details": {
+    "information": null,
+    "reference": "teamtailor-8500148-2230027",
+    "email": null,
+    "via_af": false,
+    "url": "https://career.nordnetab.com/jobs/8500148-data-analyst/applications/new?promotion=2230027-arbetsformedlingen",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Alströmergatan 39",
+    "postcode": "11247",
+    "city": "Stockholm",
+    "coordinates": [
+     18.0283636028595,
+     59.3359409439781
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Alströmergatan 39",
+     "postcode": "11247",
+     "city": "Stockholm",
+     "coordinates": [
+      18.0283636028595,
+      59.3359409439781
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-10-05T16:31:54",
+   "last_publication_date": "2027-04-03T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1791210714693
+  },
+  {
+   "relevance": 0.9571291766468183,
+   "id": "31697326",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31697326",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5569456659/logotyper/logo.png",
+   "headline": "Senior Data Analyst",
+   "application_deadline": "2026-11-27T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Vi söker en Senior Data Analyst för ett konsultuppdrag hos en större organisation med omfattande verksamhet inom logistik och digital utveckling. Rollen passar dig som har gedigen erfarenhet av dataanalys, SQL och Looker och trivs med att arbeta nära verksamheten för att omvandla data till värdefulla insikter och bättre beslutsunderlag. Uppdraget startar den 1 januari 2027 och pågår till den 30 juni 2027, med möjlighet till förlängning.\nOm uppdraget\nSom Senior Data Analyst får du en central roll i att utveckla och förbättra organisationens datadrivna beslutsfattande inom logistikverksamheten.\nDu arbetar med hela analyskedjan, från att identifiera verksamhetsbehov och relevanta datakällor till att genomföra analyser, utveckla visualiseringar och presentera konkreta rekommendationer.\nEn viktig del av rollen är att arbeta praktiskt med SQL, Looker och LookML för att bearbeta, kombinera och kvalitetssäkra stora datamängder samt utveckla KPI, semantiska modeller och rapporteringslösningar.\nDu samarbetar nära verksamheten och Data Engineers kring datamodeller och analysbehov samt bidrar till organisationens fortsatta utveckling inom Google Cloud Platform (GCP) och BigQuery.\nSom erfaren konsult förväntas du även bidra med kunskapsdelning, förbättrade arbetssätt och utveckling av teamets kompetens, bland annat inom AI-assisterat analysarbete.\nArbetsuppgifter\nAnalysera stora datamängder och omsätta resultaten till affärsinsikter och konkreta rekommendationer\nIdentifiera verksamhetsbehov och formulera relevanta analytiska frågeställningar\nPreparera, kombinera och kvalitetssäkra data med SQL\nUtveckla och vidareutveckla KPI, analyser och rapporteringslösningar\nSkapa och underhålla semantiska modeller och visualiseringar i Looker och LookML\nSamarbeta med Data Engineers kring datakvalitet, datamodeller och datakällor\nStötta verksamheten i att förstå och använda data för bättre beslutsfattande\nBidra till utvecklingen av analyslösningar inom GCP och BigQuery\nKommunicera komplexa analyser och tekniska frågeställningar på ett tydligt och pedagogiskt sätt\nDela med dig av din kompetens och bidra till förbättrade arbetssätt inom teamet\nUtforska möjligheter att effektivisera analysarbetet med hjälp av AI\n\nKvalifikationer\nMinst 5 års relevant erfarenhet inom dataanalys\nMycket goda kunskaper i SQL och erfarenhet av att arbeta med stora datamängder\nErfarenhet av Looker inklusive LookML\nErfarenhet av att utveckla analyser, KPI och datavisualiseringar\nDokumenterad förmåga att omsätta verksamhetsbehov till analytiska frågeställningar, insikter och rekommendationer\nGod förståelse för datamodellering, datakvalitet och analytiska processer\nFörmåga att självständigt driva analysarbete från behovsidentifiering till färdig leverans\nGod samarbetsförmåga och erfarenhet av att arbeta nära både verksamhet och tekniska team\nMycket god kommunikativ förmåga\nObehindrade kunskaper i svenska och engelska, både i tal och skrift\n\nMeriterande\nTableau\nGoogle Cloud Platform (GCP) och BigQuery\ndbt\nGit och GitHub\nConnected Sheets\nAI-assisterat analysarbete\nDataanalys inom logistik eller andra verksamheter med stora och komplexa dataflöden\n\nOm dig\nDu är en analytisk, strukturerad och lösningsorienterad person som trivs med att arbeta i gränslandet mellan verksamhet och teknik.\nDu har förmåga att se helheten, identifiera relevanta frågeställningar och omsätta komplex information till tydliga och användbara insikter. Du är självgående, tar ansvar för dina leveranser och driver ditt arbete framåt med fokus på kvalitet och verksamhetsnytta.\nDu är kommunikativ och pedagogisk och har lätt för att samarbeta med både verksamhetsrepresentanter och tekniska specialister. Du delar gärna med dig av din kunskap och bidrar aktivt till att utveckla teamets arbetssätt och analytiska förmåga.\nDu motiveras av att använda data, analys och modern teknik för att skapa konkreta förbättringar och möjliggöra bättre beslut.\nDin ansökan\nLåter rollen intressant och passande? Ansök i så fall omgående för vi intervjuar löpande och rollen kan tillsättas innan sista ansökningsdatum. Vi kan enbart ta emot och bearbeta din ansökan genom att du registrerar ditt CV i vår portal. Med avseende på GDPR kan vi ej ta emot ansökningar via e-post. Varmt välkommen med din ansökan! Uppdraget är en del av Quest Consulting personaluthyrning.\nOm oss\nQuest Consulting är ett auktoriserat konsultbolag med kollektivavtal, försäkringar, friskvård och tjänstepension. Vi är specialiserade inom IT, Teknik, HR, Administration och Ekonomi. Vår målsättning är att vara din personliga samarbetspartner och just därför är det så viktigt för oss att arbeta efter våra kärnvärden där våra ledord är att vara Personliga, Nyskapande och Professionella.",
+    "text_formatted": "<p>Vi söker en Senior Data Analyst för ett konsultuppdrag hos en större organisation med omfattande verksamhet inom logistik och digital utveckling. Rollen passar dig som har gedigen erfarenhet av dataanalys, SQL och Looker och trivs med att arbeta nära verksamheten för att omvandla data till värdefulla insikter och bättre beslutsunderlag. Uppdraget startar den 1 januari 2027 och pågår till den 30 juni 2027, med möjlighet till förlängning.</p><p><strong>Om uppdraget</strong></p><p>Som Senior Data Analyst får du en central roll i att utveckla och förbättra organisationens datadrivna beslutsfattande inom logistikverksamheten.</p><p>Du arbetar med hela analyskedjan, från att identifiera verksamhetsbehov och relevanta datakällor till att genomföra analyser, utveckla visualiseringar och presentera konkreta rekommendationer.</p><p>En viktig del av rollen är att arbeta praktiskt med SQL, Looker och LookML för att bearbeta, kombinera och kvalitetssäkra stora datamängder samt utveckla KPI, semantiska modeller och rapporteringslösningar.</p><p>Du samarbetar nära verksamheten och Data Engineers kring datamodeller och analysbehov samt bidrar till organisationens fortsatta utveckling inom Google Cloud Platform (GCP) och BigQuery.</p><p>Som erfaren konsult förväntas du även bidra med kunskapsdelning, förbättrade arbetssätt och utveckling av teamets kompetens, bland annat inom AI-assisterat analysarbete.</p><p><strong>Arbetsuppgifter</strong></p><ul><li>Analysera stora datamängder och omsätta resultaten till affärsinsikter och konkreta rekommendationer</li><li>Identifiera verksamhetsbehov och formulera relevanta analytiska frågeställningar</li><li>Preparera, kombinera och kvalitetssäkra data med SQL</li><li>Utveckla och vidareutveckla KPI, analyser och rapporteringslösningar</li><li>Skapa och underhålla semantiska modeller och visualiseringar i Looker och LookML</li><li>Samarbeta med Data Engineers kring datakvalitet, datamodeller och datakällor</li><li>Stötta verksamheten i att förstå och använda data för bättre beslutsfattande</li><li>Bidra till utvecklingen av analyslösningar inom GCP och BigQuery</li><li>Kommunicera komplexa analyser och tekniska frågeställningar på ett tydligt och pedagogiskt sätt</li><li>Dela med dig av din kompetens och bidra till förbättrade arbetssätt inom teamet</li><li>Utforska möjligheter att effektivisera analysarbetet med hjälp av AI</li></ul><p><strong>Kvalifikationer</strong></p><ul><li>Minst 5 års relevant erfarenhet inom dataanalys</li><li>Mycket goda kunskaper i SQL och erfarenhet av att arbeta med stora datamängder</li><li>Erfarenhet av Looker inklusive LookML</li><li>Erfarenhet av att utveckla analyser, KPI och datavisualiseringar</li><li>Dokumenterad förmåga att omsätta verksamhetsbehov till analytiska frågeställningar, insikter och rekommendationer</li><li>God förståelse för datamodellering, datakvalitet och analytiska processer</li><li>Förmåga att självständigt driva analysarbete från behovsidentifiering till färdig leverans</li><li>God samarbetsförmåga och erfarenhet av att arbeta nära både verksamhet och tekniska team</li><li>Mycket god kommunikativ förmåga</li><li>Obehindrade kunskaper i svenska och engelska, både i tal och skrift</li></ul><p><strong>Meriterande</strong></p><ul><li>Tableau</li><li>Google Cloud Platform (GCP) och BigQuery</li><li>dbt</li><li>Git och GitHub</li><li>Connected Sheets</li><li>AI-assisterat analysarbete</li><li>Dataanalys inom logistik eller andra verksamheter med stora och komplexa dataflöden</li></ul><p><strong>Om dig</strong></p><p>Du är en analytisk, strukturerad och lösningsorienterad person som trivs med att arbeta i gränslandet mellan verksamhet och teknik.</p><p>Du har förmåga att se helheten, identifiera relevanta frågeställningar och omsätta komplex information till tydliga och användbara insikter. Du är självgående, tar ansvar för dina leveranser och driver ditt arbete framåt med fokus på kvalitet och verksamhetsnytta.</p><p>Du är kommunikativ och pedagogisk och har lätt för att samarbeta med både verksamhetsrepresentanter och tekniska specialister. Du delar gärna med dig av din kunskap och bidrar aktivt till att utveckla teamets arbetssätt och analytiska förmåga.</p><p>Du motiveras av att använda data, analys och modern teknik för att skapa konkreta förbättringar och möjliggöra bättre beslut.</p><p><strong>Din ansökan</strong></p><p>Låter rollen intressant och passande? Ansök i så fall omgående för vi intervjuar löpande och rollen kan tillsättas innan sista ansökningsdatum. Vi kan enbart ta emot och bearbeta din ansökan genom att du registrerar ditt CV i vår portal. Med avseende på GDPR kan vi ej ta emot ansökningar via e-post. Varmt välkommen med din ansökan! Uppdraget är en del av Quest Consulting personaluthyrning.</p><p><strong>Om oss</strong></p><p>Quest Consulting är ett auktoriserat konsultbolag med kollektivavtal, försäkringar, friskvård och tjänstepension. Vi är specialiserade inom IT, Teknik, HR, Administration och Ekonomi. Vår målsättning är att vara din personliga samarbetspartner och just därför är det så viktigt för oss att arbeta efter våra kärnvärden där våra ledord är att vara Personliga, Nyskapande och Professionella.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "qQUd_4qe_NDT",
+    "label": "6 månader eller längre",
+    "legacy_ams_taxonomy_id": "2"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5569456659",
+    "name": "Quest Consulting Sverige AB",
+    "workplace": "Quest Consulting AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://pnty-apply.ponty-system.se/quest?id=8675&pnty_src=platsbanken",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Landsvägen 57",
+    "postcode": "17265",
+    "city": "Stockholm",
+    "coordinates": [
+     17.9661596128818,
+     59.3612728935077
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Landsvägen 57",
+     "postcode": "17265",
+     "city": "Stockholm",
+     "coordinates": [
+      17.9661596128818,
+      59.3612728935077
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [
+     {
+      "weight": 10,
+      "concept_id": "zSLA_vw2_FXN",
+      "label": "Svenska",
+      "legacy_ams_taxonomy_id": "502"
+     }
+    ],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-06T14:13:44",
+   "last_publication_date": "2026-11-27T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1793970824687
+  },
+  {
+   "relevance": 0.9571291766468183,
+   "id": "31688651",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31688651",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5567183693/logotyper/logo.png",
+   "headline": "Senior Data Analyst",
+   "application_deadline": "2026-12-05T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Vi är specialister på bemanning och konsulttjänster inom IT och teknik – från lovande talanger och konsulter med bred kompetens till erfarna specialister med djup expertis.\n\nFör dig som kandidat innebär vi en trygg partner som erbjuder spännande uppdrag, personlig utveckling och nära kontakt med våra rådgivare. Vi ser till att du får rätt uppdrag för din kompetens och dina ambitioner – alltid med människan i centrum.\n\nFör våra kunder betyder det att vi är en pålitlig leverantör som snabbt kan matcha rätt kompetens med rätt behov. Utöver vår egen starka konsultorganisation har vi även ett utökat partnernätverk, vilket gör att vi kan erbjuda ännu större flexibilitet och bredd i leveransen.\n\nSamarbete och kvalitet präglar allt vi gör, och våra kärnvärden sammanfattas i vårt löfte: Empowering the Nordics through people.\n\nEccera har 300 anställda och kontor i Stockholm, Göteborg, Malmö och Linköping. Vi är medlem i Almega Kompetensföretagen och följer deras tecknade kollektivavtal med Unionen.\n\nEccera söker nu en erfaren Data Analyst till ett spännande konsultuppdrag där du får en central roll i ett pågående förändrings- och migreringsarbete inom inköp och supply chain. Vi söker dig som trivs i gränslandet mellan verksamhet och IT och som har förmågan att kombinera teknisk förståelse med ett analytiskt och strukturerat arbetssätt.\nI rollen arbetar du nära verksamheten med att analysera, kvalitetssäkra och strukturera data samt koordinera aktiviteter kopplade till datamigrering och informationsöverföring mellan olika system. Du blir en viktig länk mellan verksamhet och IT och bidrar till att skapa förutsättningar för effektiva processer och tillförlitlig information.\nSom konsult på Eccera får du en trygg anställning och samlar på dig värdefull arbetslivserfarenhet på uppdrag hos våra kunder. Din konsultchef stöttar dig i din utveckling där du hela tiden fyller på med nya erfarenheter och kunskaper. En utmärkt möjlighet att göra karriär.\nDina arbetsuppgifter\nI rollen som Senior Data Analyst kommer du att arbeta med både operativa och analytiska uppgifter kopplade till verksamhetens informationshantering och pågående förändringsarbete.\nDina huvudsakliga arbetsuppgifter innebär att:\nKartlägga och analysera verksamhetsdata inom inköps- och leverantörsprocesser\nKoordinera aktiviteter kopplade till datamigrering och informationsöverföring mellan system\nSäkerställa hög datakvalitet genom analys, validering och uppföljning\nIdentifiera avvikelser, databrister och möjligheter till förbättringar\nTa fram analyser, rapporter och beslutsunderlag som stöd för verksamheten\nSamarbeta med olika intressenter inom verksamhet och IT för att säkerställa en strukturerad och effektiv informationshantering\n \n\n\nDin profil\nVi söker dig som har en gedigen erfarenhet av dataanalys och informationshantering, gärna från större och komplexa organisationer. Du har en god förståelse för hur data används i verksamhetsprocesser och är van att arbeta med både tekniska och verksamhetsrelaterade frågeställningar.\nFör att lyckas i rollen ser vi att du har:\nMinst 5 års erfarenhet av dataanalys eller informationshantering\nDokumenterad erfarenhet av datamigrering eller arbete med masterdata\nGod förståelse för datakvalitet, datamodellering och informationsstrukturer\nErfarenhet av SQL och databearbetning\nErfarenhet av verksamhetsnära arbete i förändrings- eller implementationsprojekt\nGod förmåga att koordinera aktiviteter och kommunicera med olika intressenter\nFörmåga att arbeta självständigt och driva ditt arbete framåt i komplexa organisationer\n\nSom person är du analytisk, strukturerad och lösningsorienterad. Du har lätt för att skapa goda samarbeten och trivs i en roll där du får kombinera teknisk problemlösning med verksamhetsförståelse. Du är kommunikativ, tar ansvar för dina leveranser och har förmågan att se både detaljerna och helheten.\nUppdragsperiod: 1 december 2026 – 31 maj 2027, med möjlighet till förlängning.\nVad vi erbjuder\nPå Eccera får du de verktyg du behöver för att nå dina mål. Vi erbjuder alla våra konsulter kvalificerade utbildningar och certifieringar inom den senaste tekniken. Vi sätter stort värde på att våra medarbetare hela tiden ska fortsätta att utvecklas. Därför erbjuder vi dig möjligheten att lägga upp en individuell utbildningsplan, där vi bekostar såväl studiematerial som själva certifieringarna. Under din utveckling kommer vi matcha din kompetens mot rätt uppdrag i takt med att du avancerar.",
+    "text_formatted": "<em>Vi är specialister på bemanning och konsulttjänster inom IT och teknik – från lovande talanger och konsulter med bred kompetens till erfarna specialister med djup expertis.</p><p>\nFör dig som kandidat innebär vi en trygg partner som erbjuder spännande uppdrag, personlig utveckling och nära kontakt med våra rådgivare. Vi ser till att du får rätt uppdrag för din kompetens och dina ambitioner – alltid med människan i centrum.</p><p>\nFör våra kunder betyder det att vi är en pålitlig leverantör som snabbt kan matcha rätt kompetens med rätt behov. Utöver vår egen starka konsultorganisation har vi även ett utökat partnernätverk, vilket gör att vi kan erbjuda ännu större flexibilitet och bredd i leveransen.</p><p>\nSamarbete och kvalitet präglar allt vi gör, och våra kärnvärden sammanfattas i vårt löfte:&nbsp;<strong>Empowering the Nordics through people.</strong></p><p>\nEccera har 300 anställda och kontor i Stockholm, Göteborg, Malmö och Linköping.&nbsp;Vi är medlem i Almega Kompetensföretagen och följer deras tecknade kollektivavtal med Unionen.</em><p>Eccera söker nu en erfaren Data Analyst till ett spännande konsultuppdrag där du får en central roll i ett pågående förändrings- och migreringsarbete inom inköp och supply chain. Vi söker dig som trivs i gränslandet mellan verksamhet och IT och som har förmågan att kombinera teknisk förståelse med ett analytiskt och strukturerat arbetssätt.</p><p>I rollen arbetar du nära verksamheten med att analysera, kvalitetssäkra och strukturera data samt koordinera aktiviteter kopplade till datamigrering och informationsöverföring mellan olika system. Du blir en viktig länk mellan verksamhet och IT och bidrar till att skapa förutsättningar för effektiva processer och tillförlitlig information.</p><p>Som konsult på Eccera får du en trygg anställning och samlar på dig värdefull arbetslivserfarenhet på uppdrag hos våra kunder. Din konsultchef stöttar dig i din utveckling där du hela tiden fyller på med nya erfarenheter och kunskaper. En utmärkt möjlighet att göra karriär.</p><p><strong>Dina arbetsuppgifter</strong></p><p>I rollen som Senior Data Analyst kommer du att arbeta med både operativa och analytiska uppgifter kopplade till verksamhetens informationshantering och pågående förändringsarbete.</p><p><em>Dina huvudsakliga arbetsuppgifter innebär att:</em></p><ul><li>Kartlägga och analysera verksamhetsdata inom inköps- och leverantörsprocesser</li><li>Koordinera aktiviteter kopplade till datamigrering och informationsöverföring mellan system</li><li>Säkerställa hög datakvalitet genom analys, validering och uppföljning</li><li>Identifiera avvikelser, databrister och möjligheter till förbättringar</li><li>Ta fram analyser, rapporter och beslutsunderlag som stöd för verksamheten</li><li>Samarbeta med olika intressenter inom verksamhet och IT för att säkerställa en strukturerad och effektiv informationshantering</p><p>&nbsp;</li></ul><p><strong>Din profil</strong></p><p>Vi söker dig som har en gedigen erfarenhet av dataanalys och informationshantering, gärna från större och komplexa organisationer. Du har en god förståelse för hur data används i verksamhetsprocesser och är van att arbeta med både tekniska och verksamhetsrelaterade frågeställningar.</p><p><em>För att lyckas i rollen ser vi att du har:</em></p><ul><li>Minst 5 års erfarenhet av dataanalys eller informationshantering</li><li>Dokumenterad erfarenhet av datamigrering eller arbete med masterdata</li><li>God förståelse för datakvalitet, datamodellering och informationsstrukturer</li><li>Erfarenhet av SQL och databearbetning</li><li>Erfarenhet av verksamhetsnära arbete i förändrings- eller implementationsprojekt</li><li>God förmåga att koordinera aktiviteter och kommunicera med olika intressenter</li><li>Förmåga att arbeta självständigt och driva ditt arbete framåt i komplexa organisationer</li></ul><p>Som person är du analytisk, strukturerad och lösningsorienterad. Du har lätt för att skapa goda samarbeten och trivs i en roll där du får kombinera teknisk problemlösning med verksamhetsförståelse. Du är kommunikativ, tar ansvar för dina leveranser och har förmågan att se både detaljerna och helheten.</p><p><strong>Uppdragsperiod:</strong> 1 december 2026 – 31 maj 2027, med möjlighet till förlängning.</p><p><strong>Vad vi erbjuder</strong></p><p>På Eccera får du de verktyg du behöver för att nå dina mål. Vi erbjuder alla våra konsulter kvalificerade utbildningar och certifieringar inom den senaste tekniken. Vi sätter stort värde på att våra medarbetare hela tiden ska fortsätta att utvecklas. Därför erbjuder vi dig möjligheten att lägga upp en individuell utbildningsplan, där vi bekostar såväl studiematerial som själva certifieringarna. Under din utveckling kommer vi matcha din kompetens mot rätt uppdrag i takt med att du avancerar.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": "https://www.eccera.com/",
+    "organization_number": "5567183693",
+    "name": "Eccera Professionals AB",
+    "workplace": "Eccera Professionals AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://apply.recman.page/job_post.php?id=492242&apply_only&sub_id=1227&path=ams",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "7YaM_bPu_c1T",
+    "label": "Systemanalytiker/Systemutredare",
+    "legacy_ams_taxonomy_id": "2411"
+   },
+   "occupation_group": {
+    "concept_id": "UXKZ_3zZ_ipB",
+    "label": "Systemanalytiker och IT-arkitekter m.fl.",
+    "legacy_ams_taxonomy_id": "2511"
+   },
+   "occupation_field": {
+    "concept_id": "apaJ_2ja_LuF",
+    "label": "Data/IT",
+    "legacy_ams_taxonomy_id": "3"
+   },
+   "workplace_model": {
+    "concept_id": "Vbpe_rGe_vCW",
+    "label": "Hybridarbete"
+   },
+   "workplace_address": {
+    "municipality": "Linköping",
+    "municipality_code": "0580",
+    "municipality_concept_id": "bm2x_1mr_Qhx",
+    "region": "Östergötlands län",
+    "region_code": "05",
+    "region_concept_id": "oLT3_Q9p_3nn",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": null,
+    "postcode": "58330",
+    "city": "Linköping",
+    "coordinates": [
+     15.572729209759821,
+     58.396711535264544
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Linköping",
+     "municipality_code": "0580",
+     "municipality_concept_id": "bm2x_1mr_Qhx",
+     "region": "Östergötlands län",
+     "region_code": "05",
+     "region_concept_id": "oLT3_Q9p_3nn",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": null,
+     "postcode": "58330",
+     "city": "Linköping",
+     "coordinates": [
+      15.572729209759821,
+      58.396711535264544
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [
+    {
+     "name": "Christian Gidlöv",
+     "description": null,
+     "email": "contact1@example.com",
+     "telephone": "+46734159383",
+     "contact_type": "Recruiter"
+    }
+   ],
+   "publication_date": "2026-11-05T10:29:08",
+   "last_publication_date": "2026-12-05T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1793871652729
+  },
+  {
+   "relevance": 0.9571291766468183,
+   "id": "31685641",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31685641",
+   "logo_url": null,
+   "headline": "Senior Data Analyst",
+   "application_deadline": "2026-12-04T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Vi söker en Senior Data Analyst som vill omvandla stora datamängder till insikter, datalösningar och visualiseringar med tydligt verksamhetsvärde.\nHär får du arbeta i en datadriven miljö där analys, dataplattformar och AI används för att utveckla både digitala tjänster och interna processer. Du blir en nyckelperson i att göra komplex data användbar och skapa lösningar med konkret affärsnytta.\nOm rollen\nArbeta som senior specialist inom dataanalys och Analytics Operations.\nStöd flera verksamhetsområden med datamodeller, analytiska lösningar och beslutsunderlag.\nDriv hela analysresan, från behovsidentifiering till insikter och visualisering.\nHantera stora datavolymer i en modern dataplattformsmiljö.\n\nDet här kommer du göra\nFånga upp och konkretisera verksamhetsbehov tillsammans med intressenter.\nUtforma och bygga robusta dataflöden och transformationer.\nSkapa intuitiva dashboards, rapporter och datamodeller.\nGe vägledning till användare och superusers i hur data kan nyttjas effektivt.\nBidra till utvecklingen av nya datadrivna produkter och lösningar.\n\nVi söker dig som har\nGedigen erfarenhet av dataanalys, datamodellering och visualisering.\nFörmåga att översätta affärsbehov till tydliga analysinitiativ och tekniska lösningar.\nErfarenhet av att utveckla och optimera data pipelines för stora datamängder.\nVana att samarbeta med exempelvis data scientists, data engineers och plattformsteam.\nFörmåga att kommunicera insikter och tekniska möjligheter till olika målgrupper.\n\nTeknik & Verktyg\nDatabricks\nAWS Glue och Amazon Athena\nMicrosoft Fabric\nPower BI\nData pipelines och datamodellering\n\nPraktisk information\nOrt: Göteborg\nArbetssätt: Hybrid, med cirka 50 procent arbete från kontoret.\nSpråk: Engelska",
+    "text_formatted": "<p>Vi söker en Senior Data Analyst som vill omvandla stora datamängder till insikter, datalösningar och visualiseringar med tydligt verksamhetsvärde.</p><p>Här får du arbeta i en datadriven miljö där analys, dataplattformar och AI används för att utveckla både digitala tjänster och interna processer. Du blir en nyckelperson i att göra komplex data användbar och skapa lösningar med konkret affärsnytta.</p><p>Om rollen<p><ul><li>Arbeta som senior specialist inom dataanalys och Analytics Operations.</li><li>Stöd flera verksamhetsområden med datamodeller, analytiska lösningar och beslutsunderlag.</li><li>Driv hela analysresan, från behovsidentifiering till insikter och visualisering.</li><li>Hantera stora datavolymer i en modern dataplattformsmiljö.</li></ul><p>Det här kommer du göra<p><ul><li>Fånga upp och konkretisera verksamhetsbehov tillsammans med intressenter.</li><li>Utforma och bygga robusta dataflöden och transformationer.</li><li>Skapa intuitiva dashboards, rapporter och datamodeller.</li><li>Ge vägledning till användare och superusers i hur data kan nyttjas effektivt.</li><li>Bidra till utvecklingen av nya datadrivna produkter och lösningar.</li></ul><p>Vi söker dig som har<p><ul><li>Gedigen erfarenhet av dataanalys, datamodellering och visualisering.</li><li>Förmåga att översätta affärsbehov till tydliga analysinitiativ och tekniska lösningar.</li><li>Erfarenhet av att utveckla och optimera data pipelines för stora datamängder.</li><li>Vana att samarbeta med exempelvis data scientists, data engineers och plattformsteam.</li><li>Förmåga att kommunicera insikter och tekniska möjligheter till olika målgrupper.</li></ul><p>Teknik &amp; Verktyg<p><ul><li>Databricks</li><li>AWS Glue och Amazon Athena</li><li>Microsoft Fabric</li><li>Power BI</li><li>Data pipelines och datamodellering</li></ul><p>Praktisk information<p><ul><li><strong>Ort:</strong> Göteborg</li><li><strong>Arbetssätt:</strong> Hybrid, med cirka 50 procent arbete från kontoret.</li><li><strong>Språk:</strong> Engelska</li></ul>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "PFZr_Syz_cUq",
+    "label": "Vanlig anställning",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5593595258",
+    "name": "Agile Resources AB",
+    "workplace": "Agile Resources AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": "REQ-RAYZVZCZ",
+    "email": null,
+    "via_af": false,
+    "url": "https://recruit.agile.nu/apply/jp-8b49d0640e29d209?source=platsbanken",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "ziUj_67V_Yk4",
+    "label": "Data scientist",
+    "legacy_ams_taxonomy_id": null
+   },
+   "occupation_group": {
+    "concept_id": "UXKZ_3zZ_ipB",
+    "label": "Systemanalytiker och IT-arkitekter m.fl.",
+    "legacy_ams_taxonomy_id": "2511"
+   },
+   "occupation_field": {
+    "concept_id": "apaJ_2ja_LuF",
+    "label": "Data/IT",
+    "legacy_ams_taxonomy_id": "3"
+   },
+   "workplace_model": {
+    "concept_id": null,
+    "label": null
+   },
+   "workplace_address": {
+    "municipality": "Göteborg",
+    "municipality_code": "1480",
+    "municipality_concept_id": "PVZL_BQT_XtL",
+    "region": "Västra Götalands län",
+    "region_code": "14",
+    "region_concept_id": "zdoY_6u5_Krt",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": null,
+    "postcode": "41753",
+    "city": "Göteborg",
+    "coordinates": [
+     11.937006084431701,
+     57.70834641547789
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Göteborg",
+     "municipality_code": "1480",
+     "municipality_concept_id": "PVZL_BQT_XtL",
+     "region": "Västra Götalands län",
+     "region_code": "14",
+     "region_concept_id": "zdoY_6u5_Krt",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": null,
+     "postcode": "41753",
+     "city": "Göteborg",
+     "coordinates": [
+      11.937006084431701,
+      57.70834641547789
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [
+    {
+     "name": "Neethi Gopinadh",
+     "description": null,
+     "email": "contact2@example.com",
+     "telephone": "0760203611",
+     "contact_type": "Rekryterare"
+    }
+   ],
+   "publication_date": "2026-11-04T15:15:47",
+   "last_publication_date": "2026-12-04T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_JOBPOSTING",
+   "timestamp": 1793801747754
+  },
+  {
+   "relevance": 0.9456329614882539,
+   "id": "31673134",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31673134",
+   "logo_url": null,
+   "headline": "Lead Data Analyst",
+   "application_deadline": "2026-12-02T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Job Description\nWHAT YOU’LL DO \nWe are seeking experienced Lead Data Analysts to drive the data and analytics agenda across one of our Areas within Commercial. In this role, you’ll lead complex, high-impact analytical initiatives and represent data analytics in the wider Commercial domain, from shaping the data roadmap and setting KPIs to delivering production-ready solutions and strategic recommendations that guide key business decisions. You’ll ensure the timely delivery of high-quality work while fostering a collaborative and innovative culture across the team and beyond. \nIn addition to the responsibilities above, your role will include: \nAct as a trusted advisor to senior business and product leaders, shaping strategy and priorities through insights on customer behaviour, commercial and product performance. \nEnvision, articulate and own a data and analytics roadmap that aligns with organisational goals and future tech trends. \nLead the KPI-setting work for your area and beyond, ensuring measurement frameworks and event tracking align with and contribute to strategic business goals. \nLead complex, high-importance analytics projects end to end, from exploratory analysis and proof of concept to A/B testing, productionising, roll-out and scaling, ensuring on-time delivery and high-quality standards. \nTackle difficult business problems where no good solution exists yet, using advanced methods such as quasi-experiments when a complex roll-out makes standard testing impossible. \nImplement new use cases, including AI: explore large datasets, test new algorithms and prompt engineering approaches, evaluate model outputs and ensure solutions are production-ready and scalable. \nWork closely with solution architects and data engineers on the data architecture and data modelling for your domain, ensuring data quality, accessibility and reliability. \nStay hands-on with SQL, Python and tools such as BigQuery, dbt, Looker and Power BI to explore, model and visualise data and communicate insights. \nLead other data analysts on complex projects and mentor colleagues within and beyond your area, championing best practices through demos, documentation and walkthroughs, including coaching on data storytelling. \nPromote a data-driven culture and act as a leader in the analytics Community of Practice within Commercial and across H&M Group, fostering shared learning, collaboration and continuous improvement. \n\n\n\nWHO YOU’LL WORK WITH \nYou’ll join a global, cross-functional team committed to delivering exceptional digital experiences through close collaboration, user-centric design and continuous iteration. As Lead Data Analyst, you’ll represent data analytics for your area and partner closely with other product teams within the global digital experience organisation, data and tech colleagues such as solution architects and data engineers, as well as senior business stakeholders and decision-makers. \n\n\nWHO YOU ARE \nWe are looking for people with… \nExperience from product or business analysis, customer or commercial analytics, management consulting or data engineering, including leading complex, high-impact analytics initiatives.\nProficiency in SQL and good working experience with Python or R, git, dbt and cloud analytics environments such as GCP or Databricks.\nPrevious experience within ecommerce, retail, fashion or tech product-driven companies.\nAcademic degree within Statistics, Business Administration, Economics, Engineering (or similar), or equivalent working experience.\nExpertise in data visualisation tools and techniques, e.g. Power BI, Tableau, Looker Studio.\nStrong theoretical and applied knowledge of statistics and expertise in at least one advanced analytics field, such as experimentation, quasi-experiments or backtesting.\nProven ability to independently take a solution from A to Z exploratory analysis, proof of concept, A/B testing, stakeholder alignment, productionising, roll-out and scaling.\nExtensive knowledge of data product development and a good understanding of AI, data science and data engineering work.\nA proven track record of delivering innovative, impactful data and insights that drive key business decisions at a senior level.\nExperience influencing senior stakeholders across different competences (Commercial Leads, eCommerce Managers, Product Managers, Developers, Designers, Data Engineers etc.) in a large matrix organisation.\nExcellent communication and data storytelling skills, with the ability to lead and influence decision-making on large, key initiatives.\nStrong leadership and mentoring skills, with the ability to foster a positive and collaborative team environment, also outside your own domain.\n\nAnd people who have… \nExperience working in agile, iterative product development environments.\nA proactive, ownership-driven attitude with the ability to navigate ambiguity, resolve conflicts constructively and build alignment across areas and stakeholders.\nCuriosity and the drive to spot, explore and test emerging methods and technologies relevant to H&M, and to lead their adoption.\nA passion for data advocacy, automation and continuous improvement, always looking for ways to raise data literacy and enhance the team’s ways of working.\n\n \nWHO WE ARE \nH&M Group is a global company of strong fashion brands and ventures. Our goal is to prove that there is no compromise between exceptional design, affordable prices, and sustainable solutions. We want to liberate fashion for the many, and our customers are at the heart of every decision we make. \nWe are made up of thousands of passionate and talented colleagues united by our shared culture and values. Together, we want to use our power, our scale, and our knowledge to push the fashion industry towards a more inclusive and sustainable future. \nWHY YOU’LL LOVE WORKING HERE \nWe offer all our employees at H&M Group attractive benefits with extensive development opportunities around the globe. All our employees receive a staff discount card, usable on all our H&M Group brands in stores and online. Brands covered by the discount are H&M (Beauty and Move included), COS, Weekday, Monki, H&M HOME, & Other Stories, ARKET. In addition to our staff discount, all our employees are included in our H&M Incentive Program – HIP. You can read more about our H&M Incentive Program here.",
+    "text_formatted": "<p><br></p><p><strong>Job Description</strong></p><p><strong>WHAT YOU’LL DO </strong></p><p>We are seeking experienced Lead Data Analysts to drive the data and analytics agenda across one of our Areas within Commercial. In this role, you’ll lead complex, high-impact analytical initiatives and represent data analytics in the wider Commercial domain, from shaping the data roadmap and setting KPIs to delivering production-ready solutions and strategic recommendations that guide key business decisions. You’ll ensure the timely delivery of high-quality work while fostering a collaborative and innovative culture across the team and beyond. </p><p>In addition to the responsibilities above, your role will include: </p><ul><li>Act as a trusted advisor to senior business and product leaders, shaping strategy and priorities through insights on customer behaviour, commercial and product performance. </li><li>Envision, articulate and own a data and analytics roadmap that aligns with organisational goals and future tech trends. </li><li>Lead the KPI-setting work for your area and beyond, ensuring measurement frameworks and event tracking align with and contribute to strategic business goals. </li><li>Lead complex, high-importance analytics projects end to end, from exploratory analysis and proof of concept to A/B testing, productionising, roll-out and scaling, ensuring on-time delivery and high-quality standards. </li><li>Tackle difficult business problems where no good solution exists yet, using advanced methods such as quasi-experiments when a complex roll-out makes standard testing impossible. </li><li>Implement new use cases, including AI: explore large datasets, test new algorithms and prompt engineering approaches, evaluate model outputs and ensure solutions are production-ready and scalable. </li><li>Work closely with solution architects and data engineers on the data architecture and data modelling for your domain, ensuring data quality, accessibility and reliability. </li><li>Stay hands-on with SQL, Python and tools such as BigQuery, dbt, Looker and Power BI to explore, model and visualise data and communicate insights. </li><li>Lead other data analysts on complex projects and mentor colleagues within and beyond your area, championing best practices through demos, documentation and walkthroughs, including coaching on data storytelling. </li><li>Promote a data-driven culture and act as a leader in the analytics Community of Practice within Commercial and across H&amp;M Group, fostering shared learning, collaboration and continuous improvement. </li></ul><p><br></p><p><strong>WHO YOU’LL WORK WITH </strong></p><p>You’ll join a global, cross-functional team committed to delivering exceptional digital experiences through close collaboration, user-centric design and continuous iteration. As Lead Data Analyst, you’ll represent data analytics for your area and partner closely with other product teams within the global digital experience organisation, data and tech colleagues such as solution architects and data engineers, as well as senior business stakeholders and decision-makers. </p><p><br></p><p><strong>WHO YOU ARE </strong></p><p><em>We are looking for people with… </em></p><ul><li>Experience from product or business analysis, customer or commercial analytics, management consulting or data engineering, including leading complex, high-impact analytics initiatives.</li><li>Proficiency in SQL and good working experience with Python or R, git, dbt and cloud analytics environments such as GCP or Databricks.</li><li>Previous experience within ecommerce, retail, fashion or tech product-driven companies.</li><li>Academic degree within Statistics, Business Administration, Economics, Engineering (or similar), or equivalent working experience.</li><li>Expertise in data visualisation tools and techniques, e.g. Power BI, Tableau, Looker Studio.</li><li>Strong theoretical and applied knowledge of statistics and expertise in at least one advanced analytics field, such as experimentation, quasi-experiments or backtesting.</li><li>Proven ability to independently take a solution from A to Z exploratory analysis, proof of concept, A/B testing, stakeholder alignment, productionising, roll-out and scaling.</li><li>Extensive knowledge of data product development and a good understanding of AI, data science and data engineering work.</li><li>A proven track record of delivering innovative, impactful data and insights that drive key business decisions at a senior level.</li><li>Experience influencing senior stakeholders across different competences (Commercial Leads, eCommerce Managers, Product Managers, Developers, Designers, Data Engineers etc.) in a large matrix organisation.</li><li>Excellent communication and data storytelling skills, with the ability to lead and influence decision-making on large, key initiatives.</li><li>Strong leadership and mentoring skills, with the ability to foster a positive and collaborative team environment, also outside your own domain.</li></ul><p><em>And people who have… </em></p><ul><li>Experience working in agile, iterative product development environments.</li><li>A proactive, ownership-driven attitude with the ability to navigate ambiguity, resolve conflicts constructively and build alignment across areas and stakeholders.</li><li>Curiosity and the drive to spot, explore and test emerging methods and technologies relevant to H&amp;M, and to lead their adoption.</li><li>A passion for data advocacy, automation and continuous improvement, always looking for ways to raise data literacy and enhance the team’s ways of working.</li></ul><p> </p><p><strong>WHO WE ARE </strong></p><p>H&amp;M Group is a global company of strong fashion brands and ventures. Our goal is to prove that there is no compromise between exceptional design, affordable prices, and sustainable solutions. We want to liberate fashion for the many, and our customers are at the heart of every decision we make. </p><p>We are made up of thousands of passionate and talented colleagues united by our shared culture and values. Together, we want to use our power, our scale, and our knowledge to push the fashion industry towards a more inclusive and sustainable future. </p><p><strong>WHY YOU’LL LOVE WORKING HERE </strong></p><p>We offer all our employees at H&amp;M Group attractive benefits with extensive development opportunities around the globe. All our employees receive a staff discount card, usable on all our H&amp;M Group brands in stores and online. Brands covered by the discount are H&amp;M (Beauty and Move included), COS, Weekday, Monki, H&amp;M HOME, &amp; Other Stories, ARKET. In addition to our staff discount, all our employees are included in our H&amp;M Incentive Program – HIP. You can read more about our H&amp;M Incentive Program here. </p><p><br></p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "kpPX_CNN_gDU",
+    "label": "Tillsvidareanställning (inkl. eventuell provanställning)",
+    "legacy_ams_taxonomy_id": null
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5560701715",
+    "name": "H & M Hennes & Mauritz GBC AB",
+    "workplace": "H&M Group"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://jobs.smartrecruiters.com/HMGroup/744000158708538-lead-data-analyst",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": "ZxwM_gtz_n61",
+    "label": "Arbete på plats"
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "MÄSTER SAMUELSGATAN 46A",
+    "postcode": "10638",
+    "city": "Stockholm",
+    "coordinates": [
+     18.0528391,
+     59.2877928
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "MÄSTER SAMUELSGATAN 46A",
+     "postcode": "10638",
+     "city": "Stockholm",
+     "coordinates": [
+      18.0528391,
+      59.2877928
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-02T13:05:35",
+   "last_publication_date": "2026-12-02T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_ANNONSERA",
+   "timestamp": 1793621135693
+  },
+  {
+   "relevance": 0.9456329614882539,
+   "id": "31598515",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31598515",
+   "logo_url": null,
+   "headline": "Lead Data Analyst",
+   "application_deadline": "2026-11-14T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Job Description\nAs a Lead Data Analyst focused on Analytics engineering, you will play a key role in raising the analytical and technical maturity of our Data Analysts by establishing standards, providing hands-on guidance and enabling analysts to build robust and scalable data products.  \nYou will lead the development and adoption of Analytics Engineering practices across the organization, helping teams improve how data is modeled, governed, and consumed. Through upskilling, knowledge sharing, and creation of reusable frameworks and assets, you will strengthen our analytics capabilities and help establish a more consistent way of working with data.  \nThe role requires a high degree of autonomy, initiative taking, and collaboration. You will proactively identify opportunities to improve data practices, drive cross-functional initiatives, and build alignment across diverse stakeholder groups. Success in this role depends on your ability to balance strategic priorities with execution, navigate a complex organization and data landscape, and help teams deliver analytical solutions that are scalable, maintainable and aligned with business needs.  \n\n\nWHAT YOU'LL DO\nLead complex analytical initiatives end-to-end, from problem framing and data exploration to data modeling, analysis and actionable recommendations. \nPartner with cross-functional teams and stakeholders to translate strategic questions and business needs into analytical approaches, scalable data models, and actionable insights. \nLead the development of reusable data assets, templates, and frameworks that streamline work and promote scalability. \nChampion best practices in Analytics Engineering through the data analytics community, including data modeling, testing, documentation and maintainability of analytical data products, ensuring the support both traditional analytics and emerging AI driven use cases. \nOwn and drive the Analytics Engineering community for Data Analysts, establishing standards and fostering collaboration across the organization.  \nDesign and deliver training sessions, workshops, and documentation to upskill colleagues in tools, methodologies, and data interpretation. \nProactively identify and act on opportunities to improve data literacy and analytical capabilities across the organization. \nMentor colleagues and contribute to a culture of knowledge sharing and continuous improvement. \n\n\n\nWHO YOU ARE \nWe are looking for people with...\nProven experience leading complex analytical initiatives and influencing analytical direction across teams or domains. \nStrong business understanding and ability to translate complex or ambiguous business needs into clear analytical questions, approaches, and recommendations. \nExperience driving standards, best practices, and ways of working across teams through influence, coaching, and collaboration. \nProven experience mentoring and developing colleagues through coaching, training, and knowledge sharing. \nStrong communication and stakeholder management skills, with the ability to explain complex analytical concepts to both technical and non-technical audiences. \nHigh proficiency in SQL and strong understanding of data modeling principles. \nExperience developing and maintaining analytical data products using tools such as dbt, Power Query, or similar. \nStrong understanding of data warehousing concepts and modern analytics architectures. \nExperience with version control (Git) and CI/CD practices within analytics workflows. \nExperience using Python, R, or similar technologies to support analytical workflows and automation. \nBachelor's degree in Statistics, Engineering, Computer Science, or a related field. \n\n\n\nWHO WE ARE \nH&M Group is a global company of strong fashion brands and ventures. Our goal is to prove that there is no compromise between exceptional design, affordable prices, and sustainable solutions. We want to liberate fashion for the many, and our customers are at the heart of every decision we make. \nWe are made up of thousands of passionate and talented colleagues united by our shared culture and values. Together, we want to use our power, our scale, and our knowledge to push the fashion industry towards a more inclusive and sustainable future. \n\n\nWHY YOU’LL LOVE WORKING HERE \nAt H&M Group, we are proud to be a vibrant and welcoming company. We offer our employees attractive benefits with extensive development opportunities around the globe. \nWe offer all our employee’s attractive benefits with extensive development opportunities around the globe. All our employees receive a 25% staff discount usable on all our H&M Group brands in stores and online. In addition to our staff discount, all our employees are included in our H&M Incentive Program – HIP. You can read more about our H&M Incentive Program here. \n30 days holiday \nWe offer a collective agreement which includes pension and life insurance\nH&M Incentive Program\nWellness benefit 4000kr/year\nBenifex Benefits Portal\nCommunity with activities \n\n\n\nJOIN US \nOur uniqueness comes from a combination of many things, our inclusive and collaborative culture, our strong values, and opportunities for growth. But most of all, it’s our people who make us who we are. \nTake the next step in your career together with us. The journey starts here. \n*We are committed to a recruitment process that is fair, equitable, and based on competency. We therefore kindly ask you to not attach a cover letter in your application.",
+    "text_formatted": "<p><br></p><p><strong>Job Description</strong></p><p>As a Lead Data Analyst focused on Analytics engineering, you will play a key role in raising the analytical and technical maturity of our Data Analysts by establishing standards, providing hands-on guidance and enabling analysts to build robust and scalable data products.  </p><p>You will lead the development and adoption of Analytics Engineering practices across the organization, helping teams improve how data is modeled, governed, and consumed. Through upskilling, knowledge sharing, and creation of reusable frameworks and assets, you will strengthen our analytics capabilities and help establish a more consistent way of working with data.  </p><p>The role requires a high degree of autonomy, initiative taking, and collaboration. You will proactively identify opportunities to improve data practices, drive cross-functional initiatives, and build alignment across diverse stakeholder groups. Success in this role depends on your ability to balance strategic priorities with execution, navigate a complex organization and data landscape, and help teams deliver analytical solutions that are scalable, maintainable and aligned with business needs.  </p><p><br></p><p><strong>WHAT YOU'LL DO</strong></p><ul><li>Lead complex analytical initiatives end-to-end, from problem framing and data exploration to data modeling, analysis and actionable recommendations. </li><li>Partner with cross-functional teams and stakeholders to translate strategic questions and business needs into analytical approaches, scalable data models, and actionable insights. </li><li>Lead the development of reusable data assets, templates, and frameworks that streamline work and promote scalability. </li><li>Champion best practices in Analytics Engineering through the data analytics community, including data modeling, testing, documentation and maintainability of analytical data products, ensuring the support both traditional analytics and emerging AI driven use cases. </li><li>Own and drive the Analytics Engineering community for Data Analysts, establishing standards and fostering collaboration across the organization.  </li><li>Design and deliver training sessions, workshops, and documentation to upskill colleagues in tools, methodologies, and data interpretation. </li><li>Proactively identify and act on opportunities to improve data literacy and analytical capabilities across the organization. </li><li>Mentor colleagues and contribute to a culture of knowledge sharing and continuous improvement. </li></ul><p><br></p><p><strong>WHO YOU ARE</strong> </p><p><em>We are looking for people with...</em></p><ul><li>Proven experience leading complex analytical initiatives and influencing analytical direction across teams or domains. </li><li>Strong business understanding and ability to translate complex or ambiguous business needs into clear analytical questions, approaches, and recommendations. </li><li>Experience driving standards, best practices, and ways of working across teams through influence, coaching, and collaboration. </li><li>Proven experience mentoring and developing colleagues through coaching, training, and knowledge sharing. </li><li>Strong communication and stakeholder management skills, with the ability to explain complex analytical concepts to both technical and non-technical audiences. </li><li>High proficiency in SQL and strong understanding of data modeling principles. </li><li>Experience developing and maintaining analytical data products using tools such as dbt, Power Query, or similar. </li><li>Strong understanding of data warehousing concepts and modern analytics architectures. </li><li>Experience with version control (Git) and CI/CD practices within analytics workflows. </li><li>Experience using Python, R, or similar technologies to support analytical workflows and automation. </li><li>Bachelor's degree in Statistics, Engineering, Computer Science, or a related field. </li></ul><p><br></p><p><strong>WHO WE ARE </strong></p><p>H&amp;M Group is a global company of strong fashion brands and ventures. Our goal is to prove that there is no compromise between exceptional design, affordable prices, and sustainable solutions. We want to liberate fashion for the many, and our customers are at the heart of every decision we make. </p><p>We are made up of thousands of passionate and talented colleagues united by our shared culture and values. Together, we want to use our power, our scale, and our knowledge to push the fashion industry towards a more inclusive and sustainable future. </p><p><br></p><p><strong>WHY YOU’LL LOVE WORKING HERE </strong></p><p>At H&amp;M Group, we are proud to be a vibrant and welcoming company. We offer our employees attractive benefits with extensive development opportunities around the globe. </p><p>We offer all our employee’s attractive benefits with extensive development opportunities around the globe. All our employees receive a 25% staff discount usable on all our H&amp;M Group brands in stores and online. In addition to our staff discount, all our employees are included in our H&amp;M Incentive Program – HIP. You can read more about our H&amp;M Incentive Program here. </p><ul><li>30 days holiday </li><li>We offer a collective agreement which includes pension and life insurance</li><li>H&amp;M Incentive Program</li><li>Wellness benefit 4000kr/year</li><li>Benifex Benefits Portal</li><li>Community with activities </li></ul><p><br></p><p><strong>JOIN US </strong></p><p>Our uniqueness comes from a combination of many things, our inclusive and collaborative culture, our strong values, and opportunities for growth. But most of all, it’s our people who make us who we are. </p><p>Take the next step in your career together with us. The journey starts here. </p><p><em>*We are committed to a recruitment process that is fair, equitable, and based on competency. We therefore kindly ask you to not attach a cover letter in your application. </em></p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "kpPX_CNN_gDU",
+    "label": "Tillsvidareanställning (inkl. eventuell provanställning)",
+    "legacy_ams_taxonomy_id": null
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5560701715",
+    "name": "H & M Hennes & Mauritz GBC AB",
+    "workplace": "Ekonomi/Logistik"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://jobs.smartrecruiters.com/HMGroup/744000155479448-lead-data-analyst",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "eTVL_hfE_Lyh",
+    "label": "Dataanalytiker",
+    "legacy_ams_taxonomy_id": "7786"
+   },
+   "occupation_group": {
+    "concept_id": "WX67_Pfb_WMN",
+    "label": "Marknadsanalytiker och marknadsförare m.fl.",
+    "legacy_ams_taxonomy_id": "2431"
+   },
+   "occupation_field": {
+    "concept_id": "RPTn_bxG_ExZ",
+    "label": "Försäljning, inköp, marknadsföring",
+    "legacy_ams_taxonomy_id": "5"
+   },
+   "workplace_model": {
+    "concept_id": "ZxwM_gtz_n61",
+    "label": "Arbete på plats"
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "Årstaängsvägen 19",
+    "postcode": "11743",
+    "city": "Stockholm",
+    "coordinates": [
+     18.06858,
+     59.329323
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "Årstaängsvägen 19",
+     "postcode": "11743",
+     "city": "Stockholm",
+     "coordinates": [
+      18.06858,
+      59.329323
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-10-15T07:36:15",
+   "last_publication_date": "2026-11-14T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_ANNONSERA",
+   "timestamp": 1792042575668
+  },
+  {
+   "relevance": 0.9219451825972593,
+   "id": "31697931",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31697931",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5591302780/logotyper/logo.png",
+   "headline": "Senior Data Analyst, Göteborg",
+   "application_deadline": "2026-11-09T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Soros Consulting söker nu Data Analyst till ett konsultuppdrag hos en av våra kunder i Göteborg.\nOm uppdraget\nVi söker en Senior Data Analyst till ett konsultuppdrag. I rollen arbetar du tillsammans med data scientists, ML-ingenjörer, plattforms- och dataingenjörer och äger hela analysresan, från rådata till användbara insikter, i en miljö med mycket stora datavolymer. Du ansvarar för behovsanalys tillsammans med intressenter, bygger robusta datapipelines och utvecklar dashboards och rapporter som ger affärsvärde.\nObligatoriska krav\nErfarenhet av dataplattformar som Databricks, AWS Glue, Athena eller Microsoft Fabric\n Erfarenhet av datamodellering\n Erfarenhet av dashboards/visualisering, gärna Power BI\n\nUppdragsinformation\nStart: 2026-11-16\n Slut: 2027-11-30\n Omfattning: 100% (delvis distans, ca 50%)\n Plats: Göteborg\n Sista ansökningsdag: 2026-11-09\n\nOm Soros Consulting\nSoros Consulting AB tillsätter erfarna specialister inom energi, elkraft, säkerhet och samhällsviktig infrastruktur. Vi matchar rätt kompetens med uppdrag där den gör verklig skillnad. Vårt fokus är kvalitet, långsiktighet och hållbara relationer och vi skapar goda förutsättningar för både konsulter och uppdragsgivare genom tydlighet och professionalism i varje steg.\nTveka inte på att skicka in din ansökan redan idag!\nHar du frågor om uppdraget? Kontakta oss på jobb@example.com\nfölj oss på Linkedin för fler jobbmöjligheter:\nHemsida – https://sorosconsulting.se/",
+    "text_formatted": "<p>Soros Consulting söker nu Data Analyst till ett konsultuppdrag hos en av våra kunder i Göteborg.</p><p>Om uppdraget</p><p>Vi söker en Senior Data Analyst till ett konsultuppdrag. I rollen arbetar du tillsammans med data scientists, ML-ingenjörer, plattforms- och dataingenjörer och äger hela analysresan, från rådata till användbara insikter, i en miljö med mycket stora datavolymer. Du ansvarar för behovsanalys tillsammans med intressenter, bygger robusta datapipelines och utvecklar dashboards och rapporter som ger affärsvärde.</p><p>Obligatoriska krav</p><ul><li>Erfarenhet av dataplattformar som Databricks, AWS Glue, Athena eller Microsoft Fabric</li><li> Erfarenhet av datamodellering</li><li> Erfarenhet av dashboards/visualisering, gärna Power BI</li></ul><p>Uppdragsinformation</p><ul><li>Start: 2026-11-16</li><li> Slut: 2027-11-30</li><li> Omfattning: 100% (delvis distans, ca 50%)</li><li> Plats: Göteborg</li><li> Sista ansökningsdag: 2026-11-09</li></ul><p>Om Soros Consulting</p><p>Soros Consulting AB tillsätter erfarna specialister inom energi, elkraft, säkerhet och samhällsviktig infrastruktur. Vi matchar rätt kompetens med uppdrag där den gör verklig skillnad. Vårt fokus är kvalitet, långsiktighet och hållbara relationer och vi skapar goda förutsättningar för både konsulter och uppdragsgivare genom tydlighet och professionalism i varje steg.</p><p><strong>Tveka inte på att skicka in din ansökan redan idag!</strong></p><p>Har du frågor om uppdraget? Kontakta oss på jobb@example.com</p><p><strong>följ oss på Linkedin för fler jobbmöjligheter:</strong></p><p>Hemsida – https://sorosconsulting.se/</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "kpPX_CNN_gDU",
+    "label": "Tillsvidareanställning (inkl. eventuell provanställning)",
+    "legacy_ams_taxonomy_id": null
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5591302780",
+    "name": "Soros Consulting AB",
+    "workplace": "Soros Consulting AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://sorosconsulting.se/2026/11/06/senior-data-analyst-goteborg/",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "yYHo_Ss4_Rw8",
+    "label": "Driftchef, data",
+    "legacy_ams_taxonomy_id": "5434"
+   },
+   "occupation_group": {
+    "concept_id": "eWiB_mGP_MjE",
+    "label": "IT-chefer",
+    "legacy_ams_taxonomy_id": "1310"
+   },
+   "occupation_field": {
+    "concept_id": "bh3H_Y3h_5eD",
+    "label": "Chefer och verksamhetsledare",
+    "legacy_ams_taxonomy_id": "20"
+   },
+   "workplace_model": {
+    "concept_id": "ZxwM_gtz_n61",
+    "label": "Arbete på plats"
+   },
+   "workplace_address": {
+    "municipality": "Göteborg",
+    "municipality_code": "1480",
+    "municipality_concept_id": "PVZL_BQT_XtL",
+    "region": "Västra Götalands län",
+    "region_code": "14",
+    "region_concept_id": "zdoY_6u5_Krt",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": null,
+    "postcode": null,
+    "city": null,
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Göteborg",
+     "municipality_code": "1480",
+     "municipality_concept_id": "PVZL_BQT_XtL",
+     "region": "Västra Götalands län",
+     "region_code": "14",
+     "region_concept_id": "zdoY_6u5_Krt",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": null,
+     "postcode": null,
+     "city": null,
+     "coordinates": [
+      null,
+      null
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-06T14:55:25",
+   "last_publication_date": "2026-11-09T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_ANNONSERA",
+   "timestamp": 1793973325657
+  },
+  {
+   "relevance": 0.9104489674386949,
+   "id": "31685418",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31685418",
+   "logo_url": null,
+   "headline": "Data Analyst & Steward",
+   "application_deadline": "2026-11-23T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Scope and Impact\nYou are an autonomous contributor holding end-to-end stewardship accountability for an assigned scope, on behalf of the business owners of that data. You balance stewardship responsibilities, analytics delivery, and self-service enablement while maximizing business value from data through trusted metrics, high-quality data products, and adoption of analytical solutions.\nYou may sit within a regional IT organization or directly within the business domain, depending on structure.\nAs a domain resource, you receive governance standards, tooling, and escalation support from the central Data & AI Governance function, Global Data & AI Platform team and the visualization engineering CoE.\n\n\nWhat you do\nMetrics & Data Products\nAlign existing and new metric definitions across teams so everyone works from the same numbers.\nCurate metric definitions, metadata, and the semantic layer so they're reliable enough for AI agents to answer business questions directly, not just for human dashboard users.\nAct as Data Steward for all data products within your assigned sub-domain.\nMonitor and improve data quality through controls and remediation activities, elevating data quality and data management from source to the analytical layer.\nMaintain metadata, data lineage, business glossaries, and ownership information within the enterprise data catalog.\nTrack and demonstrate the business value and ROI realized from the data products you steward, using this evidence to prioritize improvements or retirement.\nPartner with Data Engineers to define the semantic layer in the global data and AI platform and understand how they built data models and pipelines.\nReview and coordinate data access approvals and stewardship workflows in accordance with governance policies and business ownership responsibilities.\n\n\n\nAnalytical Solutions\nSupport business stakeholders with complex, non-standard analytical questions that go beyond self-service, applying analytical rigor to validate findings before they inform decisions.\nDrive adoption of self-service analytics developed with data engineers.\nBuild and maintain complex dashboards and analytical solutions.\nValidate that self-service and analytical outputs remain accurate when consumed by AI agents, not only by human users.\n\n\n\nData Literacy \nTake ownership for growing data literacy within your sub-domain.\nTrain and support business users on self-service analytics solutions\n\n\n\nAI-readiness & Ways of Working \nProactively automates routine parts of their own workflow (quality checks, documentation updates, recurring reporting) using agentic AI, and prototypes solutions live with business stakeholders using AI instead of running a traditional multi-week build cycle.\n\n\n\nWhere you will be\nThis is a full-time position based in Electrolux Group's headquarters in Stockholm in the Stadshagen district of Kungsholmen.\nWe offer 20% workplace flexibility, while maintaining the collaboration, connectivity, and team spirit that come from working together at our Global Headquarters.\nWith more than 60 nationalities under one roof, you will be part of a dynamic international environment where English is the common language and diversity is part of everyday life.\n \nBenefits highlights\nGenerous vacation allowance and a range of family-friendly benefits, including extended paternity leave.\nComprehensive insurance coverage.\nDiscounts on our award-winning Electrolux products and services.\nExtensive learning and development opportunities, with flexible career paths.\nAccess to in-house sports facilities.\n\n \n\n\n \nAs part of Electrolux, we will continuously invest in you and your development. There are no barriers to where your career could take you.\nÖppen för alla\nVi fokuserar på din kompetens, inte dina övriga förutsättningar. Vi är öppna för att anpassa rollen eller arbetsplatsen efter dina behov.",
+    "text_formatted": "<p><strong>Scope and Impact</strong></p><p>You are an autonomous contributor holding end-to-end stewardship accountability for an assigned scope, on behalf of the business owners of that data. You balance stewardship responsibilities, analytics delivery, and self-service enablement while maximizing business value from data through trusted metrics, high-quality data products, and adoption of analytical solutions.</p><p>You may sit within a regional IT organization or directly within the business domain, depending on structure.</p><p>As a domain resource, you receive governance standards, tooling, and escalation support from the central Data &amp; AI Governance function, Global Data &amp; AI Platform team and the visualization engineering CoE.</p><p><br></p><p><strong>What you do</strong></p><p><em>Metrics &amp; Data Products</em></p><ul><li>Align existing and new metric definitions across teams so everyone works from the same numbers.</li><li>Curate metric definitions, metadata, and the semantic layer so they're reliable enough for AI agents to answer business questions directly, not just for human dashboard users.</li><li>Act as Data Steward for all data products within your assigned sub-domain.</li><li>Monitor and improve data quality through controls and remediation activities, elevating data quality and data management from source to the analytical layer.</li><li>Maintain metadata, data lineage, business glossaries, and ownership information within the enterprise data catalog.</li><li>Track and demonstrate the business value and ROI realized from the data products you steward, using this evidence to prioritize improvements or retirement.</li><li>Partner with Data Engineers to define the semantic layer in the global data and AI platform and understand how they built data models and pipelines.</li><li>Review and coordinate data access approvals and stewardship workflows in accordance with governance policies and business ownership responsibilities.</li></ul><p><br></p><p><em>Analytical Solutions</em></p><ul><li>Support business stakeholders with complex, non-standard analytical questions that go beyond self-service, applying analytical rigor to validate findings before they inform decisions.</li><li>Drive adoption of self-service analytics developed with data engineers.</li><li>Build and maintain complex dashboards and analytical solutions.</li><li>Validate that self-service and analytical outputs remain accurate when consumed by AI agents, not only by human users.</li></ul><p><br></p><p><em>Data Literacy </em></p><ul><li>Take ownership for growing data literacy within your sub-domain.</li><li>Train and support business users on self-service analytics solutions</li></ul><p><br></p><p><em>AI-readiness &amp; Ways of Working </em></p><ul><li>Proactively automates routine parts of their own workflow (quality checks, documentation updates, recurring reporting) using agentic AI, and prototypes solutions live with business stakeholders using AI instead of running a traditional multi-week build cycle.</li></ul><p><br></p><p><strong>Where you will be</strong></p><p>This is a full-time position based in Electrolux Group's headquarters in Stockholm in the Stadshagen district of Kungsholmen.</p><p>We offer 20% workplace flexibility, while maintaining the collaboration, connectivity, and team spirit that come from working together at our Global Headquarters.</p><p>With more than 60 nationalities under one roof, you will be part of a dynamic international environment where English is the common language and diversity is part of everyday life.</p><p><strong> </strong></p><p><strong>Benefits highlights</strong></p><ul><li>Generous vacation allowance and a range of family-friendly benefits, including extended paternity leave.</li><li>Comprehensive insurance coverage.</li><li>Discounts on our award-winning Electrolux products and services.</li><li>Extensive learning and development opportunities, with flexible career paths.</li><li>Access to in-house sports facilities.</li></ul><p> </p><p><br></p><p> </p><p>As part of Electrolux, we will continuously invest in you and your development. There are no barriers to where your career could take you.</p><p id=\"oppenforalla\">Öppen för alla\nVi fokuserar på din kompetens, inte dina övriga förutsättningar. Vi är öppna för att anpassa rollen eller arbetsplatsen efter dina behov.</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "kpPX_CNN_gDU",
+    "label": "Tillsvidareanställning (inkl. eventuell provanställning)",
+    "legacy_ams_taxonomy_id": null
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5560094178",
+    "name": "Aktiebolaget Electrolux",
+    "workplace": "Electrolux AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://electrolux.wd3.myworkdayjobs.com/AdHocAfterAdvertising/job/Stockholm/Data-Analyst---Steward_JR82064",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "7TWG_1jQ_ULf",
+    "label": "Datorlingvist/Datalingvist",
+    "legacy_ams_taxonomy_id": "6677"
+   },
+   "occupation_group": {
+    "concept_id": "UxT1_tPF_Kbg",
+    "label": "Övriga IT-specialister",
+    "legacy_ams_taxonomy_id": "2519"
+   },
+   "occupation_field": {
+    "concept_id": "apaJ_2ja_LuF",
+    "label": "Data/IT",
+    "legacy_ams_taxonomy_id": "3"
+   },
+   "workplace_model": {
+    "concept_id": "ZxwM_gtz_n61",
+    "label": "Arbete på plats"
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": "SANKT GÖRANSGATAN 143",
+    "postcode": "10545",
+    "city": "Stockholm",
+    "coordinates": [
+     18.0528391,
+     59.2877928
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": "SANKT GÖRANSGATAN 143",
+     "postcode": "10545",
+     "city": "Stockholm",
+     "coordinates": [
+      18.0528391,
+      59.2877928
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [
+     {
+      "weight": 10,
+      "concept_id": "7TWG_1jQ_ULf",
+      "label": "Datorlingvist/Datalingvist",
+      "legacy_ams_taxonomy_id": "6677"
+     }
+    ],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-04T14:46:35",
+   "last_publication_date": "2026-11-23T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_ANNONSERA",
+   "timestamp": 1793891720699
+  },
+  {
+   "relevance": 0.892550510058326,
+   "id": "31694788",
+   "external_id": null,
+   "original_id": null,
+   "label": [],
+   "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31694788",
+   "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5591302780/logotyper/logo.png",
+   "headline": "BI-utvecklare / Data Analyst, Stockholm",
+   "application_deadline": "2026-11-13T23:59:59",
+   "number_of_vacancies": 1,
+   "description": {
+    "text": "Soros Consulting söker nu Systemutvecklare till ett konsultuppdrag hos en av våra kunder i Stockholm.\nOm uppdraget\nVi söker en erfaren Data Analyst till en strategisk satsning inom data och analys, med fokus på att utveckla moderna analys- och insiktslösningar på en molnbaserad dataplattform baserad på Google Cloud, BigQuery och Looker. I rollen arbetar du genom hela analysvärdekedjan, från verksamhetsdialog och kravinsamling till datamodellering, analys, visualisering och kommunikation av insikter, samt bidrar till utveckling av gemensamma semantiska lager och datamodeller.\nObligatoriska krav\nDu har gedigen erfarenhet av SQL och dbt och kan självständigt driva analysarbete från behov till leverans\n Du har erfarenhet av Looker, Tableau eller motsvarande visualiseringsverktyg\n Du har erfarenhet av datamodellering och arbete med större datamängder\n Du har minst 5 års relevant arbetslivserfarenhet som Data Analyst, Analytics Engineer eller liknande\n Du har dokumenterad erfarenhet av att arbeta nära verksamheten och omsätta affärsbehov till analyslösningar\n Du behärskar svenska och engelska flytande i tal och skrift\n\nMeriterande\nErfarenhet av GCP\n Erfarenhet av GitHub\n Erfarenhet av LookML och semantiska lager\n Erfarenhet av BigQuery\n Erfarenhet av AI-assisterad utveckling, exempelvis med Copilot eller Claude\n Erfarenhet av produktutveckling inom data och analys\n Erfarenhet av självserviceanalys och användarcentrerad rapportutveckling\n Erfarenhet av JavaScript/TypeScript och moderna frontend-ramverk, exempelvis Vue.js, samt av att bygga interaktiva grafer och datavisualiseringar\n\nUppdragsinformation\nStart: 2027-01-11\n Slut: 2027-09-30\n Plats: Stockholm\n Sista ansökningsdag: 2026-11-13\n\nOm Soros Consulting\nSoros Consulting AB tillsätter erfarna specialister inom energi, elkraft, säkerhet och samhällsviktig infrastruktur. Vi matchar rätt kompetens med uppdrag där den gör verklig skillnad. Vårt fokus är kvalitet, långsiktighet och hållbara relationer och vi skapar goda förutsättningar för både konsulter och uppdragsgivare genom tydlighet och professionalism i varje steg.\nTveka inte på att skicka in din ansökan redan idag!\nHar du frågor om uppdraget? Kontakta oss på jobb@example.com\nfölj oss på Linkedin för fler jobbmöjligheter:\nHemsida – https://sorosconsulting.se/\nInstagram – https://www.instagram.com/sorosconsulting",
+    "text_formatted": "<p>Soros Consulting söker nu Systemutvecklare till ett konsultuppdrag hos en av våra kunder i Stockholm.</p><p>Om uppdraget</p><p>Vi söker en erfaren Data Analyst till en strategisk satsning inom data och analys, med fokus på att utveckla moderna analys- och insiktslösningar på en molnbaserad dataplattform baserad på Google Cloud, BigQuery och Looker. I rollen arbetar du genom hela analysvärdekedjan, från verksamhetsdialog och kravinsamling till datamodellering, analys, visualisering och kommunikation av insikter, samt bidrar till utveckling av gemensamma semantiska lager och datamodeller.</p><p>Obligatoriska krav</p><ul><li>Du har gedigen erfarenhet av SQL och dbt och kan självständigt driva analysarbete från behov till leverans</li><li> Du har erfarenhet av Looker, Tableau eller motsvarande visualiseringsverktyg</li><li> Du har erfarenhet av datamodellering och arbete med större datamängder</li><li> Du har minst 5 års relevant arbetslivserfarenhet som Data Analyst, Analytics Engineer eller liknande</li><li> Du har dokumenterad erfarenhet av att arbeta nära verksamheten och omsätta affärsbehov till analyslösningar</li><li> Du behärskar svenska och engelska flytande i tal och skrift</li></ul><p>Meriterande</p><ul><li>Erfarenhet av GCP</li><li> Erfarenhet av GitHub</li><li> Erfarenhet av LookML och semantiska lager</li><li> Erfarenhet av BigQuery</li><li> Erfarenhet av AI-assisterad utveckling, exempelvis med Copilot eller Claude</li><li> Erfarenhet av produktutveckling inom data och analys</li><li> Erfarenhet av självserviceanalys och användarcentrerad rapportutveckling</li><li> Erfarenhet av JavaScript/TypeScript och moderna frontend-ramverk, exempelvis Vue.js, samt av att bygga interaktiva grafer och datavisualiseringar</li></ul><p>Uppdragsinformation</p><ul><li>Start: 2027-01-11</li><li> Slut: 2027-09-30</li><li> Plats: Stockholm</li><li> Sista ansökningsdag: 2026-11-13</li></ul><p>Om Soros Consulting</p><p>Soros Consulting AB tillsätter erfarna specialister inom energi, elkraft, säkerhet och samhällsviktig infrastruktur. Vi matchar rätt kompetens med uppdrag där den gör verklig skillnad. Vårt fokus är kvalitet, långsiktighet och hållbara relationer och vi skapar goda förutsättningar för både konsulter och uppdragsgivare genom tydlighet och professionalism i varje steg.</p><p><strong>Tveka inte på att skicka in din ansökan redan idag!</strong></p><p>Har du frågor om uppdraget? Kontakta oss på jobb@example.com</p><p><strong>följ oss på Linkedin för fler jobbmöjligheter:</strong></p><p>Hemsida – https://sorosconsulting.se/</p><p>Instagram – https://www.instagram.com/sorosconsulting</p>",
+    "company_information": null,
+    "needs": null,
+    "requirements": null,
+    "conditions": null
+   },
+   "employment_type": {
+    "concept_id": "kpPX_CNN_gDU",
+    "label": "Tillsvidareanställning (inkl. eventuell provanställning)",
+    "legacy_ams_taxonomy_id": null
+   },
+   "salary_type": {
+    "concept_id": "oG8G_9cW_nRf",
+    "label": "Fast månads- vecko- eller timlön",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "salary_description": null,
+   "duration": {
+    "concept_id": "a7uU_j21_mkL",
+    "label": "Tills vidare",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "working_hours_type": {
+    "concept_id": "6YE1_gAC_R2G",
+    "label": "Heltid",
+    "legacy_ams_taxonomy_id": "1"
+   },
+   "scope_of_work": {
+    "min": 100,
+    "max": 100
+   },
+   "access": null,
+   "employer": {
+    "phone_number": null,
+    "email": null,
+    "url": null,
+    "organization_number": "5591302780",
+    "name": "Soros Consulting AB",
+    "workplace": "Soros Consulting AB"
+   },
+   "application_details": {
+    "information": null,
+    "reference": null,
+    "email": null,
+    "via_af": false,
+    "url": "https://sorosconsulting.se/2026/11/06/bi-utvecklare-data-analyst-stockholm/",
+    "other": null
+   },
+   "experience_required": true,
+   "access_to_own_car": false,
+   "driving_license_required": false,
+   "driving_license": null,
+   "occupation": {
+    "concept_id": "vpAN_viS_cFV",
+    "label": "Databasanalytiker",
+    "legacy_ams_taxonomy_id": "7755"
+   },
+   "occupation_group": {
+    "concept_id": "DJh5_yyF_hEM",
+    "label": "Mjukvaru- och systemutvecklare m.fl.",
+    "legacy_ams_taxonomy_id": "2512"
+   },
+   "occupation_field": {
+    "concept_id": "apaJ_2ja_LuF",
+    "label": "Data/IT",
+    "legacy_ams_taxonomy_id": "3"
+   },
+   "workplace_model": {
+    "concept_id": "ZxwM_gtz_n61",
+    "label": "Arbete på plats"
+   },
+   "workplace_address": {
+    "municipality": "Stockholm",
+    "municipality_code": "0180",
+    "municipality_concept_id": "AvNB_uwa_6n6",
+    "region": "Stockholms län",
+    "region_code": "01",
+    "region_concept_id": "CifL_Rzy_Mku",
+    "country": "Sverige",
+    "country_code": "199",
+    "country_concept_id": "i46j_HmG_v64",
+    "street_address": null,
+    "postcode": null,
+    "city": null,
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "workplace_addresses": [
+    {
+     "municipality": "Stockholm",
+     "municipality_code": "0180",
+     "municipality_concept_id": "AvNB_uwa_6n6",
+     "region": "Stockholms län",
+     "region_code": "01",
+     "region_concept_id": "CifL_Rzy_Mku",
+     "country": "Sverige",
+     "country_code": "199",
+     "country_concept_id": "i46j_HmG_v64",
+     "street_address": null,
+     "postcode": null,
+     "city": null,
+     "coordinates": [
+      null,
+      null
+     ]
+    }
+   ],
+   "must_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "nice_to_have": {
+    "skills": [],
+    "languages": [],
+    "work_experiences": [],
+    "education": [],
+    "education_level": []
+   },
+   "application_contacts": [],
+   "publication_date": "2026-11-06T09:46:00",
+   "last_publication_date": "2026-11-13T23:59:59",
+   "removed": false,
+   "removed_date": null,
+   "source_type": "VIA_ANNONSERA",
+   "timestamp": 1793954760677
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "jobs": [
+  {
+   "id": "e45ef8d6-93c9-4e16-b625-6abf89f4c217",
+   "title": "Platform Security Engineer ",
+   "department": "Engineering",
+   "team": "DevOps",
+   "employmentType": "FullTime",
+   "location": "US, Remote",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2026-10-27T20:56:46.042+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/luxor/e45ef8d6-93c9-4e16-b625-6abf89f4c217",
+   "applyUrl": "https://jobs.ashbyhq.com/luxor/e45ef8d6-93c9-4e16-b625-6abf89f4c217/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">The Luxor team has built a range of solutions for compute power, including a mining pool, custom firmware, an ASIC brokerage desk, Hashrate derivatives and compute to power CI and agents. We service clients across the globe. Our client base is growing rapidly and as such we are looking to expand our platform engineering team.</p><p style=\"min-height:1.5em\">We're looking for a Senior Platform Security Engineer with strong expertise in security and compliance. You'll join Luxor AI's Platform team and own the entire area of security and compliance within the team's scope, contributing to building and running production infrastructure. This role is ideal for someone who has experienced how security and compliance operate within a large organization and now seeks the autonomy to evolve that function at a fast-growing startup. It will suit an individual energized by the importance of the data we protect and the reliability we provide to our clients.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role will report directly to the Chief Technology Officer. This is a fully remote role based in U.S.A. with seldom travel if needed.</p><p style=\"min-height:1.5em\"></p><h2><strong>Responsibilities</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Serve as a day-to-day security advisor for the team you support, advocating security requirements as an engineering team member during sprint planning, architecture reviews, process discussions, product direction, design decisions, and while work is in flight</p></li><li><p style=\"min-height:1.5em\">Build and maintain centralized automated security testing and enforcement in CI/CD, including static and dynamic application security testing (SAST/DAST), software composition analysis (SCA), secrets scanning, and infrastructure-as-code (IaC) scanning</p></li><li><p style=\"min-height:1.5em\">Manage centralized cloud monitoring tooling for vulnerability and configuration management, and integrate ongoing patching and hardening into engineering operations</p></li><li><p style=\"min-height:1.5em\">Continually audit application environments and development processes to ensure compliance with internal and external requirements, and alignment with security standard methodologies</p></li><li><p style=\"min-height:1.5em\">Implement and maintain cloud detection and response monitoring, and act as an incident CIRT responder</p></li><li><p style=\"min-height:1.5em\">Document contr",
+   "descriptionPlain": "The Luxor team has built a range of solutions for compute power, including a mining pool, custom firmware, an ASIC brokerage desk, Hashrate derivatives and compute to power CI and agents. We service clients across the globe. Our client base is growing rapidly and as such we are looking to expand our platform engineering team.\n\nWe're looking for a Senior Platform Security Engineer with strong expertise in security and compliance. You'll join Luxor AI's Platform team and own the entire area of security and compliance within the team's scope, contributing to building and running production infrastructure. This role is ideal for someone who has experienced how security and compliance operate within a large organization and now seeks the autonomy to evolve that function at a fast-growing startup. It will suit an individual energized by the importance of the data we protect and the reliability we provide to our clients.\n\n\n\nThis role will report directly to the Chief Technology Officer. This is a fully remote role based in U.S.A. with seldom travel if needed.\n\n\n\n\nRESPONSIBILITIES\n\n - Serve as a day-to-day security advisor for the team you support, advocating security requirements as an engineering team member during sprint planning, architecture reviews, process discussions, product direction, design decisions, and while work is in flight\n\n - Build and maintain centralized automated security testing and enforcement in CI/CD, including static and dynamic application security testing (SAST/DAST), software composition analysis (SCA), secrets scanning, and infrastructure-as-code (IaC) scanning\n\n - Manage centralized cloud monitoring tooling for vulnerability and configuration management, and integrate ongoing patching and hardening into engineering operations\n\n - Continually audit application environments and development processes to ensure compliance with internal and external requirements, and alignment with security standard methodologies\n\n - Implement and maintain cloud detection and response monitoring, and act as an incident CIRT responder\n\n - Document controls, configurations, and decisions to build durable institutional knowledge\n\n - Enforce policies and detection using device management tooling (e.g. FleetMDM)\n\n\n\n\nREQUIREMENTS\n\n - Bachelor's degree in Computer Science, Information Technology, Cybersecurity, or equivalent practical experience\n\n - 8+ years of experience in DevOps, software engineering, or security engineering\n\n - Proficiency with CI/CD platfor",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "728b990b-6ff1-4e87-ba05-27d48cad768f",
+   "title": "Bitcoin Mining Services - Business Development",
+   "department": "Business",
+   "team": "Business",
+   "employmentType": "FullTime",
+   "location": "Miami, FL",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "San Francisco, CA",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "California ",
+       "addressCountry": "United States",
+       "addressLocality": "San Francisco"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-11-06T22:25:38.920+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Florida",
+     "addressCountry": "United States",
+     "addressLocality": "Miami"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/luxor/728b990b-6ff1-4e87-ba05-27d48cad768f",
+   "applyUrl": "https://jobs.ashbyhq.com/luxor/728b990b-6ff1-4e87-ba05-27d48cad768f/application",
+   "descriptionHtml": "<h1>About the Company</h1><p style=\"min-height:1.5em\">Luxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.</p><p style=\"min-height:1.5em\"><strong>Location:</strong> Miami, FL or San Francisco, CA, in office. Our Miami office opens in Q1 2027; until then, Miami-based hires work remotely with regular customer travel.<br /><strong>Start:</strong> Immediately<br /><strong>Reports to:</strong> SVP, Business Development</p><p style=\"min-height:1.5em\"></p><h1>About the Role</h1><p style=\"min-height:1.5em\">This posting is always open: we hire strong hunters whenever we meet them.</p><p style=\"min-height:1.5em\">Luxor's sales team is organized into specialist pods:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Hardware &amp; Logistics:</strong> ASIC procurement, brokerage and global logistics.</p></li><li><p style=\"min-height:1.5em\"><strong>Hashrate Derivatives:</strong> hashprice hedges, fixed payouts and financing.</p></li><li><p style=\"min-height:1.5em\"><strong>Mining Pool &amp; Firmware:</strong> institutional Bitcoin mining pool and LuxOS firmware.</p></li><li><p style=\"min-height:1.5em\"><strong>Energy &amp; Commander:</strong> power supply and demand response in ERCOT and SPP, plus fleet management software.</p></li></ul><p style=\"min-height:1.5em\">You'll join the pod that best fits your background, interest and where the opportunity is biggest. You'll be trained across the full stack and expected to cross-sell where possible.</p><p style=\"min-height:1.5em\">This is a closing role, not a meeting-booking role. You'll own your pipeline from first outreach to signed contract.</p><p style=\"min-height:1.5em\"></p><h1>What you'll do</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Prospect and close new business with mining operators, hosting providers, institutional clients and hardware counterparties.</p></li><li><p style=\"min-height:1.5em\">Run the full cycle: outreach, discovery, proposals, negotiation, close and handoff to onboarding.</p></li><li><p style=\"min-height:1.5em\">Grow your accounts across Luxor's product lines.</p></li><li><p style=\"min-height:1.5em\">Spend most of your week in front of customers: on the phone, at their sites and at industry events.</p></li><li><p style=\"min-height:1.5em\">Keep HubSpot accurate ",
+   "descriptionPlain": "ABOUT THE COMPANY\n\nLuxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.\n\nLocation: Miami, FL or San Francisco, CA, in office. Our Miami office opens in Q1 2027; until then, Miami-based hires work remotely with regular customer travel.\nStart: Immediately\nReports to: SVP, Business Development\n\n\n\n\nABOUT THE ROLE\n\nThis posting is always open: we hire strong hunters whenever we meet them.\n\nLuxor's sales team is organized into specialist pods:\n\n - Hardware & Logistics: ASIC procurement, brokerage and global logistics.\n\n - Hashrate Derivatives: hashprice hedges, fixed payouts and financing.\n\n - Mining Pool & Firmware: institutional Bitcoin mining pool and LuxOS firmware.\n\n - Energy & Commander: power supply and demand response in ERCOT and SPP, plus fleet management software.\n\nYou'll join the pod that best fits your background, interest and where the opportunity is biggest. You'll be trained across the full stack and expected to cross-sell where possible.\n\nThis is a closing role, not a meeting-booking role. You'll own your pipeline from first outreach to signed contract.\n\n\n\n\nWHAT YOU'LL DO\n\n - Prospect and close new business with mining operators, hosting providers, institutional clients and hardware counterparties.\n\n - Run the full cycle: outreach, discovery, proposals, negotiation, close and handoff to onboarding.\n\n - Grow your accounts across Luxor's product lines.\n\n - Spend most of your week in front of customers: on the phone, at their sites and at industry events.\n\n - Keep HubSpot accurate so your pipeline speaks for itself.\n\n\n\n\nWHAT WE'RE LOOKING FOR\n\n - 3+ years in B2B sales, business development or another revenue-generating role, with deals you sourced and closed yourself.\n\n - Comfort with outbound: cold calls, cold emails, working a room at a conference.\n\n - Genuine interest in Bitcoin mining. You don't need to be an expert, but you should already know what a mining pool does and what an ASIC is, and be eager to go deep fast.\n\n - Ability to learn technical products and explain them in business terms.\n\n - Willingness to work in office in Miami or SF and travel for customers and events.\n\n - Spanish or Mandarin is a plus.\n\n\n\n\nTHIS ROLE IS FOR YOU IF\n\n - You're competitive, self-directed and motivated by uncapped upside.\n\n - You want to learn an entire i",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "fb381f98-971c-4b3c-92c9-bd3b3fe10b15",
+   "title": "Business Development – Mining Pool & Firmware",
+   "department": "Business",
+   "team": "Business",
+   "employmentType": "FullTime",
+   "location": "Miami, FL",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "San Francisco, CA",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "California ",
+       "addressCountry": "United States",
+       "addressLocality": "San Francisco"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-11-06T22:27:14.137+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Florida",
+     "addressCountry": "United States",
+     "addressLocality": "Miami"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/luxor/fb381f98-971c-4b3c-92c9-bd3b3fe10b15",
+   "applyUrl": "https://jobs.ashbyhq.com/luxor/fb381f98-971c-4b3c-92c9-bd3b3fe10b15/application",
+   "descriptionHtml": "<h1>About the Company</h1><p style=\"min-height:1.5em\">Luxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.</p><p style=\"min-height:1.5em\"><strong>Location:</strong> Miami, FL or San Francisco, CA, in office. Our Miami office opens in Q1 2027; until then, Miami-based hires work remotely with regular customer travel.<br /><strong>Start:</strong> Immediately<br /><strong>Reports to:</strong> SVP, Business Development</p><p style=\"min-height:1.5em\"></p><h1>About the Role</h1><p style=\"min-height:1.5em\">Luxor's sales team is organized into specialist pods, and one person owns each pod's revenue. We're hiring the person who will own <strong>Mining Pool &amp; Firmware</strong>, the core of Luxor's Bitcoin mining business.</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Luxor Mining Pool</strong> has operated since 2017 and serves institutional miners with &gt;50 EH/s across BTC, LTC, DOGE and ZEC. It offers FPPS payouts, fixed and upfront payout options, and SOC 1 and SOC 2 Type II controls, and it has paid 35,000+ BTC to miners in 113 countries.</p></li><li><p style=\"min-height:1.5em\"><strong>LuxOS</strong> is our custom ASIC firmware for Antminer and WhatsMiner fleets. Per-domain autotuning, power targeting and fast curtailment help operators get more hashrate per joule and respond to the grid. Paired with Luxor Pool, it gives miners one integrated stack.</p></li></ul><p style=\"min-height:1.5em\">This is a mature, competitive market. Winning here means displacing incumbents at a fee that makes money and respects the quality of our product. We care about profitable market share, not market share at any price.</p><p style=\"min-height:1.5em\"></p><h1>What you'll do</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own Pool &amp; Firmware revenue and the quarterly targets you agree with leadership.</p></li><li><p style=\"min-height:1.5em\">Hunt and close new hashrate: public miners, large private operators, hosting providers and international fleets.</p></li><li><p style=\"min-height:1.5em\">Lead commercial negotiations on pool fees, firmware fee tiers, payout structures and referral partnerships, while protecting margin.</p></li><li><p style=\"min-height:1.5em\">Run firmware pilots end to end with our customer success and firmware ",
+   "descriptionPlain": "ABOUT THE COMPANY\n\nLuxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.\n\nLocation: Miami, FL or San Francisco, CA, in office. Our Miami office opens in Q1 2027; until then, Miami-based hires work remotely with regular customer travel.\nStart: Immediately\nReports to: SVP, Business Development\n\n\n\n\nABOUT THE ROLE\n\nLuxor's sales team is organized into specialist pods, and one person owns each pod's revenue. We're hiring the person who will own Mining Pool & Firmware, the core of Luxor's Bitcoin mining business.\n\n - Luxor Mining Pool has operated since 2017 and serves institutional miners with >50 EH/s across BTC, LTC, DOGE and ZEC. It offers FPPS payouts, fixed and upfront payout options, and SOC 1 and SOC 2 Type II controls, and it has paid 35,000+ BTC to miners in 113 countries.\n\n - LuxOS is our custom ASIC firmware for Antminer and WhatsMiner fleets. Per-domain autotuning, power targeting and fast curtailment help operators get more hashrate per joule and respond to the grid. Paired with Luxor Pool, it gives miners one integrated stack.\n\nThis is a mature, competitive market. Winning here means displacing incumbents at a fee that makes money and respects the quality of our product. We care about profitable market share, not market share at any price.\n\n\n\n\nWHAT YOU'LL DO\n\n - Own Pool & Firmware revenue and the quarterly targets you agree with leadership.\n\n - Hunt and close new hashrate: public miners, large private operators, hosting providers and international fleets.\n\n - Lead commercial negotiations on pool fees, firmware fee tiers, payout structures and referral partnerships, while protecting margin.\n\n - Run firmware pilots end to end with our customer success and firmware engineering teams, and turn test results into signed fleet-wide deployments.\n\n - Build the partner channel: hosting providers, repair shops, resellers and referral partners who bring hashrate with them.\n\n - Bundle across the stack (Pool, LuxOS, Commander, hashrate derivatives) to win deals that single-product competitors can't.\n\n - Spend 80%+ of your time external: customer sites, industry events, in-person meetings.\n\n - Keep a clean pipeline and forecast in HubSpot, and bring competitive intelligence back to product.\n\n\n\n\nWHAT WE'RE LOOKING FOR\n\n - 5+ years in B2B sales, business develop",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "3686cf8f-4a7e-4a17-9ec8-3afc4153f4ba",
+   "title": "Business Development – Energy & Commander",
+   "department": "Business",
+   "team": "Business",
+   "employmentType": "FullTime",
+   "location": "Miami, FL",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "San Francisco, CA",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "California ",
+       "addressCountry": "United States",
+       "addressLocality": "San Francisco"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-11-06T22:31:05.944+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Florida",
+     "addressCountry": "United States",
+     "addressLocality": "Miami"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/luxor/3686cf8f-4a7e-4a17-9ec8-3afc4153f4ba",
+   "applyUrl": "https://jobs.ashbyhq.com/luxor/3686cf8f-4a7e-4a17-9ec8-3afc4153f4ba/application",
+   "descriptionHtml": "<h1>About the Company</h1><p style=\"min-height:1.5em\">Luxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.</p><p style=\"min-height:1.5em\"><strong>Location:</strong> Miami, FL, in office. Our Miami office opens in Q1 2027; until then you'll work from our SF office or remotely with regular customer travel.<br /><strong>Start:</strong> Immediately<br /><strong>Reports to:</strong> SVP, Business Development</p><p style=\"min-height:1.5em\"></p><h1>About the Role</h1><p style=\"min-height:1.5em\">Luxor's sales team is organized into specialist pods, and one person owns each pod's revenue. We're hiring the person who will own <strong>Energy &amp; Commander</strong>, our fastest-growing product surface and our biggest untapped opportunity.</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Luxor Energy</strong> is a Bitcoin-native retail electric provider (REP) in ERCOT and a QSE expanding into SPP. We help large flexible loads cut power costs and earn from their flexibility through competitive retail supply, demand response (ERS), ancillary services, 4CP avoidance and CRR credit maximization. Miners can post collateral in BTC or settle power bills directly from pool earnings.</p></li><li><p style=\"min-height:1.5em\"><strong>Luxor Commander</strong> is our fleet management platform, already running on roughly 500 MW of mining infrastructure. It gives operators real-time monitoring, remote control and automated curtailment that responds to hashprice and energy prices.</p></li></ul><p style=\"min-height:1.5em\">Texas and SPP are full of miners and other large loads heading into supply renewals. Your job is to turn that footprint into revenue.</p><p style=\"min-height:1.5em\">This is a hunter-closer seat. Our energy, operations and product teams will support you, but <strong>you</strong> own the pipeline, the number and the close.</p><p style=\"min-height:1.5em\"></p><h1>What you'll do</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own Energy &amp; Commander revenue and the quarterly targets you agree with leadership.</p></li><li><p style=\"min-height:1.5em\">Source and close new REP, QSE and demand-response business with Bitcoin miners, data centers and other large flexible loads in ERCOT and SPP.</p></li><li><p style=\"min-height:1.5em\">",
+   "descriptionPlain": "ABOUT THE COMPANY\n\nLuxor is a full-stack platform for the Bitcoin mining and digital infrastructure industries. We build software, hardware, financial, and energy solutions that help mining operators improve performance, manage risk, optimize costs, and scale their operations.\n\nLocation: Miami, FL, in office. Our Miami office opens in Q1 2027; until then you'll work from our SF office or remotely with regular customer travel.\nStart: Immediately\nReports to: SVP, Business Development\n\n\n\n\nABOUT THE ROLE\n\nLuxor's sales team is organized into specialist pods, and one person owns each pod's revenue. We're hiring the person who will own Energy & Commander, our fastest-growing product surface and our biggest untapped opportunity.\n\n - Luxor Energy is a Bitcoin-native retail electric provider (REP) in ERCOT and a QSE expanding into SPP. We help large flexible loads cut power costs and earn from their flexibility through competitive retail supply, demand response (ERS), ancillary services, 4CP avoidance and CRR credit maximization. Miners can post collateral in BTC or settle power bills directly from pool earnings.\n\n - Luxor Commander is our fleet management platform, already running on roughly 500 MW of mining infrastructure. It gives operators real-time monitoring, remote control and automated curtailment that responds to hashprice and energy prices.\n\nTexas and SPP are full of miners and other large loads heading into supply renewals. Your job is to turn that footprint into revenue.\n\nThis is a hunter-closer seat. Our energy, operations and product teams will support you, but you own the pipeline, the number and the close.\n\n\n\n\nWHAT YOU'LL DO\n\n - Own Energy & Commander revenue and the quarterly targets you agree with leadership.\n\n - Source and close new REP, QSE and demand-response business with Bitcoin miners, data centers and other large flexible loads in ERCOT and SPP.\n\n - Convert Commander's free and trial users to paid, and pair Commander with energy contracts so they sell as one deal.\n\n - Get ahead of the renewal calendar: know when every target site's power contract renews, and be in the room 6+ months out.\n\n - Build and work broker and channel relationships, while growing a direct RFP flow.\n\n - Run the full cycle: outbound, discovery, pricing (adders, DR revenue shares, term structures), proposals, negotiation and close.\n\n - Spend 80%+ of your time in front of customers and partners, including on-site visits and industry events.\n\n - Bring what you learn in th",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  }
+ ],
+ "apiVersion": "1"
+}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "macros.html" import view_filters %}
+{% block title %}Inbox{% endblock %}
+{% block content %}
+<h1>Inbox</h1>
+<form method="get" action="/inbox" class="filters" hx-get="/inbox" hx-target="#rows" hx-push-url="true" hx-trigger="change, submit">
+  <label>Profile
+    <select name="profile"><option value="">any</option>
+    {% for p in profiles %}<option value="{{ p }}"{% if form.profile == p %} selected{% endif %}>{{ p }}</option>{% endfor %}</select></label>
+  <label>Fit from <input type="number" name="fit_min" min="0" max="100" value="{{ form.fit_min }}"></label>
+  <label>Rate
+    <select name="rate_unknown">
+      <option value="">any</option>
+      <option value="1"{% if form.rate_unknown == "1" %} selected{% endif %}>not stated</option>
+      <option value="0"{% if form.rate_unknown == "0" %} selected{% endif %}>stated</option>
+    </select></label>
+  <label>Source
+    <select name="source"><option value="">any</option>
+    {% for s in sources %}<option value="{{ s }}"{% if form.source == s %} selected{% endif %}>{{ s }}</option>{% endfor %}</select></label>
+  <label>Days <input type="number" name="since_days" min="1" max="365" value="{{ form.since_days }}"></label>
+  <label>Eligible
+    <select name="eligible">{% for v in eligible_values %}<option value="{{ v }}"{% if form.eligible == v %} selected{% endif %}>{{ eligible_labels.get(v, v) }}</option>{% endfor %}</select></label>
+  <label>Decision
+    <select name="decision">{% for v in decision_values %}<option value="{{ v }}"{% if form.decision == v %} selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  {{ view_filters(type_values, type_labels, sel_types, unseen_only, sort_values, sort_labels, sort) }}
+  <button type="submit" hidden>Show</button>{# filters apply on change (htmx); hidden button keeps Enter working #}
+</form>
+<div id="rows">
+{% include "partials/inbox_rows.html" %}
+</div>
+{% endblock %}

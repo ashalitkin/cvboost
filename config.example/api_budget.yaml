@@ -1,0 +1,10 @@
+# Call budget of the keyed job APIs. Counted per UTC day / month in the DB (api_calls).
+# Keep these BELOW the free quota of each API. At warn_ratio of a limit one Telegram alert is
+# sent; at the limit the source pauses (until tomorrow / next month) and an alert asks you
+# to decide about paying. Nothing is ever bought automatically.
+# Free quotas (SOURCES.md): Adzuna - not published, "shown in your account", secondary
+# sources say ~1000 calls/month (or 250/day, 2500/month); Reed, ITJobs.pt - none published.
+warn_ratio: 0.8
+adzuna: {per_day: 30, per_month: 800}
+reed: {per_day: 24, per_month: 600}
+itjobs: {per_day: 24, per_month: 600}

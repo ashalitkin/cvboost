@@ -1,0 +1,33 @@
+# LLM via your own Claude subscription (`claude -p`, Claude Code). Never an API key.
+# Separate from rules.yaml on purpose: editing this must not change rule_version (no re-triage).
+backend: claude_cli
+claude_bin: claude
+allowed_auth_methods: [claude.ai, oauth_token]   # 'api_key' is always refused
+models: {cheap: haiku, strong: opus}
+timezone: UTC                      # day boundary for the caps (your IANA zone, e.g. Europe/Berlin)
+timeout_s: 180
+max_budget_usd_per_call: 0.25      # passed as --max-budget-usd; null = omit
+# One scoring call per 10-minute cycle is up to 144 calls a day, plus the night backfill.
+daily_call_caps: {haiku: 200, opus: 16}   # by model alias; retries included, preflight excluded
+daily_cost_cap_usd: 6.0            # notional total_cost_usd per local day, all models (what Claude Code reports)
+limit_pause: {first_minutes: 30, max_minutes: 300, auth_minutes: 60}
+scoring:
+  model_role: cheap
+  batch_size: 8                    # 1..10
+  max_calls_per_run: 3             # daytime guard; nightly backfill passes --max-calls
+  max_age_days: 30                 # skip groups older than this (posted_at or first_seen_at)
+  description: {max_chars: 6000, head_chars: 4500, tail_chars: 1500}
+cv:                                # CV drafting: strong model, only for jobs you pick
+  enabled: true
+  model_role: strong
+  timeout_s: 300
+  max_budget_usd_per_call: 1.5     # notional; Opus needs more than scoring's 0.25
+  max_attempts: 2                  # per request (a retry happens in the next cycle)
+  description: {max_chars: 12000, head_chars: 9000, tail_chars: 3000}
+email_extract:                     # Haiku fallback for unknown alert / recruiter e-mails
+  enabled: true
+  model_role: cheap
+  daily_calls: 30                  # counted by llm_calls.kind='email', inside the haiku cap
+  max_calls_per_cycle: 1
+  batch_size: 3                    # 1..5 e-mails per call
+  pending_ttl_days: 3              # unparsed mail older than this is dropped

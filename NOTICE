@@ -1,0 +1,11 @@
+CVBoost
+Copyright 2026 Andrey Shalitkin
+
+Built with Claude Code (Anthropic) as an AI pair programmer.
+
+This product includes software developed by third parties:
+
+- htmx 2.0.4 (https://htmx.org), vendored as src/cvboost/web/static/htmx.min.js.
+  Copyright (c) Big Sky Software. Licensed under the Zero-Clause BSD licence (0BSD).
+- Python dependencies are installed from PyPI and are not redistributed in this repository;
+  each keeps its own licence (see uv.lock for the exact set).

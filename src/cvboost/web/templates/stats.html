@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% block title %}Statistics{% endblock %}
+{% block content %}
+<h1>Statistics</h1>
+<p class="pager">Period:
+  {% for key, label in periods %}<a href="/stats?period={{ key }}"{% if key == period %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+</p>
+
+<h2>Funnel</h2>
+{% set f = s.funnel %}
+{% set top = f.get("collected", 0) %}
+<table class="grid">
+  <thead><tr><th>Stage</th><th>Groups / jobs</th><th></th></tr></thead>
+  <tbody>
+  {% for label, key in [("Jobs collected (with duplicates)", "collected"), ("Unique (no duplicates)", "unique"), ("Passed the rules", "passed"), ("Scored by Haiku", "scored"), ("Eligible", "eligible"), ("Fit ≥ " ~ fit_threshold, "fit"), ("Sent to Telegram", "sent")] %}
+  <tr><td data-label="Stage">{{ label }}</td><td data-label="Count" class="num">{{ f.get(key, 0) }}</td>
+  <td data-label=""><progress max="{{ top or 1 }}" value="{{ f.get(key, 0) }}"></progress></td></tr>
+  {% endfor %}
+  <tr><td data-label="Stage">Owner decisions</td>
+  <td data-label="Count" class="num" colspan="2">Interested {{ s.decisions.get("interested", 0) }} · No {{ s.decisions.get("rejected", 0) }} · Prepare CV {{ s.decisions.get("cv_requested", 0) }}</td></tr>
+  <tr><td data-label="Stage">Applications by stage</td>
+  <td data-label="Count" class="num" colspan="2">{% set ap = dict(s.applications) %}{% for k in app_order %}{% if ap.get(k) %}{{ app_labels.get(k, k) }} {{ ap[k] }} · {% endif %}{% endfor %}{% if not ap %}none{% endif %}</td></tr>
+  </tbody>
+</table>
+<p class="muted">Groups first seen in the period are counted. Applications by the date of the last status change.</p>
+
+<h2>Owner corrections</h2>
+<section class="card">
+  <p>Total: <strong>{{ s.corrections_in + s.corrections_out }}</strong> · returned from "Screened out by AI" (the AI said no wrongly): {{ s.corrections_in }} · "No" with an explanation for what the AI let through: {{ s.corrections_out }}</p>
+  <p class="muted">The latest 15 corrections go into the Haiku prompt (the OWNER CORRECTIONS block). Repeated ones are candidates for rules or for the prompt.</p>
+</section>
+<table class="grid">
+  <thead><tr><th>Job</th><th>AI</th><th>You</th><th>Explanation</th></tr></thead>
+  <tbody>
+  {% for c in s.corrections %}
+  <tr><td data-label="Job"><strong>{{ c.title }}</strong> <span class="muted">{{ c.company }}</span></td>
+  <td data-label="AI">{% if c.ai_eligible is none %}—{% else %}{{ "eligible" if c.ai_eligible else "not eligible" }}, fit {{ c.ai_fit }}{% endif %}</td>
+  <td data-label="You">{{ "eligible" if c.action == "override_in" else "no" }}{% if c.withdrawn %} <span class="muted">(withdrew after choosing)</span>{% endif %}</td>
+  <td data-label="Explanation">{{ c.note or "—" }}</td></tr>
+  {% else %}<tr><td colspan="4">No corrections yet.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Haiku queue</h2>
+{% set q = s.queue %}
+<section class="card">
+  <p>Waiting for scoring: <strong>{{ q.waiting }}</strong> ({{ q.batches }} batches of {{ q.batch_size }})</p>
+  <p>About until cleared: <strong>{% if q.waiting == 0 %}queue is empty{% else %}{{ q.eta_minutes // 60 }} h {{ q.eta_minutes % 60 }} min{% endif %}</strong>
+    <span class="muted">({{ q.per_cycle }} call(s) per {{ q.tick_minutes }}-min cycle{% if q.waiting %}, {{ q.cycles }} cycles{% endif %}; the night catch-up is faster)</span></p>
+  {% if pause %}<p class="err">LLM paused until {{ pause[0]|dt }} ({{ pause[1] }})</p>{% endif %}
+</section>
+
+<h2>LLM calls today</h2>
+<table class="grid">
+  <thead><tr><th>Model</th><th>Calls</th><th>Limit</th></tr></thead>
+  <tbody>
+  {% for alias, n, cap in calls %}
+  <tr><td data-label="Model">{{ alias }}</td><td data-label="Calls" class="num">{{ n }}</td><td data-label="Limit" class="num">{{ cap }}</td></tr>
+  {% else %}<tr><td colspan="3">Limits are not configured.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p class="muted">Cost today (nominal): ${{ "%.3f"|format(cost_today) }}{% if cost_cap is not none %} of ${{ cost_cap }}{% endif %}</p>
+
+<h2>Sources</h2>
+<table class="grid">
+  <thead><tr><th>Source</th><th>Collected</th><th>New</th><th>Passed the rules</th><th>Eligible</th><th>Fit ≥ {{ fit_threshold }}</th><th>In Telegram</th><th>Useful</th></tr></thead>
+  <tbody>
+  {% for r in s.sources %}
+  <tr><td data-label="Source"><strong>{{ r.source }}</strong></td>
+  <td data-label="Collected" class="num">{{ r.collected }}</td><td data-label="New" class="num">{{ r.unique }}</td>
+  <td data-label="Passed the rules" class="num">{{ r.passed }}</td><td data-label="Eligible" class="num">{{ r.eligible }}</td>
+  <td data-label="Fit" class="num">{{ r.fit }}</td><td data-label="In Telegram" class="num">{{ r.sent }}</td>
+  <td data-label="Useful" class="num">{% if r.useful_pct is none %}—{% else %}{{ r.useful_pct }}%{% endif %}</td></tr>
+  {% else %}<tr><td colspan="8">No data for the period.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p class="muted">Useful = fit ≥ the threshold, out of new ones. A group belongs to the source that saw it first.</p>
+
+<h2>Rule rejection reasons</h2>
+<table class="grid">
+  <thead><tr><th>Reason</th><th>Groups</th><th></th></tr></thead>
+  <tbody>
+  {% for code, n in s.reject_reasons %}
+  <tr><td data-label="Reason">{{ reason_labels.get(code, code) }}</td><td data-label="Groups" class="num">{{ n }}</td>
+  <td data-label=""><progress max="{{ s.reject_reasons[0][1] }}" value="{{ n }}"></progress></td></tr>
+  {% else %}<tr><td colspan="3">No rejections.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% if s.rejected_groups %}<p class="muted">Groups rejected in total: {{ s.rejected_groups }}; one group can have several reasons.</p>{% endif %}
+
+<h2>Owner's reasons for "No"</h2>
+<table class="grid">
+  <thead><tr><th>Reason</th><th>Groups</th></tr></thead>
+  <tbody>
+  {% for code, n in s.no_reasons %}
+  <tr><td data-label="Reason">{{ no_labels.get(code, "No reason") }}</td><td data-label="Groups" class="num">{{ n }}</td></tr>
+  {% else %}<tr><td colspan="2">No "No" decisions in the period.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

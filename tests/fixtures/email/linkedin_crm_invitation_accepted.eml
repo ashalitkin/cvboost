@@ -1,0 +1,34 @@
+From: Jane Example via LinkedIn <hit-reply@linkedin.com>
+To: Jordan Example <alerts@example.com>
+Subject: Jane Example accepted your invitation
+Date: Mon, 09 Nov 2026 14:12:05 +0000
+Message-ID: <inv-accepted-001.linkedin@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset=utf-8
+
+Jane Example accepted your invitation
+
+Jane Example
+Senior Technical Recruiter at Example Talent Partners
+Jane is now a 1st-degree connection.
+
+View profile: https://www.linkedin.com/comm/in/jane-example-1a2b3c?midToken=AQabc&trk=eml-accepted
+Message Jane: https://www.linkedin.com/comm/messaging/compose?recipient=ACoAAA1234&trk=eml-accepted
+
+Unsubscribe: https://www.linkedin.com/e/v2?e=abc&t=unsub
+This email was intended for Jordan Example (Analytics Engineer).
+LinkedIn Corporation, 1000 W Maude Ave, Sunnyvale, CA 94085.
+--b1
+Content-Type: text/html; charset=utf-8
+
+<html><body><table><tr><td>
+<p>Jane Example accepted your invitation</p>
+<p><a href="https://www.linkedin.com/comm/in/jane-example-1a2b3c?midToken=AQabc">Jane Example</a></p>
+<p>Senior Technical Recruiter at Example Talent Partners</p>
+<p><a href="https://www.linkedin.com/comm/in/jane-example-1a2b3c?midToken=AQabc">View profile</a></p>
+<p><a href="https://evil.example.com/track?u=1">Tracking pixel</a></p>
+</td></tr></table></body></html>
+--b1--

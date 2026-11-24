@@ -1,0 +1,12 @@
+# Used by scripts/publish_public.sh (run from the export root) and available to users for their own checks.
+title = "cvboost"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "public GPG key fingerprint of the Claude Code apt repository (ARG in the Dockerfile)"
+condition = "AND"
+targetRules = ["generic-api-key"]
+paths = ['''^Dockerfile$''']
+regexes = ['''31DDDE24DDFAB679F42D7BD2BAA929FF1A7ECACE''']

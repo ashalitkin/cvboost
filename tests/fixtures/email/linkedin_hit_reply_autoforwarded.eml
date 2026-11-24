@@ -1,0 +1,16 @@
+From: Jane Recruiter <hit-reply@linkedin.com>
+To: Owner Example <owner@example.com>
+Subject: Message accepted by Jane Recruiter
+Date: Tue, 10 Nov 2026 14:53:00 +0000
+Message-ID: <crm-accepted-1@mail.linkedin.example.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+X-Forwarded-For: owner@example.com alerts@example.com
+Authentication-Results: mx.google.com; dkim=pass header.i=@linkedin.com
+ header.s=sel; spf=pass; dmarc=pass header.from=linkedin.com
+
+Jane Recruiter accepted your inmail message
+
+Hi Owner, I would be interested. Reach me at jane@example.com
+View in Sales Navigator <https://www.linkedin.com/sales-web-view?url=x>

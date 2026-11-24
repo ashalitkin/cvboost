@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Usage{% endblock %}
+{% block content %}
+<h1>Usage</h1>
+<section class="card">
+  <p>LLM pause: {% if pause %}until {{ pause[0]|dt }} ({{ pause[1] }}){% else %}none{% endif %}</p>
+  <p>Authorisation: {{ auth_method or "—" }}, token expires {{ auth_expires or "—" }}</p>
+  <p>Cost today: ${{ "%.3f"|format(cost_today) }}{% if cost_cap is not none %} of ${{ cost_cap }}{% endif %}</p>
+  <p class="muted">prompt {{ prompt_version }}{% if not cfg_ok %} · config/llm.yaml was not read, no limits{% endif %}</p>
+  <p>Days: {% for d in (1, 7, 30) %}<a href="/usage?days={{ d }}"{% if d == days %} aria-current="true"{% endif %}>{{ d }}</a> {% endfor %}</p>
+</section>
+<table class="grid">
+  <thead><tr><th>Day</th><th>Model</th><th>Calls</th><th>ok</th><th>errors</th><th>tokens in</th><th>tokens out</th><th>$</th><th>Limit</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+  <tr>
+    <td data-label="Day">{{ r.day }}</td><td data-label="Model">{{ r.model_alias }}</td>
+    <td data-label="Calls">{{ r.calls }}</td><td data-label="ok">{{ r.ok }}</td><td data-label="errors">{{ r.errors }}</td>
+    <td data-label="tokens in">{{ r.input_tokens }}</td><td data-label="tokens out">{{ r.output_tokens }}</td>
+    <td data-label="$">{{ "%.3f"|format(r.cost_usd) }}</td>
+    <td data-label="Limit">{% if r.day == today %}{{ caps.get(r.model_alias, "—") }}{% else %}—{% endif %}</td>
+  </tr>
+  {% else %}<tr><td colspan="9">No calls.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<h2>Latest alerts</h2>
+<table class="grid">
+  <thead><tr><th>Status</th><th>Fit</th><th>When</th><th>Job</th><th>Error</th></tr></thead>
+  <tbody>
+  {% for a in alerts %}
+  <tr><td data-label="Status">{{ a["status"] }}</td><td data-label="Fit">{{ a["fit"] }}</td><td data-label="When">{{ (a["sent_at"] or a["created_at"])|dt }}</td>
+  <td data-label="Job">{{ a["company"] }} — {{ a["title"] }}</td><td data-label="Error" class="err">{{ a["last_error"] or "—" }}</td></tr>
+  {% else %}<tr><td colspan="5">No alerts.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<h2>Latest decisions</h2>
+<table class="grid">
+  <thead><tr><th>Action</th><th>Reason</th><th>Channel</th><th>When</th><th>Job</th></tr></thead>
+  <tbody>
+  {% for d in decisions %}
+  <tr><td data-label="Action">{{ d["action"] }}</td><td data-label="Reason">{{ d["reason"] or "—" }}</td><td data-label="Channel">{{ d["channel"] }}</td>
+  <td data-label="When">{{ d["at"]|dt }}</td><td data-label="Job">{{ d["company"] }} — {{ d["title"] }}</td></tr>
+  {% else %}<tr><td colspan="5">No decisions.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,304 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8801094002/?gh_jid=8801094002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6521614002,
+   "location": {
+    "name": "Remote (USA)"
+   },
+   "metadata": null,
+   "id": 8801094002,
+   "updated_at": "2026-10-06T16:30:43-04:00",
+   "requisition_id": "blank",
+   "title": "Agentic Operator, Growth Marketing",
+   "company_name": "CircleCI",
+   "first_published": "2026-10-06T16:30:43-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;article&gt;&lt;header&gt;&lt;/header&gt;\n&lt;section&gt;\n&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;Most growth teams don&#39;t lack ideas. They lack the infrastructure to test them fast enough to matter.&lt;/p&gt;\n&lt;p&gt;We&#39;re hiring an Agentic Operator whose core output is one thing: reducing the time between hypothesis and signal. You&#39;ll build the agent pipelines, orchestration layers, and automation systems that let our growth team run more experiments in parallel — and learn from them faster — than any traditionally-staffed team could.&lt;/p&gt;\n&lt;p&gt;This is a builder role. You&#39;ll treat AI agents as a programmable workforce, replacing human bottlenecks in the experimentation loop with systems that pre-validate, instrument, execute, and surface insights automatically. You won&#39;t be handed a playbook. You&#39;ll write it in code. You&#39;ll report to the Director of Demand Generation and work closely with channel owners, lifecycle, product, and sales to make the growth team&#39;s experiments faster, more rigorous, and more evidence-based.&lt;/p&gt;\n&lt;p&gt;The right person is operationally sharp with genuine growth instincts. You understand B2B SaaS funnels well enough to prioritize experiments intelligently and catch flawed hypotheses before they waste the team&#39;s time. You&#39;re technically fluent enough to build AI workflows, instrument experiments, and own the tracking systems the team depends on. And you bring the organizational discipline to manage a high-velocity experiment backlog without letting things slip through the cracks.&lt;/p&gt;\n&lt;/section&gt;\n&lt;section&gt;\n&lt;h2&gt;What You&#39;ll Build&lt;/h2&gt;\n&lt;h3&gt;Agent Pipelines for Concept Pre-Validation&lt;/h3&gt;\n&lt;p&gt;Before human resources touch a test, your agents have already scored it — LLM-evaluated copy variants, synthetic audience testing, funnel drop-off analysis. Only the strongest hypotheses make it to execution.&lt;/p&gt;\n&lt;h3&gt;An Automated Experiment Queue&lt;/h3&gt;\n&lt;p&gt;You own the full loop: intake, prioritization, instrumentation, and readout — all accelerated via automation. Funnel drop-off doesn&#39;t trigger a Monday meeting; it triggers the next test.&lt;/p&gt;\n&lt;h3&gt;An Experimentation Process&lt;/h3&gt;\n&lt;p&gt;You own the full loop — backlog, sequencing, instrumentation, and readout — with the rigor to match. Every test ships with a falsifiable hypothesis, clean measurement setup, and defined success metric. Null results get documented, not buried. Channel owners, lifecycle, and PLG stay in sync so the team is always running the highest-leverage tests without conflicts or duplication.&lt;/p&gt;\n&lt;h3&gt;Stack Orchestration&lt;/h3&gt;\n&lt;p&gt;You wire together our existing tools — Amplitude, HubSpot, Clay, REO.dev and enrichment layers — so signals flow automatically into action. You integrate frontier LLMs (Claude, GPT) and workflow tools (n8n, Gumloop) into production-grade systems that improve over t",
+   "departments": [
+    {
+     "id": 4011651002,
+     "name": "Marketing",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4005763002,
+     "name": "San Francisco",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8881662002/?gh_jid=8881662002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6556793002,
+   "location": {
+    "name": "San Francisco"
+   },
+   "metadata": null,
+   "id": 8881662002,
+   "updated_at": "2026-11-05T23:58:50-05:00",
+   "requisition_id": "P000135",
+   "title": "Senior Brand Marketing Manager",
+   "company_name": "CircleCI",
+   "first_published": "2026-11-05T23:58:50-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;article&gt;\n&lt;h2&gt;Senior Manager, Brand Marketing&lt;/h2&gt;\n&lt;p&gt;CircleCI helps more than two million developers ship software confidently. The way software gets built and shipped is getting turned on its head, and our brand has to meet the moment. It has a clear center: the developer is the hero of our story. We&#39;re looking for a Senior Manager, Brand Marketing to lead it into its next chapter. Our team is small by design, the category is at an inflection point, and you&#39;ll be close to the decisions that shape what comes next.&lt;/p&gt;\n&lt;p&gt;This is a strategic individual contributor role on the Content team, reporting to the Senior Director of Marketing and Communications. You&#39;ll work every day with Content and Visual Design, which together act as an in-house agency for the rest of marketing. You&#39;ll be the steward of our customer and of our copy. We&#39;re investing in brand, and you&#39;ll have a focused budget and leadership behind you.&lt;/p&gt;\n&lt;h3&gt;What You&#39;ll Do&lt;/h3&gt;\n&lt;p&gt;A day might start with a launch headline that isn&#39;t landing and an hour showing the writer why. Then a working session with the Senior Creative Director on a campaign concept, a pass on the narrative leadership will use with the company, and a late check on what AI assistants are telling developers about us. The next day looks different.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Guide the brand.&lt;/strong&gt; Shape our strategy, positioning, and narrative through this next chapter. Start with what we&#39;ve built, and help us see where it should evolve as the way software gets built changes.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Shape the company&#39;s voice.&lt;/strong&gt; Choose when to lead with personality and when to lead with proof. Own our positioning in the market and carry the story across every global touchpoint from our homepage, holistic web experience, events, sales comms and paid advertising. Show its impact through conversion rates and other measurable results.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Steward our copy.&lt;/strong&gt; Be the final read on the work that matters most, from campaign concepts to launch headlines to sales decks. Use one test: would an engineer here send it to a friend? Write the biggest pieces yourself.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Enable marketing.&lt;/strong&gt; Content is produced across all of marketing, so enabling writers is as much your job as reviewing their work. Review fewer things, and make the rest better.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Be a creative partner.&lt;/strong&gt; Work side by side with Visual Design from the first idea. Be a generous brainstorm partner who builds on rough concepts, and give feedback that makes the work better.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Know who we are and what we do.&lt;/strong&gt; Learn the product, the company, and the developers we serve. Spend time with the people who build and sell CircleCI, follow where developers ta",
+   "departments": [
+    {
+     "id": 4011651002,
+     "name": "Marketing",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4005763002,
+     "name": "San Francisco",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8770550002/?gh_jid=8770550002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6509030002,
+   "location": {
+    "name": "San Francisco"
+   },
+   "metadata": null,
+   "id": 8770550002,
+   "updated_at": "2026-09-09T11:37:38-04:00",
+   "requisition_id": "P800436",
+   "title": "Senior GTM Strategy & Operations Manager",
+   "company_name": "CircleCI",
+   "first_published": "2026-09-03T13:00:24-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;&lt;strong&gt;Senior GTM Strategy and Operations Manager&lt;/strong&gt;&lt;/h2&gt;\n&lt;h4&gt;&lt;strong&gt;Overview of Position&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;Are you passionate about driving growth and operational excellence? If you thrive in a dynamic environment where strategy meets execution, this role is for you! We’re hiring a Senior GTM Strategy and Operations Manager to develop and execute strategies that enhance growth, improve efficiency, and foster valuable partnerships. This is a high-visibility, high-impact role that shapes how we grow revenue and go-to-market strategies. This role reports directly to the Director of GTM Strategy and Operations.&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;Overview of Team&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;The GTM Strategy &amp;amp; Operations team is dedicated to developing and executing strategic initiatives that drive growth and operational efficiency across the company. We work collaboratively with departments such as marketing, sales, finance, product management, and customer success to ensure alignment and drive impactful results. Our team prioritizes data-driven decision-making, continuous improvement, and customer engagement to refine our approach and maximize impact. We value agility and aim to deliver measurable results quickly while fostering a culture of innovation.&lt;/p&gt;\n&lt;p&gt;Key Responsibilities:&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;Analytics Leadership:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Oversee the development and maintenance of comprehensive dashboards and reports that provide actionable insights on key performance indicators (KPIs) and operational metrics.&lt;/li&gt;\n&lt;li&gt;Lead and execute projects to identify trends, opportunities, and areas for improvement across all GTM to provide data-driven recommendations for strategic initiatives.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Forecasting and Planning:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Own the annual and quarterly revenue planning process, establishing and tracking quotas and attainment, partnering with Finance and Sales leadership to develop bottoms-up forecasts.&lt;/li&gt;\n&lt;li&gt;Build and maintain dynamic forecasting models that incorporate pipeline, bookings, expansion, and churn signals.&lt;/li&gt;\n&lt;li&gt;Drive monthly and quarterly business reviews with actionable analysis and clear recommendations.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Operations Management:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Optimize end-to-end GTM processes, including lead management, opportunity management, and customer lifecycle workflows.&lt;/li&gt;\n&lt;li&gt;Develop and implement best practices for data management, ensuring data integrity.&lt;/li&gt;\n&lt;li&gt;Identify process gaps and drive cross-functional initiatives to close them&lt;/li&gt;\n&lt;li&gt;Build and deploy AI agents to automate recurring workflows, streamline key business reporting, and so the team can focus on strategic work.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ol&gt;\n&lt;h4&gt;&lt;strong&gt;What we",
+   "departments": [
+    {
+     "id": 4052879002,
+     "name": "Revenue",
+     "child_ids": [
+      4105608002,
+      4078344002,
+      4011615002,
+      4028569002,
+      4071343002,
+      4099841002,
+      4113574002
+     ],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4005763002,
+     "name": "San Francisco",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8475304002/?gh_jid=8475304002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6363368002,
+   "location": {
+    "name": "Canada (Remote), United States (Remote), United Kingdom (Remote) Mexico City, Mexico - Hybrid"
+   },
+   "metadata": null,
+   "id": 8475304002,
+   "updated_at": "2026-10-15T14:59:11-04:00",
+   "requisition_id": "P800265, P000582, P000104, P000509",
+   "title": "Senior Software Engineer",
+   "company_name": "CircleCI",
+   "first_published": "2026-03-24T17:15:05-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;&lt;strong&gt;About CircleCI Engineering&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;CI/CD has been solved. Now it&#39;s being reinvented. AI agents don&#39;t just run pipelines. They write code, trigger builds, interpret failures, and propose fixes. The interfaces that developers use to understand and trust that work don&#39;t exist yet. We&#39;re building them.&lt;/p&gt;\n&lt;p&gt;At CircleCI, our guiding principles aren&#39;t posters on a wall. We learn fast: we run experiments, accept failure, and scale what works. We think like the customer: every decision connects back to the developer sitting in front of a failing build at 2 am. We own the outcome: not just our slice of it, but the whole thing. If that&#39;s how you already work, you&#39;ll fit here.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Team-Agnostic Placement&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We don&#39;t hire for a team. We hire for CircleCI. Where you land depends on where your strengths create the most leverage, and we figure that out together. You might own the CI pipeline experience, deploy and release tooling, notification infrastructure, monetization flows, AI agent surfaces, or the foundational web platform. The through line across all of it is the same: full-stack ownership, a high bar for craft, and work that directly shapes how tens of thousands of developers experience CircleCI every day.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What You&#39;ll Do&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Build AI-natively.&lt;/strong&gt; AI is how we work. It&#39;s not a productivity layer on top of engineering, but the default starting point for how problems get approached and solved.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Set technical direction.&lt;/strong&gt; You define the approach others build from. When the problem is complex or the answer isn&#39;t obvious, you&#39;re the person who leads the design discussion, writes the ADR, and makes the call.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Invent new interfaces.&lt;/strong&gt; Software delivery is being reinvented. Pipelines run autonomously, generate fixes, and surface results that need human judgment. The tools developers use to understand, trust, and act on that work don&#39;t exist yet. You&#39;ll define what they look like and establish the patterns the team builds on.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Own the full stack.&lt;/strong&gt; Build features end-to-end in Go, React, and TypeScript. You don&#39;t hand off at a layer boundary. You own the outcome.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Obsess over craft.&lt;/strong&gt; Reliability and responsiveness are design concerns, not afterthoughts. Care about how the interface holds up when stakes are high and hold your team to that same standard.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Champion observability.&lt;/strong&gt; Use Honeycomb, Datadog, and Rollbar to understand and improve your systems. Operational data drives stability, not just incident response.&lt;/li&gt;\n&lt;li&gt;&lt;strong",
+   "departments": [
+    {
+     "id": 4078337002,
+     "name": "Engineering - Product Experience",
+     "child_ids": [],
+     "parent_id": 4011614002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4095423002,
+     "name": "Mexico City",
+     "location": "Mexico City, Mexico City, Mexico",
+     "child_ids": [],
+     "parent_id": null
+    },
+    {
+     "id": 4005764002,
+     "name": "Toronto",
+     "location": "Toronto, Ontario, Canada",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8185740002/?gh_jid=8185740002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6244218002,
+   "location": {
+    "name": "San Francisco"
+   },
+   "metadata": null,
+   "id": 8185740002,
+   "updated_at": "2026-09-15T16:15:58-04:00",
+   "requisition_id": "P800531, P800532, P800533",
+   "title": "Strategic Account Executive, NAMER",
+   "company_name": "CircleCI",
+   "first_published": "2025-10-23T14:12:39-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;As a Strategic Account Executive at CircleCI, you are a bold, intellectually curious, and results-driven individual who understands our product in-depth and is passionate about presenting its value to customers. With this being an impactful role at CircleCI, we’re searching for someone to actively participate in introducing our solution to new engineering teams!&lt;/p&gt;\n&lt;p&gt;You’ll be primarily responsible for driving the sales process for new logos and expanding to new teams within our largest accounts; some of the world&#39;s fastest-growing technology companies. You will manage the entire sales cycle - from prospecting to qualification, negotiation, and close - with decision-makers in Engineering departments across various verticals. You&#39;ll work closely with cross-functional teams to help influence product roadmap based on market and customer requirements.&lt;/p&gt;\n&lt;h2&gt;What you’ll do:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Establish and develop a strategy for identifying, crafting, and closing sales opportunities within a strategic segment of customers. Primary responsibilities will be generating net new opportunities with opportunity to expand&lt;/li&gt;\n&lt;li&gt;Leverage Challenger and MEDDPICC sales methodologies&lt;/li&gt;\n&lt;li&gt;Demonstrate ability to use data and insights to overcome objections and craft a compelling value-based solution across multiple shareholders&lt;/li&gt;\n&lt;li&gt;Build, prioritize and forecast your pipeline using platforms, including Hubspot, Outreach.io, Gainsight, 6sense, ZoomInfo, LinkedIn&lt;/li&gt;\n&lt;li&gt;Manage evaluations/POCs, contract negotiations, and customer relationships&lt;/li&gt;\n&lt;li&gt;Collaborate effectively with internal partners, including solution engineers, customer success, and product managers&lt;/li&gt;\n&lt;li&gt;Perform with the utmost integrity - CircleCI believes honesty with our customers is in everyone’s best interest&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we’re looking for:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;4+ years of SaaS sales experience, selling a technical product to large enterprise customers, with a track record of being a top performer&lt;/li&gt;\n&lt;li&gt;Curiosity for the DevOps ecosystem and familiarity with technical concepts and their business value&lt;/li&gt;\n&lt;li&gt;A great teammate that will thrive in our fluid, fast-paced, dynamic, scaling environment&lt;/li&gt;\n&lt;li&gt;Resilient and inquisitive&lt;/li&gt;\n&lt;li&gt;Demonstrate strong interpersonal skills (written and verbal) and organizational skills&lt;/li&gt;\n&lt;li&gt;Consistent record of meeting and exceeding sales quotas with a curated account list of Fortune 100 or 500 accounts across industry verticals&lt;/li&gt;\n&lt;li&gt;Experience growing existing accounts and opening net new accounts&lt;/li&gt;\n&lt;li&gt;Experience selling to Engineering Leadership (CTO, VP of Eng, DevOps Leaders, etc.)&lt;/li&gt;\n&lt;li&gt;Experience selling 7 figure, multi year contracts to Fortune companies",
+   "departments": [
+    {
+     "id": 4011615002,
+     "name": "Sales",
+     "child_ids": [],
+     "parent_id": 4052879002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4005763002,
+     "name": "San Francisco",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "http://www.circleci.com/careers/jobs/8918373002/?gh_jid=8918373002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6573372002,
+   "location": {
+    "name": "Remote, UK"
+   },
+   "metadata": null,
+   "id": 8918373002,
+   "updated_at": "2026-11-06T12:09:01-05:00",
+   "requisition_id": "P000590 Senior Support Engineer - Egor Ulianichev (Position Vacate:11/13/2026)",
+   "title": "Support Engineer",
+   "company_name": "CircleCI",
+   "first_published": "2026-11-06T12:09:01-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Support Engineering is part of Customer Engineering and Success at CircleCI. Our team works around the clock across North America, Asia Pacific, and Europe to deliver technical support for our product.&lt;/p&gt;\n&lt;p&gt;We build and manage AI agents that answer customer questions and solve technical problems. People step in when a problem needs deeper work. We share what we learn with Product and Engineering to make CircleCI better.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As a Support Engineer, you help our customers get back to building quickly. You will build and manage the AI agents that support CircleCI customers. You test how well the agents work, fix what they get wrong, and keep their knowledge current. You also solve hard customer problems that agents cannot yet solve.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What You&#39;ll Do:&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and improve AI support agents. This includes their instructions, workflows, and the knowledge they use.&lt;/li&gt;\n&lt;li&gt;Test agent answers for accuracy and clarity. Fix errors and record what you learn.&lt;/li&gt;\n&lt;li&gt;Investigate customer problems that need a person. Use logs, code tools, and monitoring data to find the cause.&lt;/li&gt;\n&lt;li&gt;Write and update help articles so customers and agents can find correct answers.&lt;/li&gt;\n&lt;li&gt;Report bugs and incidents. During an incident, give customers clear and timely updates.&lt;/li&gt;\n&lt;li&gt;Share customer feedback with Product and Engineering.&lt;/li&gt;\n&lt;li&gt;Meet response targets on the cases you own.&lt;/li&gt;\n&lt;li&gt;You describe what the product can and cannot do. We do not oversell.&lt;/li&gt;\n&lt;li&gt;Join the on-call rotation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What You&#39;ll Bring:&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;2 or more years in technical product support or software engineering&lt;/li&gt;\n&lt;li&gt;Hands-on use of AI tools at work. You write clear instructions for AI, review the results, and take responsibility for them. You have built or tested AI agents or workflows.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience finding the cause of problems in cloud or distributed systems. You read logs to trace what went wrong.&lt;/li&gt;\n&lt;li&gt;Hands-on experience with Docker and Kubernetes. You have used tools like kubectl to find why an application or cluster is failing.&lt;/li&gt;\n&lt;li&gt;Experience supporting self-hosted or on-premises software. You have used tools like Helm and support bundles to find why an installation is failing.&lt;/li&gt;\n&lt;li&gt;Hands-on experience with build, test, and deploy automation. You have written automated tests and set up a CI/CD pipeline for a project.&lt;/li&gt;\n&lt;li&gt;Knowledge of iOS application testing and code signing.&lt;/li&gt;\n&lt;li&gt;Working knowledge of CI/CD, Git, and the Linux command",
+   "departments": [
+    {
+     "id": 4113574002,
+     "name": "Support Engineering",
+     "child_ids": [],
+     "parent_id": 4052879002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012031002,
+     "name": "London",
+     "location": "London, England, United Kingdom",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  }
+ ],
+ "meta": {
+  "total": 6
+ }
+}

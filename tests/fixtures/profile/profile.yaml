@@ -1,0 +1,16 @@
+name: Jordan Example
+first_name: Jordan
+pronouns: they
+timezone: Europe/Berlin
+crm:
+  client_label: Client of Example Consulting
+cv:
+  cases:
+    - {sentence: 'acme', profile_lines: 'acme|meal-kit subscription', section: 'Analytics Solutions Architect, Acme Subscriptions'}
+    - {sentence: 'meal-?kit', profile_lines: 'acme|meal-kit subscription'}
+    - {sentence: 'fintech|mortgage|\blender\b', profile_lines: 'fintech'}
+    - {sentence: 'logistics', profile_lines: 'logistics'}
+    - {sentence: 'agenc(y|ies)', profile_lines: 'agency'}
+    - {sentence: 'bike', profile_lines: 'bike-sharing'}
+  no_tool_cases: ['real[- ]estate']
+  extra_tools: [Salesforce, Postgres]

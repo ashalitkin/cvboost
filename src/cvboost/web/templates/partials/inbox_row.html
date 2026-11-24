@@ -1,0 +1,23 @@
+{% from "macros.html" import ext, fit_badge, decide, why_block, override_mark, type_badge, check_badge %}
+<article class="card row{% if item.unseen %} unseen{% endif %}" id="job-{{ item.canonical_id }}">
+  <div class="row-head">
+    {{ fit_badge(item.fit) }}
+    {% if item.unseen %}<span class="dot" title="Not seen yet" aria-label="Not seen yet"></span>{% endif %}<h2><a href="/jobs/{{ item.canonical_id }}">{{ item.title }}</a></h2>
+    <span class="company">{{ item.company }}</span>
+    {% if item.decision == "interested" %}<span class="star">★ Interested</span>{% elif item.decision == "rejected" %}<span class="muted">rejected</span>{% elif item.decision == "cv_requested" %}<span class="muted">CV requested</span>{% endif %}
+  </div>
+  <div class="meta">
+    <span>{{ item.group.rate_display }}</span>
+    {{ type_badge(item.emp_type, type_labels) }}
+    {% if item.group.profile %}<span class="chip">{{ item.group.profile }}</span>{% endif %}
+    {% for f in item.group.flags %}<span class="chip warn">{{ f }}</span>{% endfor %}
+    {% if item.llm %}{% for f in item.llm.red_flags %}{% if f == "check_on_platform" %}{{ check_badge(item.group.sources) }}{% else %}<span class="chip warn">{{ f }}</span>{% endif %}{% endfor %}{% endif %}
+    <span class="muted">{{ item.group.posted_at|dt }}</span>
+  </div>
+  {{ why_block(item.why, item.canonical_id) }}
+  <div class="sources">
+    {% for s in item.sightings %}{{ ext(s.url, s.attribution) }}{% if not loop.last %} · {% endif %}{% endfor %}
+  </div>
+  {% if item.override_note %}{{ override_mark(item.canonical_id, csrf_token, item.override_note, "inbox", true, item.override_top) }}{% endif %}
+  {{ decide(item.canonical_id, csrf_token, reasons, "inbox", true, item.decision) }}
+</article>

@@ -1,0 +1,26 @@
+# Worker loop and Telegram alerts. Separate from rules.yaml: editing this must not change
+# rule_version (no re-triage). Secrets (bot token, chat id) are in .env, never here.
+timezone: UTC                      # your IANA zone, e.g. Europe/Berlin: quiet hours and the night window follow it
+tick_minutes: 10                    # a cycle every 10 minutes; a long cycle delays the next, never overlaps
+collect_budget_s: 360               # sources not started by then wait for the next cycle
+cycle_deadline_s: 540               # LLM scoring is skipped if it cannot finish inside this
+score_max_calls_per_cycle: 1        # one Haiku call per 10-min cycle (<= 144/day)
+backfill:                           # night window (local time): more LLM calls per cycle for old groups
+  enabled: true
+  window: ["02:00", "06:00"]
+  calls_per_cycle: 4
+  max_calls_per_night: 20
+alerts:
+  fit_threshold: 60                 # a new job at or above this fit is pushed to Telegram
+  max_per_cycle: 5                  # more than this -> one summary message
+  max_age_days: 21                  # older (posted_at / first_seen_at) = stale, never alerted
+  max_alert_lag_h: 48               # first seen earlier than this -> panel only
+  max_attempts: 5
+  quiet_hours: {start: "23:00", end: "08:00"}   # local time; pending alerts wait
+  summary_max_lines: 15
+  credential_warn_days: 7
+  source_fail_alert_after: 6        # consecutive failed runs of one source -> one system alert
+telegram:
+  poll_timeout_s: 25
+# LLM caps live in config/llm.yaml.
+# When a cap is hit, scoring stops and a system alert is sent once a day.

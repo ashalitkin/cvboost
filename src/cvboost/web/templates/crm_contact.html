@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% from "macros.html" import csrf %}
+{% block title %}{{ c.name }}{% endblock %}
+{% block content %}
+<p><a href="/crm">← CRM</a></p>
+<h1>{{ c.name }}</h1>
+<p class="muted">{{ c.headline or "" }}{% if c.company %} · {{ c.company }}{% endif %}</p>
+<p>
+  {% set pu = c.profile_url|linkedin_url %}
+  {% if pu %}<a href="{{ pu }}" rel="noopener noreferrer" target="_blank">LinkedIn profile</a> · {% endif %}
+  Column: <strong>{{ col_labels[c.col] }}</strong>{% if c.archived %} (archived){% endif %}
+</p>
+<div class="inline">
+  <form method="post" action="/crm/{{ c.id }}/read" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="next" value="contact"><input type="hidden" name="unread" value="1"><button type="submit" class="btn">Mark unread</button></form>
+  <form method="post" action="/crm/{{ c.id }}/move" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="next" value="contact">
+    {% for k in columns if k != c.col or c.archived %}<button type="submit" name="col" value="{{ k }}" class="btn">→ {{ col_labels[k] }}</button>{% endfor %}
+  </form>
+  <form method="post" action="/crm/{{ c.id }}/archive" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="next" value="contact">
+    {% if c.archived %}<input type="hidden" name="restore" value="1"><button type="submit" class="btn">Restore from archive</button>
+    {% else %}<button type="submit" class="btn">Archive (not interested)</button>{% endif %}
+  </form>
+</div>
+
+<section class="card" id="history">
+  <h2>History</h2>
+  {% for e in events %}
+  <div class="crm-event">
+    <p class="muted">{{ e.received_at|dt }} · {{ event_labels[e.kind] }}</p>
+    {% if e.snippet %}<p>{{ e.snippet }}</p>{% endif %}
+    {% set vu = e.view_url|linkedin_url %}
+    {% if vu %}<p><a href="{{ vu }}" rel="noopener noreferrer" target="_blank">View the message</a></p>{% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+<section class="card" id="note">
+  <h2>Type and note</h2>
+  <form method="post" action="/crm/{{ c.id }}/note" class="stack">
+    {{ csrf(csrf_token) }}
+    <select name="kind" aria-label="Type">{% for k in kinds %}<option value="{{ k }}"{% if c.kind == k %} selected{% endif %}>{{ kind_labels[k] }}</option>{% endfor %}</select>
+    <textarea name="note" rows="4" maxlength="{{ note_max }}" aria-label="Note" class="crm-text">{{ c.note or "" }}</textarea>
+    <button type="submit" class="btn">Save</button>
+  </form>
+</section>
+
+<section class="card" id="context">
+  <h2>Context / my message</h2>
+  <form method="post" action="/crm/{{ c.id }}/context" class="stack">
+    {{ csrf(csrf_token) }}
+    <textarea name="owner_context" rows="8" maxlength="{{ context_max }}" aria-label="Context" class="crm-text" placeholder="Paste your first message to this person and your notes">{{ c.owner_context or "" }}</textarea>
+    <button type="submit" class="btn">Save</button>
+  </form>
+  <p class="muted">This is your text: Opus will use it in all following drafts for this contact. Paste the original InMail here, it is not in the LinkedIn emails.</p>
+</section>
+
+<section class="card" id="next">
+  <h2>Next step</h2>
+  <form method="post" action="/crm/{{ c.id }}/next" class="inline">
+    {{ csrf(csrf_token) }}
+    <input type="text" name="step" maxlength="{{ step_max }}" value="{{ c.next_step or '' }}" placeholder="What to do" aria-label="Next step" class="crm-step">
+    <input type="date" name="due" value="{{ c.due_at or '' }}" aria-label="Date">
+    <button type="submit" class="btn">Save</button>
+    {% if c.next_step %}<button type="submit" name="done" value="1" class="btn">Done</button>{% endif %}
+  </form>
+  <p class="muted">A Telegram reminder will arrive on this day (in quiet hours, in the morning).</p>
+</section>
+
+<section class="card" id="jobs">
+  <h2>This company's jobs</h2>
+  {% for j in jobs %}<p><a href="/jobs/{{ j.id }}">{{ j.title }}</a> <span class="muted">{{ j.company }}</span></p>
+  {% else %}<p class="muted">No jobs from this company.</p>{% endfor %}
+</section>
+
+<section class="card" id="reply">
+  <h2>Reply draft (Opus)</h2>
+  <p class="muted">Only on your request, built from this contact's events and your profile. Nothing is sent: copy it and send it yourself.</p>
+  {% if reply and reply.status in ("queued", "in_progress") %}
+  <p class="chip">{{ reply_labels[reply.status] }}</p>
+  {% else %}
+  <form method="post" action="/crm/{{ c.id }}/reply" class="inline">{{ csrf(csrf_token) }}<button type="submit" class="btn primary">Reply draft (Opus)</button></form>
+  {% endif %}
+  {% if reply and reply.status == "failed" %}<p class="chip warn">Failed: {{ reply.error }}</p>{% endif %}
+  {% set done = reply if reply and reply.status == "done" else None %}
+  {% if done %}
+  <p class="muted">Ready {{ done.finished_at|dt }}</p>
+  <h3>LinkedIn reply</h3>
+  <textarea readonly rows="20" class="crm-draft" id="draft-li" data-autogrow aria-label="LinkedIn reply">{{ done.draft }}</textarea>
+  <p><button type="button" class="btn" data-copy="draft-li" hidden>Copy</button></p>
+  {% if done.email_to %}
+  <h3>Email</h3>
+  <p class="muted">Text only: nothing is sent. The address is taken from the contact's message as is.</p>
+  <label class="muted" for="draft-to">To</label>
+  <textarea readonly rows="1" class="crm-draft" id="draft-to" aria-label="To">{{ done.email_to }}</textarea>
+  <p><button type="button" class="btn" data-copy="draft-to" hidden>Copy</button></p>
+  <label class="muted" for="draft-subject">Subject</label>
+  <textarea readonly rows="2" class="crm-draft" id="draft-subject" data-autogrow aria-label="Subject">{{ done.email_subject }}</textarea>
+  <p><button type="button" class="btn" data-copy="draft-subject" hidden>Copy</button></p>
+  <label class="muted" for="draft-body">Email text</label>
+  <textarea readonly rows="20" class="crm-draft" id="draft-body" data-autogrow aria-label="Email text">{{ done.email_body }}</textarea>
+  <p><button type="button" class="btn" data-copy="draft-body" hidden>Copy</button></p>
+  {% endif %}
+  <script src="/static/crm.js" defer></script>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,13 @@
+From: Indeed <login@indeed.com>
+To: owner@example.com
+Subject: Inicie =?utf-8?q?sess=C3=A3o_no_Indeed_com_o_c=C3=B3digo=3A?= 171223
+Date: Mon, 09 Nov 2026 17:27:31 +0000
+Message-ID: <synthetic-1fefd157229b@mail.example.com>
+Authentication-Results: mx.google.com; dkim=pass header.i=@indeed.com
+ header.s=sel; spf=pass; dmarc=pass header.from=indeed.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Account notification (stub).
+No job content.

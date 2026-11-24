@@ -1,0 +1,27 @@
+{% from "macros.html" import ext, fit_badge, why_block, override_form, list_head, type_badge, check_badge %}
+{{ list_head(items, total, unseen_count, "screened", csrf_token, request) }}
+{% if not items %}<p class="card">Nothing screened out, or everything is already reviewed.</p>{% endif %}
+{% for item in items %}
+<article class="card row{% if item.unseen %} unseen{% endif %}" id="job-{{ item.canonical_id }}">
+  <div class="row-head">
+    {{ fit_badge(item.fit) }}
+    {% if item.unseen %}<span class="dot" title="Not seen yet" aria-label="Not seen yet"></span>{% endif %}<h2><a href="/jobs/{{ item.canonical_id }}">{{ item.title }}</a></h2>
+    <span class="company">{{ item.company }}</span>
+  </div>
+  <div class="meta">
+    <span>{{ item.group.rate_display }}</span>
+    {{ type_badge(item.emp_type, type_labels) }}
+    {% if item.llm and item.llm.profile != "none" %}<span class="chip">{{ item.llm.profile }}</span>{% endif %}
+    {% for f in item.group.flags %}<span class="chip warn">{{ f }}</span>{% endfor %}
+    {% if item.llm %}{% for f in item.llm.red_flags %}{% if f == "check_on_platform" %}{{ check_badge(item.group.sources) }}{% else %}<span class="chip warn">{{ f }}</span>{% endif %}{% endfor %}{% endif %}
+    <span class="muted">{{ item.group.posted_at|dt }}</span>
+  </div>
+  {% if item.llm %}
+  <p class="screen-reason"><strong>Why screened out:</strong> {{ item.llm.eligibility_reason }}{% if item.llm.summary_ru %} <span class="muted">— {{ item.llm.summary_ru }}</span>{% endif %}</p>
+  {% endif %}
+  <div class="sources">
+    {% for s in item.sightings %}{{ ext(s.url, s.attribution) }}{% if not loop.last %} · {% endif %}{% endfor %}
+  </div>
+  {{ override_form(item.canonical_id, csrf_token, "screened", true) }}
+</article>
+{% endfor %}

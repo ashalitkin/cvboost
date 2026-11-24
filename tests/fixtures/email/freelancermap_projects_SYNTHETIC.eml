@@ -1,0 +1,33 @@
+From: freelancermap Projekt-Agent <projektagent@freelancermap.de>
+To: alerts@example.com
+Subject: Neue Projekte =?utf-8?q?f=C3=BCr?= Ihren Projekt-Agent
+Date: Tue, 10 Nov 2026 07:00:00 +0000
+Message-ID: <fm-synth-1@example.com>
+Authentication-Results: mx.google.com; dkim=pass header.i=@freelancermap.de
+ header.s=sel; spf=pass smtp.mailfrom=owner@freelancermap.de; dmarc=pass
+ header.from=freelancermap.de
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8237747634881934535=="
+
+--===============8237747634881934535==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Neue Projekte
+Senior Data Engineer (m/w/d)
+https://www.freelancermap.de/projekt/senior-data-engineer-m-w-d?ref=agent
+
+--===============8237747634881934535==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><div><a href=3D"https://www.freelancermap.de/projekt/senior-data-=
+engineer-m-w-d?ref=3Dagent">Senior Data Engineer (m/w/d)</a> Remote, 100% 6 M=
+onate</div><div><a href=3D"https://www.freelancermap.de/projekt/analytics-eng=
+ineer-dbt-bigquery?ref=3Dagent">Analytics Engineer dbt BigQuery</a> Hybrid Be=
+rlin</div><a href=3D"https://www.freelancermap.de/abmelden?x=3D1">Abmelden</a=
+></body></html>
+
+--===============8237747634881934535==--

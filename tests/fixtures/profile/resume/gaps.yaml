@@ -1,0 +1,54 @@
+# Guards for the "Known gaps" bullets of profile.md (fictional example, same format as the real one).
+# `cvboost cv check-profile` fails when a bullet has no entry here (source = bullet text before the
+# first ':') or an entry points at a bullet that is gone. `source: policy` = not from the profile.
+# forbid: a hit in resume or claims means one retry with feedback, then needs_review.
+# review: a hit means needs_review at once. patterns: regexes, case-insensitive.
+gaps:
+  - id: mmm
+    source: Marketing Mix Modeling
+    mode: forbid
+    patterns: ['\bMMM\b', 'marketing\s+mix', '\bRobyn\b', '\bMeridian\b']
+  - id: power_bi
+    source: Power BI, Tableau
+    mode: forbid
+    patterns: ['\bpower\s?bi\b']
+  - id: tableau
+    source: Power BI, Tableau
+    mode: forbid
+    patterns: ['\btableau\b']
+  - id: sfmc
+    source: Salesforce Marketing Cloud
+    mode: forbid
+    patterns: ['\bsalesforce\s+marketing\s+cloud\b', '\bSFMC\b', '\bExactTarget\b']
+  - id: dataform
+    source: Dataform
+    mode: forbid
+    patterns: ['\bdataform\b']
+  - id: airflow
+    source: Apache Airflow
+    mode: forbid
+    patterns: ['\bairflow\b']
+  - id: medical_data
+    source: Medical data
+    mode: review
+    patterns: ['\bHIPAA\b', '\bEHR\b', '\bEMR\b', 'health\s?care', 'medical\s+(data|records)', 'patient']
+  - id: communities
+    source: Online community analytics
+    mode: review
+    patterns: ['communit(y|ies)\s+analytics', 'online\s+communit(y|ies)']
+  - id: push_email
+    source: Email / push / in-product notification campaign analytics
+    mode: review
+    patterns: ['push\s+notification', 'e-?mail\s+campaign', '\bBraze\b', '\bIterable\b', 'in-product\s+notification', 'notification\s+campaign']
+  - id: data_scientist
+    source: policy      # a role the person does not want; never call them one
+    mode: forbid
+    patterns: ['\bdata\s+scientists?\b']
+  - id: data_vault
+    source: Data Vault
+    mode: review
+    patterns: ['\bdata\s+vault\b']
+  - id: governance_platforms
+    source: Dedicated data governance / catalog platforms (Collibra, Alation, Purview, Unity Catalog, Atlan, DataHub)
+    mode: forbid
+    patterns: ['\bcollibra\b', '\balation\b', '\bpurview\b', '\bunity\s+catalog\b', '\batlan\b', '\bdatahub\b']

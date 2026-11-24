@@ -1,0 +1,4 @@
+{% from "macros.html" import list_head %}
+{{ list_head(items, total, unseen_count, "inbox", csrf_token, request) }}{% if capped %}<p class="muted">showing the latest 500 screened out</p>{% endif %}
+{% if not items %}<p class="card">Nothing here yet. The worker collects jobs every 10 minutes.</p>{% endif %}
+{% for item in items %}{% include "partials/inbox_row.html" %}{% endfor %}

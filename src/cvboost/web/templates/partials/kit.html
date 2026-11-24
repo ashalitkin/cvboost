@@ -1,0 +1,88 @@
+{% from "macros.html" import csrf %}
+<section class="card" id="kit">
+  <h2>Application kit</h2>
+  {% if cv is none and not kit.values()|select|list %}
+  <p class="muted">The kit appears after the CV is generated.</p>
+  {% else %}
+  <p>Request: <strong>{{ cv_label or "—" }}</strong>{% if cv and cv["error"] %} — {{ cv["error"] }}{% endif %}
+    {% if cv and cv["edited_at"] %}<span class="muted">· edited {{ cv["edited_at"]|dt }}</span>{% endif %}</p>
+  {% if cv and cv["status"] in ("queued", "in_progress") %}
+  <p class="notice" id="kit-busy" hx-get="/jobs/{{ cid }}" hx-trigger="every 20s" hx-select="#kit" hx-target="#kit" hx-swap="outerHTML">The resume is {{ "queued" if cv["status"] == "queued" else "being rebuilt" }}: the previous version is shown below, read-only, so that no edit is lost. The editor opens by itself when it finishes (usually 2–3 minutes).</p>
+  {% endif %}
+  {% if cv and cv["status"] == "needs_review" %}
+  <div class="notice">
+    <p><strong>Needs review before sending.</strong></p>
+    {% if review_reasons %}<ul class="plain">{% for r in review_reasons %}<li><span class="chip">{{ r }}</span></li>{% endfor %}</ul>{% endif %}
+    <form method="post" action="/jobs/{{ cid }}/kit/approve" class="inline">
+      {{ csrf(csrf_token) }}
+      <button type="submit" class="btn primary">Reviewed, approve</button>
+    </form>
+  </div>
+  {% endif %}
+  {% if cv and cv["pdf_status"] in ("unavailable", "failed") %}
+  <p class="notice">PDF not built — the text was changed.{% if cv["pdf_status"] == "unavailable" %} The renderer is not available on this server.{% endif %}</p>
+  {% endif %}
+  <ul class="plain">
+    {% if kit["resume.pdf"] %}<li><a href="/jobs/{{ cid }}/kit/resume.pdf">Download PDF</a></li>{% endif %}
+    {% if kit["resume.md"] %}<li><a href="/jobs/{{ cid }}/kit/resume.md">Download MD</a></li>{% endif %}
+    {% if kit["recruiter_note.md"] %}<li><a href="/jobs/{{ cid }}/kit/recruiter_note.md">recruiter_note.md</a></li>{% endif %}
+    {% if kit["fit_notes.md"] %}<li><a href="/jobs/{{ cid }}/kit/fit_notes.md">fit_notes.md</a></li>{% endif %}
+  </ul>
+  {% if resume_md is not none %}
+  <h3>Resume</h3>
+  {% if can_edit %}
+  <form method="post" action="/jobs/{{ cid }}/kit/resume" class="stack">
+    {{ csrf(csrf_token) }}<input type="hidden" name="request_id" value="{{ cv["id"] }}">
+    <textarea name="resume_md" class="kit-edit" rows="24" maxlength="20000" aria-label="Resume text (markdown)" spellcheck="false">{{ resume_md }}</textarea>
+    <button type="submit" class="btn primary">Save and rebuild PDF</button>
+  </form>
+  {% else %}
+  <pre class="kit">{{ resume_md }}</pre>
+  {% endif %}
+  {% endif %}
+  {% if can_edit or cover_md is not none or cover_req %}
+  <h3 id="cover">Cover letter</h3>
+  {% if cover_req and cover_req["status"] in ("queued", "in_progress") %}
+  <p class="muted">The cover letter is being generated (Opus), usually 2–5 minutes. Reload the page later.</p>
+  {% elif cover_req and cover_req["status"] == "failed" and cover_md is none %}
+  <p class="notice">The cover letter failed{% if cover_req["error"] %}: {{ cover_req["error"] }}{% endif %}.</p>
+  {% endif %}
+  {% if cover_warn and cover_md is not none %}
+  <div class="notice"><p><strong>Review the letter before sending.</strong></p>
+    {% if cover_reasons %}<ul class="plain">{% for r in cover_reasons %}<li><span class="chip">{{ r }}</span></li>{% endfor %}</ul>{% endif %}
+    <form method="post" action="/jobs/{{ cid }}/kit/cover/approve" class="inline">
+      {{ csrf(csrf_token) }}
+      <button type="submit" class="btn primary">Reviewed, approve</button>
+    </form></div>
+  {% endif %}
+  {% if cover_md is not none %}
+  <ul class="plain">
+    {% if kit["cover_letter.pdf"] %}<li><a href="/jobs/{{ cid }}/kit/cover_letter.pdf">Download PDF</a></li>{% endif %}
+    <li><a href="/jobs/{{ cid }}/kit/cover_letter.md">Download MD</a></li>
+  </ul>
+  {% if not kit["cover_letter.pdf"] %}<p class="notice">The letter PDF is not built.</p>{% endif %}
+  {% if can_edit %}
+  <form method="post" action="/jobs/{{ cid }}/kit/cover" class="stack">
+    {{ csrf(csrf_token) }}<input type="hidden" name="request_id" value="{{ cv["id"] }}">
+    <textarea name="cover_md" class="kit-edit" rows="18" maxlength="6000" aria-label="Cover letter text (markdown)" spellcheck="false">{{ cover_md }}</textarea>
+    <button type="submit" class="btn primary">Save and rebuild PDF</button>
+  </form>
+  <form method="post" action="/jobs/{{ cid }}/kit/cover/pdf" class="inline">
+    {{ csrf(csrf_token) }}<input type="hidden" name="request_id" value="{{ cv["id"] }}">
+    <button type="submit" class="btn">PDF</button>
+  </form>
+  {% else %}
+  <pre class="kit">{{ cover_md }}</pre>
+  {% endif %}
+  {% elif can_edit and not (cover_req and cover_req["status"] in ("queued", "in_progress")) %}
+  <form method="post" action="/jobs/{{ cid }}/kit/cover/make" class="inline">
+    {{ csrf(csrf_token) }}
+    <button type="submit" class="btn primary">Make a cover letter</button>
+  </form>
+  <p class="muted">One Opus call, counted against the daily limit.</p>
+  {% endif %}
+  {% endif %}
+  {% if note_md is not none %}<h3>Note to the recruiter</h3><pre class="kit">{{ note_md }}</pre>{% endif %}
+  {% if fit_md is not none %}<h3>Fit notes</h3><pre class="kit">{{ fit_md }}</pre>{% endif %}
+  {% endif %}
+</section>

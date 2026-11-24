@@ -1,0 +1,150 @@
+{# External links: only http(s) survive safe_url; otherwise plain text. #}
+{% macro ext(url, text, rel="noopener noreferrer") -%}
+{%- set u = url|safe_url -%}
+{%- if u %}<a href="{{ u }}" rel="{{ rel }}" target="_blank">{{ text }}</a>{% else %}{{ text }}{% endif -%}
+{%- endmacro %}
+
+{% macro csrf(token) -%}
+<input type="hidden" name="csrf_token" value="{{ token }}">
+{%- endmacro %}
+
+{% macro fit_badge(fit) -%}
+{%- if fit is none %}<span class="badge fit-none" title="The LLM has not scored it yet">—</span>
+{%- else %}<span class="badge {% if fit >= 70 %}fit-hi{% elif fit >= 50 %}fit-mid{% else %}fit-lo{% endif %}" title="LLM fit">{{ fit }}</span>{% endif -%}
+{%- endmacro %}
+
+{# #68: an e-mail alert has no description; the verdict is kept with this note. #}
+{% macro check_badge(sources) -%}
+<span class="chip warn" title="The alert email has no description: check the location and work format on the job page">Check on {{ sources|check_platform }}</span>
+{%- endmacro %}
+
+{# Decision buttons. hx=true: HTMX swaps the row; without JS the forms post normally (303). #}
+{% macro decide(cid, token, reasons, next, hx=false, decision=none) %}
+<div class="decide">
+  <form method="post" action="/jobs/{{ cid }}/decision" class="inline"
+        {% if hx %}hx-post="/jobs/{{ cid }}/decision" hx-target="closest article" hx-swap="outerHTML"{% endif %}>
+    {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+    {% if decision == "interested" %}
+    <button name="action" value="undo" type="submit" class="btn on" title="Remove the mark">★ Interested</button>
+    {% else %}
+    <button name="action" value="interested" type="submit" class="btn">Interested</button>
+    {% endif %}
+    <button name="action" value="prepare_cv" type="submit" class="btn primary">Prepare CV</button>
+  </form>
+  <form method="post" action="/jobs/{{ cid }}/decision" class="inline"
+        {% if hx %}hx-post="/jobs/{{ cid }}/decision" hx-target="closest article" hx-swap="outerHTML"{% endif %}>
+    {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+    <select name="reason" required aria-label="Reason for rejecting">
+      <option value="">Reason…</option>
+      {% for k, label in reasons.items() %}<option value="{{ k }}">{{ label }}</option>{% endfor %}
+    </select>
+    <input type="text" name="note" maxlength="500" placeholder="why (optional, the AI learns from it)" aria-label="Explanation of the rejection">
+    <button name="action" value="rejected" type="submit" class="btn danger">No</button>
+  </form>
+</div>
+{% endmacro %}
+
+
+{# Why: rules, Haiku, Opus. why = cvboost.explain.Why. full_link: URL of the full breakdown. #}
+{% macro why_block(why, cid, link=true) %}
+{% if not why.empty %}
+<div class="why">
+  {% if why.rules_seen %}
+  {% if why.rules_ok %}
+  <p class="why-line"><span class="mark ok">✅</span> <strong>Rules:</strong> passed{% if why.relevance is not none %} · relevance {{ why.relevance }}{% endif %}</p>
+  {% else %}
+  {% for r in why.reasons %}
+  <p class="why-line"><span class="mark no">❌</span> <strong>Rules:</strong> {{ r.label }}{% if r.evidence %} <span class="muted">— {{ r.evidence }}</span>{% endif %}</p>
+  {% endfor %}
+  {% endif %}
+  {% endif %}
+  {% if why.haiku %}
+  <p class="why-line"><span class="mark {{ 'ok' if why.haiku.eligible else 'no' }}">{{ "✅" if why.haiku.eligible else "❌" }}</span> <strong>Haiku:</strong> {{ "Eligible" if why.haiku.eligible else "Not eligible" }}, fit {{ why.haiku.fit }}{% if why.haiku.summary_ru %} — {{ why.haiku.summary_ru }}{% endif %}{% if not why.haiku.eligible and why.haiku.eligibility_reason %} <span class="muted">({{ why.haiku.eligibility_reason }})</span>{% endif %}</p>
+  {% endif %}
+  {% if why.rec %}
+  <p class="why-line"><span class="badge {{ why.rec_class }}">{{ why.rec_label }}</span> <strong>Opus:</strong> {{ why.rec_summary or "" }}{% if link %} <a href="/jobs/{{ cid }}#kit">Full analysis</a>{% endif %}</p>
+  {% endif %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{# "Fits → to Inbox": the explanation is required; it also teaches Haiku and Opus. #}
+{% macro override_form(cid, token, next, hx=false) %}
+<form method="post" action="/jobs/{{ cid }}/decision" class="override-form"
+      {% if hx %}hx-post="/jobs/{{ cid }}/decision" hx-target="closest article" hx-swap="outerHTML"{% endif %}>
+  {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+  <textarea name="note" required maxlength="500" rows="2" placeholder="Why it fits (required, up to 500 characters)" aria-label="Why it fits"></textarea>
+  <button name="action" value="override_in" type="submit" class="btn primary">Fits → move to Inbox</button>
+</form>
+{% endmacro %}
+
+{# "Returned by you": the mark on a job the owner returned from "Screened out by AI", with the undo. #}
+{% macro override_mark(cid, token, note, next, hx=false, top=true) %}
+<div class="override-mark">
+  <p><strong>Returned by you:</strong> {{ note }}</p>
+  <form method="post" action="/jobs/{{ cid }}/decision" class="inline"
+        {% if hx %}hx-post="/jobs/{{ cid }}/decision" hx-target="closest article" hx-swap="outerHTML"{% endif %}>
+    {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+    <button name="action" value="undo" type="submit" class="btn">{% if top %}Return to screened out{% else %}Undo the last one{% endif %}</button>
+  </form>
+</div>
+{% endmacro %}
+
+{# "Withdrawn": a required reason (the same list as "No"); it goes to the AI's OWNER CORRECTIONS. #}
+{% macro withdraw_form(cid, token, reasons, next) %}
+<details class="withdraw">
+  <summary class="btn">Withdraw</summary>
+  <form method="post" action="/applications/{{ cid }}/withdraw" class="inline stack">
+    {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+    <select name="reason" required aria-label="Reason">
+      <option value="">Reason…</option>
+      {% for k, label in reasons.items() %}<option value="{{ k }}">{{ label }}</option>{% endfor %}
+    </select>
+    <input type="text" name="note" maxlength="500" placeholder="why (required for Other, the AI learns from it)" aria-label="Why withdrawn">
+    <button type="submit" class="btn danger">Withdraw</button>
+  </form>
+</details>
+{% endmacro %}
+
+{% macro restore_form(cid, token, next) %}
+<form method="post" action="/applications/{{ cid }}/restore" class="inline">
+  {{ csrf(token) }}<input type="hidden" name="next" value="{{ next }}">
+  <button type="submit" class="btn">Restore</button>
+</form>
+{% endmacro %}
+
+{# Filters shared by Inbox and "Screened out by AI": type (multi), only-unseen, sort. They sit inside the
+   page's <form>, so a change reloads the rows (htmx) and the URL keeps the state. #}
+{% macro view_filters(type_values, type_labels, sel_types, unseen_only, sort_values, sort_labels, sort) %}
+<span class="row-break" aria-hidden="true"></span>
+<label>Type
+  <select name="type"><option value="">any</option>{% for t in type_values %}<option value="{{ t }}"{% if sel_types|length == 1 and t in sel_types %} selected{% endif %}>{{ type_labels[t] }}</option>{% endfor %}</select></label>
+<label class="check"><input type="checkbox" name="unseen" value="1"{% if unseen_only %} checked{% endif %}> unseen only</label>
+<label>Sort
+  <select name="sort">{% for v in sort_values %}<option value="{{ v }}"{% if sort == v %} selected{% endif %}>{{ sort_labels[v] }}</option>{% endfor %}</select></label>
+{% endmacro %}
+
+{# "N new", the count line, and "Mark all shown": one POST with the ids on screen. #}
+{% macro list_head(items, total, unseen_count, page, token, request) %}
+<div class="listhead">
+  {%- set base = request.url.remove_query_params("page") %}
+  {%- if request.query_params.get("unseen") == "1" %}
+  <p class="muted count">Showing {{ items|length }} of {{ total }} · <strong class="newcount">{{ unseen_count }} new</strong> · <a href="{{ base.remove_query_params('unseen') }}">show all</a></p>
+  {%- elif unseen_count %}
+  <p class="muted count">Showing {{ items|length }} of {{ total }} · <a class="newlink" href="{{ base.include_query_params(unseen='1') }}" title="Show unseen only"><strong class="newcount">{{ unseen_count }} new</strong></a></p>
+  {%- else %}
+  <p class="muted count">Showing {{ items|length }} of {{ total }} · <strong class="newcount">{{ unseen_count }} new</strong></p>
+  {%- endif %}
+  {% if unseen_count and items %}
+  <form method="post" action="/seen/mark" class="inline">
+    {{ csrf(token) }}<input type="hidden" name="page" value="{{ page }}"><input type="hidden" name="qs" value="{{ request.url.query }}">
+    {% for i in items %}<input type="hidden" name="cids" value="{{ i.canonical_id }}">{% endfor %}
+    <button type="submit" class="btn">Mark all shown as seen</button>
+  </form>
+  {% endif %}
+</div>
+{% endmacro %}
+
+{% macro type_badge(t, labels) -%}
+{%- if t != "unknown" %}<span class="chip type-{{ t }}">{{ labels[t] }}</span>{% endif -%}
+{%- endmacro %}

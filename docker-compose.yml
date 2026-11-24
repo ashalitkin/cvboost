@@ -1,0 +1,84 @@
+name: cvboost
+
+services:
+  app:
+    # one-off CLI: `docker compose run --rm app cvboost sources` (not started by `up`)
+    image: cvboost:local
+    build: .
+    profiles: ["cli"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      CVBOOST_DB: /data/cvboost.sqlite  # wins over env_file; DB always lives on the volume
+      CVBOOST_KITS_DIR: /data/kits  # application kits (resume.md/pdf) on the volume too
+      CVBOOST_RESUME_DIR: /app/config/resume  # comes from the ./config mount, not from the image
+    volumes:
+      - ./data:/data
+      - ./config:/app/config:ro
+
+  worker:
+    # the 10-minute loop: collect -> triage -> score -> Telegram -> CV drafts. Run ONE worker per bot:
+    # not on the Mac and the VPS at the same time (duplicate alerts, getUpdates conflicts).
+    image: cvboost:local
+    build: .  # same tag as `app`: either service builds the one image
+    command: ["cvboost", "worker"]
+    restart: unless-stopped
+    init: true  # tini: forwards SIGTERM, reaps claude subprocesses
+    stop_grace_period: 360s  # >= longest LLM call (cv.timeout_s 300) + 35 s bot-thread join + margin
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      CVBOOST_DB: /data/cvboost.sqlite
+      CVBOOST_KITS_DIR: /data/kits
+      CVBOOST_RESUME_DIR: /app/config/resume
+      TZ: ${TZ:-UTC}
+    volumes:
+      - ./data:/data
+      - ./config:/app/config:ro
+    healthcheck:
+      test: ["CMD", "cvboost", "worker", "--health"]
+      interval: 5m
+      start_period: 15m
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  web:
+    # the panel: Inbox, Job, Applications, Sources, Usage. Host port is loopback only; remote
+    # access goes through Tailscale (#8). Shares the SQLite file with the worker (WAL).
+    image: cvboost:local
+    build: .
+    command: ["cvboost", "web", "--host", "0.0.0.0", "--port", "8080"]
+    restart: unless-stopped
+    init: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      CVBOOST_DB: /data/cvboost.sqlite
+      CVBOOST_KITS_DIR: /data/kits
+      CVBOOST_WEB_TRUST_NETWORK: "1"  # the published port is bound to host loopback below
+      CVBOOST_WEB_HOSTS: localhost,127.0.0.1  # #8 appends the tailnet name
+      TZ: ${TZ:-UTC}
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ./data:/data
+      - ./config:/app/config:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://127.0.0.1:8080/healthz', timeout=3)"]
+      interval: 1m
+      start_period: 20s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

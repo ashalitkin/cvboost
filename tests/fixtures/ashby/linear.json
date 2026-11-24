@@ -1,0 +1,314 @@
+{
+ "jobs": [
+  {
+   "id": "0c7c2e26-0a98-42cf-a47c-9a3999fb513b",
+   "title": "Product Engineer",
+   "department": "Product",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "North America",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-06-09T18:45:53.014+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">As a small team, we're all generalists that work across the full stack (built in TypeScript end-to-end). We’re looking for engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\"><em>Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.</em></p><p style=\"min-height:1.5em\"><strong>What you'll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Work closely with founders, product, and design to implement new concepts and ideas</p></li><li><p style=\"min-height:1.5em\">Build AI-powered functionality into the core of Linear</p></li><li><p style=\"min-height:1.5em\">Update our collaborative content editor used across all internal surfaces</p></li><li><p style=\"min-height:1.5em\">Build new user-facing features with beautiful and scalable UI components</p></li><li><p style=\"min-height:1.5em\">Obsessively improve application performance</p></li><li><p style=\"min-height:1.5em\">Refine our software development processes to keep the team operating at high velocity</p></li></ul><p style=\"min-height:1.5em\"><strong>What we're looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">2-5 years of experience building customer-facing products at a software company with a high engineering bar</p></li><li><p style=\"min-height:1.5em\">Strong React and TypeScript fundamentals, with experience across the full stack (Browser technologies, Node, GraphQL, PostgreSQL)</p></li><li><p style=\"min-height:1.5em\">Track record of driving complex, end-to-end features (not just incremental improvements and refactors) with visible impact on the product</p></li><li><p style=\"min-height:1.5em\">Product sensibility: you care about UX, speed, and polish, and you push back when something doesn't feel right</p></li><li><p style=\"min-height:1.5em\">Comfortable working without heavy PM overhead; you can help to sh",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we're all generalists that work across the full stack (built in TypeScript end-to-end). We’re looking for engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n - Work closely with founders, product, and design to implement new concepts and ideas\n\n - Build AI-powered functionality into the core of Linear\n\n - Update our collaborative content editor used across all internal surfaces\n\n - Build new user-facing features with beautiful and scalable UI components\n\n - Obsessively improve application performance\n\n - Refine our software development processes to keep the team operating at high velocity\n\nWhat we're looking for\n\n - 2-5 years of experience building customer-facing products at a software company with a high engineering bar\n\n - Strong React and TypeScript fundamentals, with experience across the full stack (Browser technologies, Node, GraphQL, PostgreSQL)\n\n - Track record of driving complex, end-to-end features (not just incremental improvements and refactors) with visible impact on the product\n\n - Product sensibility: you care about UX, speed, and polish, and you push back when something doesn't feel right\n\n - Comfortable working without heavy PM overhead; you can help to shape the problem, not just implement a solution\n\n - High ownership mentality: self-directed, full-lifecycle builder who takes a feature from idea to shipped\n\n - Thrives in a remote, async-first environment with a lean, high-output team\n\n - Experience at a startup or a company with a genuinely high engineering bar\n\nOur tech\n\nThis stack reflects the systems we build and operate. You’re not expected to have experience with everything listed, but you should be excited to work close to product, performance, and real-world scale.\n\n - Agentic workflow system utilizing temporal, operating at production scale\n\n - Proprietary websocket data sync engine https://www.youtube.com/watch?v=bnOpm3a1fRE built for speed and offline supp",
+   "compensation": {
+    "compensationTierSummary": "$174K – $245K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$174K - $245K",
+    "compensationTiers": [
+     {
+      "id": "6a7fc8fc-01a5-419e-bc71-173a18160220",
+      "tierSummary": "$174K – $245K • Offers Equity",
+      "title": "US Remote",
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "2abef5cb-4cfd-4500-b68b-dc33744dfc91",
+        "summary": "Offers Equity",
+        "compensationType": "EquityCashValue",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "d87e227e-d182-463a-a8e2-c10d302c4119",
+        "summary": "$174K – $245K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 174000,
+        "maxValue": 245000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityCashValue",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 174000,
+      "maxValue": 245000
+     }
+    ]
+   }
+  },
+  {
+   "id": "1d652292-04d9-405c-8101-578efd020e94",
+   "title": "Developer Relations",
+   "department": "GTM",
+   "team": "Marketing",
+   "employmentType": "FullTime",
+   "location": "North America",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [
+    {
+     "location": "Europe",
+     "address": {
+      "postalAddress": {
+       "addressCountry": "European Union"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-04-24T03:30:24.628+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/1d652292-04d9-405c-8101-578efd020e94",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/1d652292-04d9-405c-8101-578efd020e94/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">Linear is becoming a much broader product than people realize. With agents, mobile workflows, and new modalities, there’s a growing gap between what Linear can do and what people think it can do. This role exists to close that gap.</p><p style=\"min-height:1.5em\">We’re looking for someone who will live inside the product, discover what’s possible, and show the world. That means figuring out the most compelling use cases for Linear’s AI agent, demonstrating real workflows that teams can adopt, and getting those stories out through whatever format works best, whether that’s a tweet, a video, a blog post, or a live demo at a conference. The goal is to help people understand what they can actually do with Linear and make that feel concrete and exciting.</p><p style=\"min-height:1.5em\">Think of it as a product-obsessed marketer who is genuinely technical and knows how to communicate with depth.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\"><em>Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within those regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.</em></p><p style=\"min-height:1.5em\"><strong>What you’ll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deeply understand Linear’s product, especially our AI agent and newer capabilities, and continuously discover productive, real-world use cases that teams would care about</p></li><li><p style=\"min-height:1.5em\">Create content that demonstrates those use cases, whether that’s short-form social, blog posts, video walkthroughs, or live demos. Format follows the story, not the other way around</p></li><li><p style=\"min-height:1.5em\">Build relationships with engineering and product-focused creators and collaborate on content that feels authentic rather than sponsored</p></li><li><p style=\"min-height:1.5em\">Work with our video team to produce technical product content that comes across with genuine depth</p></li><li><p style=\"min-height:1.5em\">Partner with support, sales, and product on developer-facing documentation ",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nLinear is becoming a much broader product than people realize. With agents, mobile workflows, and new modalities, there’s a growing gap between what Linear can do and what people think it can do. This role exists to close that gap.\n\nWe’re looking for someone who will live inside the product, discover what’s possible, and show the world. That means figuring out the most compelling use cases for Linear’s AI agent, demonstrating real workflows that teams can adopt, and getting those stories out through whatever format works best, whether that’s a tweet, a video, a blog post, or a live demo at a conference. The goal is to help people understand what they can actually do with Linear and make that feel concrete and exciting.\n\nThink of it as a product-obsessed marketer who is genuinely technical and knows how to communicate with depth.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within those regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you’ll do\n\n - Deeply understand Linear’s product, especially our AI agent and newer capabilities, and continuously discover productive, real-world use cases that teams would care about\n\n - Create content that demonstrates those use cases, whether that’s short-form social, blog posts, video walkthroughs, or live demos. Format follows the story, not the other way around\n\n - Build relationships with engineering and product-focused creators and collaborate on content that feels authentic rather than sponsored\n\n - Work with our video team to produce technical product content that comes across with genuine depth\n\n - Partner with support, sales, and product on developer-facing documentation and educational content\n\n - Stay plugged into the conversations happening on X, in newsletters, and at events, and make sure Linear has a voice in the ones that matter\n\nWhat we’re looking for\n\n - Someone technical. You get code, understand how software gets built, and can talk about it credibly\n\n - Deep product intuition. You’re the kind of person who picks up a tool and immediately starts exploring what’s possible. You think in workflows and use cases rather than features\n\n - Comfort",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "c0abc97e-b4d7-4ad7-bd13-bc40f4023227",
+   "title": "Product Marketing Manager",
+   "department": "Product",
+   "team": "Product Management",
+   "employmentType": "FullTime",
+   "location": "North America",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-06-30T20:17:43.790+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/c0abc97e-b4d7-4ad7-bd13-bc40f4023227",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/c0abc97e-b4d7-4ad7-bd13-bc40f4023227/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">We’re hiring a Product Marketing Manager to help shape how Linear’s products are brought to market and understood by customers. This role sits at the intersection of Product, Engineering, Design, CX, Sales, and Marketing, and is responsible for turning technically sophisticated product work into clear narratives, strong launches, and high-quality customer-facing experiences. You’ll go deep on the product, define positioning and messaging, and drive execution across the surfaces that matter most—from in-product copy and changelogs to enablement, documentation inputs, email, and launch communications. This is a hands-on role for someone who combines product judgment, excellent writing, and strong cross-functional leadership.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\"><em>Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America and the United Kingdom. You can work from anywhere within these regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.</em></p><p style=\"min-height:1.5em\"><strong>What you’ll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Develop positioning, messaging, and core narratives for feature releases, key launches, and strategic product narratives</p></li><li><p style=\"min-height:1.5em\">Partner closely with Product management, Engineering, and Design to refine how products are presented across in-product and external surfaces</p></li><li><p style=\"min-height:1.5em\">Create and coordinate launch deliverables such as changelogs, demos, enablement materials, email, social copy, and go-to-market communications</p></li><li><p style=\"min-height:1.5em\">Equip Sales, CX, and other customer-facing teams with the context and materials they need to communicate new launches effectively</p></li><li><p style=\"min-height:1.5em\">Bring customer insight, product understanding, and market context back into product and launch decisions</p></li></ul><p style=\"min-height:1.5em\"><strong>What we’re looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Exceptional writing and ed",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nWe’re hiring a Product Marketing Manager to help shape how Linear’s products are brought to market and understood by customers. This role sits at the intersection of Product, Engineering, Design, CX, Sales, and Marketing, and is responsible for turning technically sophisticated product work into clear narratives, strong launches, and high-quality customer-facing experiences. You’ll go deep on the product, define positioning and messaging, and drive execution across the surfaces that matter most—from in-product copy and changelogs to enablement, documentation inputs, email, and launch communications. This is a hands-on role for someone who combines product judgment, excellent writing, and strong cross-functional leadership.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America and the United Kingdom. You can work from anywhere within these regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you’ll do\n\n - Develop positioning, messaging, and core narratives for feature releases, key launches, and strategic product narratives\n\n - Partner closely with Product management, Engineering, and Design to refine how products are presented across in-product and external surfaces\n\n - Create and coordinate launch deliverables such as changelogs, demos, enablement materials, email, social copy, and go-to-market communications\n\n - Equip Sales, CX, and other customer-facing teams with the context and materials they need to communicate new launches effectively\n\n - Bring customer insight, product understanding, and market context back into product and launch decisions\n\nWhat we’re looking for\n\n - Exceptional writing and editorial judgment, with the ability to make complex ideas feel clear and compelling\n\n - Strong positioning and messaging skills grounded in customer problems, product truth, and differentiation\n\n - Great project management skills and ability to track large amounts of detail.\n\n - Comfort going deep on product details and building credibility with Product, Engineering, and Design\n\n - Strong judgment, ownership, and the ability to operate autonomously while maintaining a high quality bar\n\nWhat we offer\n\nWe're a small, focused team that cares de",
+   "compensation": {
+    "compensationTierSummary": "$145K – $192.5K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$145K - $192.5K",
+    "compensationTiers": [
+     {
+      "id": "c16d370d-6fad-457c-a042-a1a00237aad5",
+      "tierSummary": "$145K – $192.5K • Offers Equity",
+      "title": "US Remote",
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "7cd43ef3-1d91-4693-bac4-fc85db50beb6",
+        "summary": "$145K – $192.5K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 145000,
+        "maxValue": 192500
+       },
+       {
+        "id": "93e0959f-9682-46cb-882f-99e8831bdde7",
+        "summary": "Offers Equity",
+        "compensationType": "EquityCashValue",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 145000,
+      "maxValue": 192500
+     },
+     {
+      "compensationType": "EquityCashValue",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "1aa6f672-5917-49aa-b015-70ebff901923",
+   "title": "Deal Desk",
+   "department": "Operations",
+   "team": "Operations",
+   "employmentType": "FullTime",
+   "location": "North America",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-10T22:08:32.546+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/1aa6f672-5917-49aa-b015-70ebff901923",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/1aa6f672-5917-49aa-b015-70ebff901923/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">Linear is in a unique position—we are profitable, which gives us the flexibility to invest thoughtfully as we grow. We want to build a company that scales well—not just in our product, but in how we run our GTM programs. In this role, you’ll design and evolve the systems and process that power our deal desk process. This person will help build the mechanics behind our sales-led deals: quotes, order forms, pricing, discount approvals, and contract terms. A strong candidate has run quote-to-cash at a SaaS company and can spot where the process is slow, manual, or leaky.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\"><em>Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America (west coast). We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.</em></p><p style=\"min-height:1.5em\"><strong>What you'll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own the quote-to-order-form workflow: accurate quotes, correct terms, and a clean path from verbal yes to signed and billed</p></li><li><p style=\"min-height:1.5em\">Build and run the deal approval and discount matrix, so Account Executives know what they can self-serve and what needs sign-off</p></li><li><p style=\"min-height:1.5em\">Be the single point of contact for deal structuring questions that today land on Account Executives mid-deal</p></li><li><p style=\"min-height:1.5em\">Partner with Finance and Legal to keep the order-to-cash process clean, controlled, and free of revenue leakage</p></li><li><p style=\"min-height:1.5em\">Support usage-based and consumption deals as AI billing rolls out, from how they are quoted through the hand-off to billing</p></li><li><p style=\"min-height:1.5em\">Find and remove manual work: automate what can be automated, document what needs to be documented</p></li><li><p style=\"min-height:1.5em\">Help us get and stay audit ready by making sure deals are recorded correctly</p></li></ul><p style=\"min-height:1.5em\"><strong>What we're looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">3-5 years in deal desk, order m",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nLinear is in a unique position—we are profitable, which gives us the flexibility to invest thoughtfully as we grow. We want to build a company that scales well—not just in our product, but in how we run our GTM programs. In this role, you’ll design and evolve the systems and process that power our deal desk process. This person will help build the mechanics behind our sales-led deals: quotes, order forms, pricing, discount approvals, and contract terms. A strong candidate has run quote-to-cash at a SaaS company and can spot where the process is slow, manual, or leaky.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America (west coast). We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n - Own the quote-to-order-form workflow: accurate quotes, correct terms, and a clean path from verbal yes to signed and billed\n\n - Build and run the deal approval and discount matrix, so Account Executives know what they can self-serve and what needs sign-off\n\n - Be the single point of contact for deal structuring questions that today land on Account Executives mid-deal\n\n - Partner with Finance and Legal to keep the order-to-cash process clean, controlled, and free of revenue leakage\n\n - Support usage-based and consumption deals as AI billing rolls out, from how they are quoted through the hand-off to billing\n\n - Find and remove manual work: automate what can be automated, document what needs to be documented\n\n - Help us get and stay audit ready by making sure deals are recorded correctly\n\nWhat we're looking for\n\n - 3-5 years in deal desk, order management, revenue operations, or quote-to-cash, ideally at a high-growth SaaS company\n\n - Strong command of the full quote-to-cash cycle, from pricing and approvals through order form and billing hand-off\n\n - Comfortable building process from scratch: workflows, approval logic, controls, and documentation, without a playbook handed to you\n\n - Sound judgment on the tradeoff between deal speed and control, and on sensitive pricing and deal information\n\n - A clear communicator who can hold a deal conversation with an Account Executive, Finance, and a customer, and have each one walk away with what they need\n\n - P",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1",
+   "title": "Analytics Engineer",
+   "department": "Operations",
+   "team": "Operations",
+   "employmentType": "FullTime",
+   "location": "North America",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-11T00:36:47.459+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">The Data team works across Linear, supporting Product, Engineering, and GTM. We own our data pipelines, warehouse, dashboards, analysis, and integrations with third-party tools. As a small team, we focus on building systems that make data accessible and useful across Linear. We’re looking for someone who wants to help shape how we architect, build, and use data as we grow.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\">Linear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.</p><p style=\"min-height:1.5em\"><strong>What you’ll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Work across Product and GTM (Marketing, Sales, Customer Success, and Finance) to turn ambiguous questions and operational needs into useful metrics, models, analyses, and workflows</p></li><li><p style=\"min-height:1.5em\">Build and maintain dbt models and pipelines that create trusted views of our product, customers, and business</p></li><li><p style=\"min-height:1.5em\">Design clear, maintainable data models and improve the testing, documentation, performance, and reliability of our data stack</p></li><li><p style=\"min-height:1.5em\">Build dashboards and self-service reporting in Metabase and Hex, and dig deeper when the answer requires more than a chart</p></li><li><p style=\"min-height:1.5em\">Operationalize data through reverse ETL and partner with GTM Engineering on the scoring, segmentation, automations, and internal tools that help our teams scale</p></li><li><p style=\"min-height:1.5em\">Balance fast, pragmatic answers with durable solutions, recognizing when a one-off request should become a reusable model or workflow</p></li><li><p style=\"min-height:1.5em\">Find ways to leverage emerging tools, LLMs, and coding agents to accelerate development, analysis, testing, and documentation while maintaining a high bar for correctness</p></li></ul><p style=\"min-height:1.5em\"><strong>What we're looking for</strong></p><ul style=\"min-height:1.5em\"><li>",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nThe Data team works across Linear, supporting Product, Engineering, and GTM. We own our data pipelines, warehouse, dashboards, analysis, and integrations with third-party tools. As a small team, we focus on building systems that make data accessible and useful across Linear. We’re looking for someone who wants to help shape how we architect, build, and use data as we grow.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you’ll do\n\n - Work across Product and GTM (Marketing, Sales, Customer Success, and Finance) to turn ambiguous questions and operational needs into useful metrics, models, analyses, and workflows\n\n - Build and maintain dbt models and pipelines that create trusted views of our product, customers, and business\n\n - Design clear, maintainable data models and improve the testing, documentation, performance, and reliability of our data stack\n\n - Build dashboards and self-service reporting in Metabase and Hex, and dig deeper when the answer requires more than a chart\n\n - Operationalize data through reverse ETL and partner with GTM Engineering on the scoring, segmentation, automations, and internal tools that help our teams scale\n\n - Balance fast, pragmatic answers with durable solutions, recognizing when a one-off request should become a reusable model or workflow\n\n - Find ways to leverage emerging tools, LLMs, and coding agents to accelerate development, analysis, testing, and documentation while maintaining a high bar for correctness\n\nWhat we're looking for\n\n - 8+ years of experience in analytics engineering, data analytics, or data engineering, ideally at a fast-moving software company\n\n - Exceptional SQL and strong hands-on experience with dbt and a modern cloud data warehouse\n\n - Track record of owning data projects end-to-end, from shaping an ambiguous problem to shipping something people rely on\n\n - Strong data modeling judgment: you think clearly about grain, reusable components, interfaces, dependencies, and maintainability without relying on a single prescribed methodology\n\n - Analytical judgment: you know when to answer qu",
+   "compensation": {
+    "compensationTierSummary": "$180K – $220K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$180K - $220K",
+    "compensationTiers": [
+     {
+      "id": "e4d83776-3bd7-440d-b742-fa938c561b3a",
+      "tierSummary": "Base Salary $180K – $220K • Offers Equity",
+      "title": "US Remote",
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "4b5d1242-fe43-43b2-a608-2e967b76570f",
+        "summary": "Base Salary $180K – $220K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 180000,
+        "maxValue": 220000
+       },
+       {
+        "id": "287c872a-423e-4e93-99a4-fa0bc5993849",
+        "summary": "Offers Equity",
+        "compensationType": "EquityCashValue",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 180000,
+      "maxValue": 220000
+     },
+     {
+      "compensationType": "EquityCashValue",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "cb8e77a6-4316-45c6-ac8d-7ade980cd65e",
+   "title": "Account Executive, Growth ",
+   "department": "GTM",
+   "team": "Sales",
+   "employmentType": "FullTime",
+   "location": "Singapore",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2026-10-06T00:26:55.003+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "Singapore"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/linear/cb8e77a6-4316-45c6-ac8d-7ade980cd65e",
+   "applyUrl": "https://jobs.ashbyhq.com/linear/cb8e77a6-4316-45c6-ac8d-7ade980cd65e/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.</p><p style=\"min-height:1.5em\">Founded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.</p><p style=\"min-height:1.5em\">Over the past few years, Linear has experienced incredible organic growth and has become the default tool of choice for many of the world’s best product teams. We are now layering a product-led sales motion on top of our existing self-serve business to further accelerate our ambitions and bring the magic of Linear to even more and larger companies. As an Account Executive at Linear, you’ll contribute to the future of our product and help high-impact companies build better software.</p><p style=\"min-height:1.5em\"><strong>Location &amp; work mode</strong></p><p style=\"min-height:1.5em\"><em>While Linear is a remote-first company across the US and Europe, this role in APAC is office based 2–3 days per week, as this role will be closely connected to in-person collaboration with our growing sales presence in the region.</em></p><p style=\"min-height:1.5em\"><strong>What you'll do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Become a product expert and help customers use Linear effectively; assist prospects through the trial and evaluation phase</p></li><li><p style=\"min-height:1.5em\">Generate a strong pipeline and exceed quarterly and annual targets</p></li><li><p style=\"min-height:1.5em\">Build relationships with key stakeholders within accounts</p></li><li><p style=\"min-height:1.5em\">Stay up to date with our product offering, industry trends, competitive landscape, and market trends to continuously adapt sales strategies and approaches for maximum impact</p></li><li><p style=\"min-height:1.5em\">Be the voice of the customer; advocate for customers by surfacing product or adoption blockers to our product team</p></li></ul><p style=\"min-height:1.5em\"><strong>What we're looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years in a quota-carrying sales role</p></li><li><p style=\"min-height:1.5em\">Experience selling to a technical audience; bonus if you have previous experience working with a collaboration or developer tool</p></li><li><p style=\"min-height:1.5em\">SaaS and startup experience; comfortable working and adapting in a fast-paced and flexible environment</p></li><li><p style=\"min-height:1.5em\">Strong written and verbal communication, presentation, and product demonstration skills</p></li><li><p style=\"min-height:1.5em\">Highly autonomous w",
+   "descriptionPlain": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nOver the past few years, Linear has experienced incredible organic growth and has become the default tool of choice for many of the world’s best product teams. We are now layering a product-led sales motion on top of our existing self-serve business to further accelerate our ambitions and bring the magic of Linear to even more and larger companies. As an Account Executive at Linear, you’ll contribute to the future of our product and help high-impact companies build better software.\n\nLocation & work mode\n\nWhile Linear is a remote-first company across the US and Europe, this role in APAC is office based 2–3 days per week, as this role will be closely connected to in-person collaboration with our growing sales presence in the region.\n\nWhat you'll do\n\n - Become a product expert and help customers use Linear effectively; assist prospects through the trial and evaluation phase\n\n - Generate a strong pipeline and exceed quarterly and annual targets\n\n - Build relationships with key stakeholders within accounts\n\n - Stay up to date with our product offering, industry trends, competitive landscape, and market trends to continuously adapt sales strategies and approaches for maximum impact\n\n - Be the voice of the customer; advocate for customers by surfacing product or adoption blockers to our product team\n\nWhat we're looking for\n\n - 5+ years in a quota-carrying sales role\n\n - Experience selling to a technical audience; bonus if you have previous experience working with a collaboration or developer tool\n\n - SaaS and startup experience; comfortable working and adapting in a fast-paced and flexible environment\n\n - Strong written and verbal communication, presentation, and product demonstration skills\n\n - Highly autonomous with a bias for action. Owner’s mindset to quickly come up to speed on product, market, ICP, and unique differentiators\n\nWhat we offer\n\nWe're a small, focused team that cares deeply about the quality of our work and the people we do it with. Here's what you can expect:\n\n - Competitive salary and equity\n\n - Employee-friendly equity terms\n\n - Daily meal and coffee stipend on every workday\n\n - Health coverage (based on country requirements)\n\n - 5 weeks paid vacation, plus local statutory holidays\n\n - 4 months paid parental leave\n\n - Paid month off after 4 years & every 2 years thereafter\n\n - Regular team events and off-sites\n\nLearn how we think and work\n\n - A story about our mission: R",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  }
+ ],
+ "apiVersion": "1"
+}

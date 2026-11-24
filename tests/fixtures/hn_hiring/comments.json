@@ -1,0 +1,325 @@
+{
+ "exhaustive": {
+  "nbHits": true,
+  "typo": true
+ },
+ "exhaustiveNbHits": true,
+ "exhaustiveTypo": true,
+ "hits": [
+  {
+   "_tags": [
+    "comment",
+    "author_chrisworsey55",
+    "story_50338728"
+   ],
+   "author": "chrisworsey55",
+   "comment_text": "Machine Age | COO — founder-level role | Full-time | UK time zone | Salary post-raise<p>Machine Age is building a network of businesses and robotics providers to supply real-world data for robot training.<p>We’re seeing strong interest, with multimillion-dollar opportunities in the pipeline. We’re looking for a COO to work alongside the founder and help turn that interest into delivery.<p>You’ll grow our network of businesses, bring new robotics providers on board, and build the operations needed to scale both sides. This is a hands-on role for someone who wants to roll up their sleeves, build relationships and get things done.<p>You’ll need to work UK hours. This is a full-time opportunity, with salary starting after we complete our raise. An interest in robotics is a bonus.<p>Email contact2@example.com with things you’ve done and how you’d approach building a network of businesses and robot suppliers.<p><a href=\"https:&#x2F;&#x2F;machineage.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;machineage.ai</a>",
+   "created_at": "2026-11-06T15:08:07Z",
+   "created_at_i": 1793977687,
+   "objectID": "50393239",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T15:12:58Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_verobytes",
+    "story_50338728"
+   ],
+   "author": "verobytes",
+   "comment_text": "NetBird | Berlin, Germany (or remote, CET overlap) | Full-time<p><a href=\"https:&#x2F;&#x2F;netbird.io&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;netbird.io&#x2F;careers</a> NetBird is open source networking and access control WireGuard-based overlay networks with zero-config peer-to-peer connectivity. Now working with new use cases in access for AI agents. Open source, built in Europe, used by thousands of teams worldwide. We&#x27;re a small and growing team going up against (and working with) the incumbents in network security. Post Series A with 10xd revenue since the raise.<p>- Senior&#x2F;Staff Backend Engineer (Go!!) : the control plane: peer coordination, policy and access control, multi-tenancy, and keeping it all fast as customer networks grow into the hundreds of thousands of peers.<p>- Networking&#x2F;Client Software Engineer (Go!!) — Software Engineering on the NetBird client side: WireGuard, NAT traversal and hole punching, relays, DNS, and shipping one client across Linux, macOS, Windows. If you enjoy debugging why one connection out of a thousand won&#x27;t go peer-to-peer, this is the role.<p>- Technical Product Owner: Turn feedback into a clear roadmap, and work closely with the team to ship it. You should be comfortable with networking concepts and enjoy talking to users as much as reading a spec.<p>- Technical Support Engineer: Help customers set up and debug NetBird in real environments (WireGuard, Linux, cloud, Kubernetes) and pass what you learn back to engineering. (REMOTE - US&#x2F;EST hours)<p>We have an office in Berlin and mostly work CET. We&#x27;d love to have you in the office with us, but if your experience is stellar we&#x27;re happy to hire remote. We&#x27;re scaling quickly, so this is a chance to join early and scale with us.<p>Apply at <a href=\"https:&#x2F;&#x2F;netbird.io&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;netbird.io&#x2F;careers</a>, please mention you found us on Hacker News in your application.",
+   "created_at": "2026-11-06T14:02:12Z",
+   "created_at_i": 1793973732,
+   "objectID": "50392398",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T14:07:57Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_grimre4p",
+    "story_50338728"
+   ],
+   "author": "grimre4p",
+   "children": [
+    50389640
+   ],
+   "comment_text": "iCallidus | Azure Intune Engineer | Denver, US | Remote | $130,000 - 160,000 | Full-Time<p>Tech used: AI, Azure, Firmware, Support, Microsoft Intune, Security, VPN, Incident Management<p>We are iCallidus, Inc., a small-business federal IT contractor hiring an Azure Intune Engineer for an agency IT support team. The position is fully remote within the United States, using a secure Government VPN and Government-furnished equipment.<p>More details and option to apply: <a href=\"https:&#x2F;&#x2F;devitjobs.com&#x2F;jobs&#x2F;iCallidus-Azure-Intune-Engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;devitjobs.com&#x2F;jobs&#x2F;iCallidus-Azure-Intune-Engineer</a>",
+   "created_at": "2026-11-06T07:45:00Z",
+   "created_at_i": 1793951100,
+   "objectID": "50389352",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T08:29:55Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_zefr-sre",
+    "story_50338728"
+   ],
+   "author": "zefr-sre",
+   "children": [
+    50388395
+   ],
+   "comment_text": "Zefr | Los Angeles, CA (Marina del Rey) | Site Reliability Engineer | Full-time | On-site 2-3x per week | $100,000 - $130,000 | <a href=\"https:&#x2F;&#x2F;zefr.com\" rel=\"nofollow\">https:&#x2F;&#x2F;zefr.com</a><p><i>Company</i><p>Zefr is the leading global technology company enabling responsible marketing in walled garden social environments. Zefr’s solutions empower brands to manage their content adjacency on scaled platforms such as YouTube, Meta, TikTok, and Snap. Through its patented AI technology, Zefr offers brands and agencies more accurate and transparent solutions for social walled gardens.<p><i>Role</i><p>Site Reliability Engineer (1 - 3 years experience)<p><i>You</i><p>As a Site Reliability Engineer at Zefr, you’ll apply your expertise in cloud infrastructure, CI&#x2F;CD, Observability, and core SRE concepts, to deliver high-quality, reliable, and scalable solutions.<p>We’re looking for someone to combine their technical expertise with a passion for continuous improvement and innovation.<p>Zefr wants a candidate that champions reliability as a product feature, and can translate complex technical concepts into strategy. This is a role where you&#x27;ll help shape how we build and operate systems at scale.<p><i>Tech Stack</i><p>Clouds - GCP, AWS<p>Kubernetes - GKE, EKS<p>GitOps - ArgoCD, Github Actions<p>Languages - Python&#x2F;React&#x2F;Node.js<p>Observability - Prometheus, Grafana, Open Telemetry, Chronosphere",
+   "created_at": "2026-11-06T01:07:33Z",
+   "created_at_i": 1793927253,
+   "objectID": "50386884",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T04:56:10Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_odette_leadersh",
+    "story_50338728"
+   ],
+   "author": "odette_leadersh",
+   "comment_text": "Odette Technologies | Senior Integration Engineer, Data&#x2F;ML Engineer, Product Lead | HYBRID (NC) &#x2F; REMOTE | Full-time | US citizens, clearable, East Coast-based | <a href=\"https:&#x2F;&#x2F;odettetechnologies.com\" rel=\"nofollow\">https:&#x2F;&#x2F;odettetechnologies.com</a><p>We&#x27;re building an AI-powered situational awareness platform for intelligence and information operations teams, helping analysts and decision-makers make sense of overwhelming open and closed source data. Small, operator-founded team.<p>All three are first hires in their function. You&#x27;ll work on hard problems: entity resolution across messy multilingual text, taking prototypes to production, and building product for defense and intel users. Python and LLM experience preferred for the engineering roles.<p>Apply: careers@example.com with &quot;HN&quot; and the role in the subject line. Full descriptions on our site.",
+   "created_at": "2026-11-05T21:57:35Z",
+   "created_at_i": 1793915855,
+   "objectID": "50385049",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T21:59:57Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_kyrxanthos",
+    "story_50338728"
+   ],
+   "author": "kyrxanthos",
+   "comment_text": "Piramidal (YC W24) | Senior Backend Engineer | New York, NY | $200K-$300K + equity | www.piramidal.ai<p>We’ve built the first-of-its-kind foundation model for brainwave data. Our goal is Intelligence Amplification (IA) by means of creating neural decoders that enable interactions with the language of neurons. Powered by our SOTA foundation model, our first product detects in real time abnormalities in the brains of ICU patients.<p>We are looking for a backend engineer to help build and scale the infrastructure behind our real time neural monitoring platform. You&#x27;ll work on hard problems: high throughput streaming, real-time analytics, and hospital grade reliability.<p>Apply directly here: <a href=\"https:&#x2F;&#x2F;grnh.se&#x2F;uwaqx1xc9us\" rel=\"nofollow\">https:&#x2F;&#x2F;grnh.se&#x2F;uwaqx1xc9us</a>",
+   "created_at": "2026-11-05T21:34:32Z",
+   "created_at_i": 1793914472,
+   "objectID": "50384764",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T21:38:55Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_sortrace",
+    "story_50338728"
+   ],
+   "author": "sortrace",
+   "children": [
+    50393343,
+    50384519
+   ],
+   "comment_text": "Sortrace | Computer Vision Engineer, Junior Frontend Engineer | REMOTE (Europe), hybrid Norrköping or Stockholm | Full-time | <a href=\"https:&#x2F;&#x2F;sortrace.com\" rel=\"nofollow\">https:&#x2F;&#x2F;sortrace.com</a><p>Sortrace is a small cleantech AI company in Sweden. Cameras on waste collection trucks and trained vision models flag material in the wrong fraction when bins are emptied. Customers use our platform to review deviations, images, and insights.<p>We&#x27;re hiring for two roles on a small team with short decision paths.<p>Computer Vision Engineer\n- Train, evaluate, and improve deep learning models for real-world image analysis on our existing platform (datasets, augmentation, architecture experiments, precision&#x2F;robustness&#x2F;performance).\n- Python; PyTorch or TensorFlow. ~3+ years hands-on CV&#x2F;model work, or equivalent documented experience (professional, OSS, or serious personal projects). We care about what you&#x27;ve built, not only job titles.\n- Plus: edge inference, quantization, real-time video.<p>Junior Frontend Engineer\n- Build and improve the customer-facing web platform: TypeScript, React, Tailwind, Radix&#x2F;shadcn-style components, Git.\n- Early career is fine—show something you&#x27;ve built (side project, school, first job) and how you made it.\n- We use coding agents (Cursor, Claude, etc.) heavily in day-to-day work; you should be comfortable adopting that workflow.<p>Compensation: monthly salary by agreement; equity&#x2F;options possible.<p>Apply: jobs@example.com or <a href=\"https:&#x2F;&#x2F;sortrace.com&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;sortrace.com&#x2F;careers</a>, subject line with the role name. CV role: short note on CV experience + links to projects&#x2F;GitHub. Frontend role: what you built, how, and a link or demo if you have one. Questions welcome; we reply to applicants.",
+   "created_at": "2026-11-05T20:25:23Z",
+   "created_at_i": 1793910323,
+   "objectID": "50384008",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T15:16:46Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_niuro",
+    "story_50338728"
+   ],
+   "author": "niuro",
+   "comment_text": "Nirvana Robotics | Mechanical Engineer, Electrical Engineer, Robotic Controls Engineer | New York, NY | ONSITE | Full-time | $220K-$300K<p>Nirvana Robotics builds humanoid robots with robotic arms that work in industrial environments. Their hardware team in NYC is growing, and each of these roles owns a subsystem end to end on physical robots. I&#x27;m a recruiter at Niuro, Nirvana&#x27;s hiring partner for these roles; the links below go to our application form and I read every application myself.<p>Mechanical Engineer ($230K-$260K): mechanical design of robotic arms and manipulators: joints, actuators, transmissions, end effectors. You optimize for torque density, backdrivability and stiffness, prototype with additive and precision machining, and take assemblies to production. GD&amp;T, tolerance stack-ups, SolidWorks (or Creo&#x2F;NX&#x2F;Onshape).\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8VJc8s6Wt_yVsmnoS1d4y2CMGR1k&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=mechanical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8...</a><p>Electrical Engineer ($220K-$250K): electrical architecture for arms and humanoids: power distribution, motor-driver boards, sensor PCBs, harnessing. Multilayer mixed-signal and high-current layout in Altium, BLDC drivers and current sensing, bench bring-up and DFM with PCBA partners. EtherCAT, CAN or BMS is a plus.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmTh3F-l_F_F5JJz9i3GVeRX74xl_o&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=electrical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmT...</a><p>Robotic Controls Engineer ($270K-$300K): low-level control for multi-DOF arms: joint-level actuation, impedance&#x2F;admittance and whole-body control, sim-to-real. PID&#x2F;LQR&#x2F;state-space, MoveIt or cuRobo, C++ and Python, ROS 2.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4cWjzv8KdhNxYQ0txP6u6FT47lYU&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=nirvana-robotic-controls-engineer&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4...</a><p>For all three: hands-on work on real robot hardware (arms, grippers, mobile manipulators, actuated joints or humanoids). Mechanical and Electrical: 5+ years with a bachelor&#x27;s or 3+ with a master&#x27;s. Controls: roughly BS + 4 years, MS + 2 or a PhD. US-based; relocation to NYC within the US is supported. Visa sponsorship is not available.",
+   "created_at": "2026-11-05T20:23:44Z",
+   "created_at_i": 1793910224,
+   "objectID": "50383984",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T20:25:26Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_wipaveeknecht",
+    "story_50338728"
+   ],
+   "author": "wipaveeknecht",
+   "comment_text": "ChainSecurity | Blockchain Security Engineer | Full-time | INTERNS , HYBRID&#x2F;REMOTE, Zurich, Switzerland | VISA possible (for an employment) | <a href=\"https:&#x2F;&#x2F;chainsecurity.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chainsecurity.com&#x2F;</a><p>ChainSecurity is a young and innovative cybersecurity company that operates in the blockchain and cryptocurrency space. Our mission is to make the blockchain space secure and trustworthy for people, companies, and governments alike. We are proud of our security experts from the renowned universities ETH Zurich, EPFL Lausanne and others.<p>We are trusted by 100+ blockchain companies and established corporations with security audits and services. We have secured complex systems for top blockchain clients, such as decentralized finance (DeFi) projects, and multinational organizations, such as banks and industrial consortia. A ChainSecurity Auditor will review the most complex blockchain projects to find vulnerabilities which no-one else can. By using state of the art tools, expert knowledge and a deep understanding of the fundamentals, we secure projects handling billions, often forming the foundation in the new paradigm of an open financial system.<p>Your Responsibilities:<p>* Work directly with the developers of the most successful teams in the blockchain industry to audit their code and secure their products<p>* Contribute to our security tools and create new ones in collaboration with our internal research team<p>* Conduct security research and publish your findings<p>Requirements:<p>* Strong background in software engineering, focused on security relevant areas and most importantly being able to reason about complex code<p>* Experience with penetration testing, vulnerability scanning, threat modeling or similar is a plus<p>* Good knowledge of cryptography<p>* Proficiency with Linux and Git<p>* Good written communication skills<p>* Fluent in OOP programming language<p>Bonus Points:<p>* Formal Verification, White Box, Vulnerability Scanning<p>* Solid Blockchain Knowledge<p>* Consensus Algorithms<p>Join us here: <a href=\"https:&#x2F;&#x2F;www.chainsecurity.com&#x2F;jobs&#x2F;blockchain-security-engineer&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.chainsecurity.com&#x2F;jobs&#x2F;blockchain-security-engin...</a><p>Questions about the role? Contact: jobs@example.com",
+   "created_at": "2026-11-05T15:35:47Z",
+   "created_at_i": 1793892947,
+   "objectID": "50380439",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T15:37:55Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_katie_zhy",
+    "story_50338728"
+   ],
+   "author": "katie_zhy",
+   "comment_text": "VictoriaMetrics | Remote | EMEA, North America | Hiring\nVictoriaMetrics is an open-source monitoring and observability company. We build VictoriaMetrics, VictoriaLogs, and VictoriaTraces — high-performance, cost-efficient solutions for metrics, logs, and traces.<p>Our products are used by companies including Spotify, Wix, Grammarly, CERN, and thousands of others, with 1B+ downloads of our open-source products.<p>We&#x27;re a fully remote team of 60+ and are currently hiring:<p>Senior Solution Engineer — North America &amp; EMEA, \nMarketing Manager — North America, \nProduct Marketing Manager (Cloud) — UK, \nEnterprise Account Executive - North America &amp; EMEA, \nTechnical Expert Engineer - North America.<p>We&#x27;re particularly interested in people with experience in open source, observability, monitoring, infrastructure, databases, developer tools, or technical B2B products.<p>Jobs &amp; applications: <a href=\"https:&#x2F;&#x2F;careers.victoriametrics.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;careers.victoriametrics.com&#x2F;</a><p>Happy to answer questions about VictoriaMetrics or the roles here.",
+   "created_at": "2026-11-05T15:19:48Z",
+   "created_at_i": 1793891988,
+   "objectID": "50380208",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T15:24:53Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_coirubber",
+    "story_50338728"
+   ],
+   "author": "coirubber",
+   "comment_text": "COi Rubber Products | Independent Sales Representative | REMOTE (US) | Commission (1099)<p>COi Rubber Products, Inc. is a U.S.-based manufacturer and supplier of custom rubber and plastic components, founded in 2013. We serve industrial OEMs across automotive, aerospace, medical, food equipment, agriculture, and energy, with ISO-certified factory partners and full in-house QA. We&#x27;re growing our independent sales team, the Purple Team.<p>The role: independent B2B sales representative selling custom rubber and plastic parts to manufacturers in your territory. You build relationships with engineers, buyers, and operations teams, quote custom components, and manage accounts from first contact through production. This is a 1099 independent contractor position, commission-based.<p>What we provide: free short guides on selling, business, and the rubber industry through our Purple Team library (coirubber.com&#x2F;reps&#x2F;purple-team-library), sales training and quoting support from our Pomona, CA office, and engineering backup for technical questions.<p>Prior rubber industry experience is helpful but not required. Successful representatives are self-motivated, relationship-oriented, and comfortable with long B2B sales cycles.<p>If interested, contact Napoleon Castillo at contact3@example.com, or see coirubber.com&#x2F;reps&#x2F; for details.",
+   "created_at": "2026-11-05T09:37:25Z",
+   "created_at_i": 1793871445,
+   "objectID": "50377145",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T10:35:35Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_doomvwr",
+    "story_50338728"
+   ],
+   "author": "doomvwr",
+   "comment_text": "N26 SE | Data Platform EMs | Berlin, Barcelona | HYBRID | <a href=\"https:&#x2F;&#x2F;www.n26.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.n26.com</a> | Full-time(relocation support)<p>N26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.<p>We&#x27;ve eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do.<p>We are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.<p>Full job descriptions here: <a href=\"https:&#x2F;&#x2F;n26.com&#x2F;en-eu&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;n26.com&#x2F;en-eu&#x2F;careers</a>, you can email me with questions&#x2F;resumes contact1@example.com",
+   "created_at": "2026-11-05T09:20:08Z",
+   "created_at_i": 1793870408,
+   "objectID": "50377000",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T10:51:11Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_wojciech12",
+    "story_50338728"
+   ],
+   "author": "wojciech12",
+   "comment_text": "ICEYE | Platform Software Engineers (Senior&#x2F;Staff) | Espoo, Finland &#x2F; Berlin, Germany | HYBRID | Full-time (relocation support)<p>ICEYE builds and operates the world&#x27;s largest SAR satellite constellation. I lead Platform: three teams (Core Platform, Developer Enablement, SRE) that run the foundation engineering teams ship on.<p>Why it is hard: we run Kubernetes in public cloud, in our own data centers, and inside customer sites that are air-gapped. Same platform, same tooling, no internet. Satellite tasking and image delivery run on it, so downtime is not an option. Stack: Go, Python, K8s, Terraform&#x2F;OpenTofu, Istio, Vault, LGTM, OpenTelemetry.<p>We are hiring in Espoo and our Berlin office:<p>- Staff&#x2F;Senior Platform and DevOps Engineer: own the Kubernetes platform across cloud and on-prem, build &amp; extend tooling in Go, set technical direction. <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;cf6ba0e9-a750-4ee7-9b0a-8cb519cb7c39\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;cf6ba0e9-a750-4ee7-9b0a-8cb51...</a><p>- Senior&#x2F;Staff Platform Observability Engineer: define the direction for our observability for all engineering teams, build tooling around it. <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;19a2709c-1e6d-4c8d-958a-2f07f017f372\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;19a2709c-1e6d-4c8d-958a-2f07f...</a><p>- Senior Software Engineer (Developer Enablement&#x2F;Experience): build the developer tooling for engineering teams. Python&#x2F;Go, K8s, IaC, partner directly with developers. <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;1ffce4d4-4088-4336-9007-622dc10399fb\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;iceye&#x2F;1ffce4d4-4088-4336-9007-622dc...</a><p>What we look for in all of these positions: product-mindset, all these positions have impact across ICEYE, pragmatism and empathy for the developers you serve.",
+   "created_at": "2026-11-05T07:35:44Z",
+   "created_at_i": 1793864144,
+   "objectID": "50376253",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T07:38:50Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_meetalbert",
+    "story_50338728"
+   ],
+   "author": "meetalbert",
+   "children": [
+    50389987,
+    50377440
+   ],
+   "comment_text": "ALBERT | REMOTE, ALMOST ANYWHERE | New grads who’ve shipped AI features (max 2 years out of school) + Principal&#x2F;Distinguished engineers for net-new consumer products | senior track up to ~$750k cash plus meaningful equity<p>Consumer fintech, 20M+ users, profitable 4+ years, 3.6-year average tenure. People stay because the work is good and the people are sharp.<p>We hire like a barbell: exceptional builders at the top, exceptional builders at the start, nothing in the middle.<p>NEW GRADS (0 to 2 years out): We don’t care about your school or GPA. We care that you’ve already shipped something with an LLM in it that real people used, and you can show us the link. You haven’t learned to hedge or wait for a ticket yet. Come here before a big company sands that off you. You’ll ship to 20M users in your first weeks, working directly with the principal engineers below.<p>PRINCIPAL&#x2F;DISTINGUISHED: Building net-new consumer products from zero. Top fraction of a percentile in craft. Builds for fun and ships prototypes on weekends. Owns 0 to 1 end-to-end. Founding engineer experience is a strong signal. Allergic to politics and bureaucracy.<p>Both tracks: comp that beats the market (base, year-end bonus, meaningful 401(k) match, meaningful equity in a profitable unicorn), platinum PPO for your whole family, small senior-heavy teams with no layers, full transparency on business metrics, catered lunches, wellness stipend, offsites.<p>Stack: python, claude, postgres, react.js &#x2F; react native<p>Email recruiting@example.com with your track and a link to something you built. We read every application and reply within a few business days if there’s a fit.",
+   "created_at": "2026-11-05T01:06:23Z",
+   "created_at_i": 1793840783,
+   "objectID": "50373706",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T09:13:41Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_furtimmodus",
+    "story_50338728"
+   ],
+   "author": "furtimmodus",
+   "comment_text": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $150K-$300K + equity | <a href=\"https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer</a><p>We are currently seeking a talented and driven Java Developer to join our team full-time. This is an exciting opportunity to contribute your skills and expertise to a venture backed funded fintech trading firm with emphasis in US equities capital markets tech based out of the New York City and in exchange we’ll provide you with base comp $150k-$300k, full benefits, cash bonus, and equity.<p>Required Qualifications:<p>- Experience developing server-side software for electronic trading systems for US Equities<p>- Strong low-latency programming experience using Core Java 17 or later<p>Highly Preferred:<p>- Experience with open-source technologies such as Aeron Transport, Aeron Cluster, Aeron Archive, Artio, and Agrona<p>- Experience with the Adaptive Hydra trading platform<p>Benefits:<p>- Flexible hybrid schedule to accommodate other commitments<p>- Collaborative and supportive team environment<p>- Relocation assistance to NYC Metro area<p>If you are passionate about Java development and interested in joining a fintech venture, we would love to hear from you. If you meet the minimum requirements, please submit your resume if interested to agency@example.com in this opportunity. All other inquiries will be auto marked as spam.",
+   "created_at": "2026-11-04T23:38:59Z",
+   "created_at_i": 1793835539,
+   "objectID": "50372966",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T02:22:49Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_zefr-sre",
+    "story_50338728"
+   ],
+   "author": "zefr-sre",
+   "comment_text": "The recruiting team is pretty on top of things, so if it&#x27;s still up on the site, the role is open. Please apply!",
+   "created_at": "2026-11-06T17:27:04Z",
+   "created_at_i": 1793986024,
+   "objectID": "50395395",
+   "parent_id": 50388395,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T17:28:15Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_TubiOb",
+    "story_50338728"
+   ],
+   "author": "TubiOb",
+   "comment_text": "I just applied for the Junior Frontend Engineer role on the company&#x27;s career page. I look forward to hearing from you soon.\nHere&#x27;s my portfolio; you can learn more about me and projects I&#x27;ve worked on: <a href=\"https:&#x2F;&#x2F;tubiob.netlify.app\" rel=\"nofollow\">https:&#x2F;&#x2F;tubiob.netlify.app</a>",
+   "created_at": "2026-11-06T15:16:13Z",
+   "created_at_i": 1793978173,
+   "objectID": "50393343",
+   "parent_id": 50384008,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-06T15:18:14Z"
+  }
+ ],
+ "hitsPerPage": 1000,
+ "nbHits": 286,
+ "nbPages": 1,
+ "page": 0,
+ "params": "tags=comment%2Cstory_50338728&hitsPerPage=1000&page=0&advancedSyntax=true&analyticsTags=backend",
+ "processingTimeMS": 2,
+ "processingTimingsMS": {
+  "_request": {
+   "queue": 25,
+   "roundTrip": 20
+  },
+  "afterFetch": {
+   "format": {
+    "highlighting": 15,
+    "total": 18
+   },
+   "merge": {
+    "mergeLoop": {
+     "prepareNextHit": 1,
+     "total": 1
+    },
+    "total": 1
+   },
+   "total": 1
+  },
+  "total": 2
+ },
+ "query": "",
+ "serverTimeMS": 46
+}

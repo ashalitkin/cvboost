@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% from "macros.html" import ext, fit_badge, decide, csrf, why_block, override_form, override_mark, withdraw_form, restore_form, check_badge %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<p><a href="/inbox">← Inbox</a></p>
+<h1>{{ title }}</h1>
+<p class="company">{{ company }}</p>
+<section class="card">
+  <h2>Why</h2>
+  {{ why_block(why, cid, true) }}
+  {% if why.empty %}<p class="muted">Nothing to explain yet: the job has not been scored.</p>{% endif %}
+</section>
+
+{% if closed %}
+<section class="card"><p>The job is closed by the source (expired or outdated). The description and links are hidden.</p></section>
+{% else %}
+<section class="card">
+  <div class="meta">
+    {% if llm %}{{ fit_badge(llm.fit) }}{% endif %}
+    {% if llm and "check_on_platform" in llm.red_flags %}{{ check_badge(sightings|map(attribute=0)|map(attribute="source")|list) }}{% endif %}
+    {% if rate_text %}<span>{{ rate_text }}</span>{% endif %}
+    {% if rep["location_text"] %}<span>{{ rep["location_text"] }}</span>{% endif %}
+    {% if rep["employment_type"] %}<span class="chip">{{ rep["employment_type"] }}</span>{% endif %}
+    {% for t in tags %}<span class="chip">{{ t }}</span>{% endfor %}
+    <span class="muted">{{ rep["posted_at"]|dt }}</span>
+  </div>
+  <p class="apply">{{ ext(apply_url, "Apply →") }}</p>
+  {% if decision == "interested" %}<p class="star">★ Interested</p>{% elif decision == "rejected" %}<p class="muted">Rejected{% if decision_note %}: {{ decision_note }}{% endif %}</p>{% elif decision == "cv_requested" %}<p class="muted">CV requested</p>{% endif %}
+  {% if override_note %}{{ override_mark(cid, csrf_token, override_note, "job", false, override_top) }}
+  {% elif llm and not llm.eligible and not decision %}
+  <div class="override-box"><p class="muted">Haiku screened this job out. If you disagree, return it to the Inbox and explain why: the AI will take it into account.</p>
+  {{ override_form(cid, csrf_token, "job") }}</div>
+  {% endif %}
+  {{ decide(cid, csrf_token, reasons, "job", false, decision) }}
+</section>
+
+<section class="card">
+  <h2>Sources</h2>
+  <ul class="plain">
+  {% for s, first, last in sightings %}
+    <li>{{ ext(s.url, s.attribution) }} <span class="muted">· first seen {{ first|dt }}, last seen {{ last|dt }}</span></li>
+  {% endfor %}
+  </ul>
+  {% if hidden_sources %}<p class="muted">Hidden sources (closed): {{ hidden_sources }}</p>{% endif %}
+</section>
+
+<section class="card">
+  <h2>LLM verdict</h2>
+  {% if llm %}
+  <dl>
+    <dt>Eligible</dt><dd>{{ "yes" if llm.eligible else "no" }} — {{ llm.eligibility_reason }}</dd>
+    <dt>Fit</dt><dd>{{ llm.fit }} · profile {{ llm.profile }}</dd>
+    <dt>Seniority</dt><dd>{{ llm.seniority }} · {{ llm.employment }}</dd>
+    <dt>Rate</dt><dd>{{ llm.rate_text or "—" }}</dd>
+    <dt>Red flags</dt><dd>{% for f in llm.red_flags %}{% if f == "check_on_platform" %}{{ check_badge(sightings|map(attribute=0)|map(attribute="source")|list) }}{% else %}<span class="chip warn">{{ f }}</span>{% endif %}{% else %}—{% endfor %}</dd>
+    <dt>Summary</dt><dd>{{ llm.summary_ru }}</dd>
+  </dl>
+  {% else %}<p class="muted">The LLM has not scored this job yet.</p>{% endif %}
+</section>
+
+<section class="card">
+  <h2>Rules</h2>
+  <dl>
+    <dt>Relevance</dt><dd>{{ rule_relevance if rule_relevance is not none else "—" }} · profile {{ rule_profile or "—" }}</dd>
+    <dt>Flags</dt><dd>{% for f in rule_flags %}<span class="chip warn">{{ f }}</span>{% else %}—{% endfor %}</dd>
+    <dt>Reasons</dt><dd>{% for r in rule_reasons %}<span class="chip">{{ r }}</span>{% else %}—{% endfor %}</dd>
+  </dl>
+</section>
+{% endif %}
+
+<section class="card">
+  <h2>Application</h2>
+  <p>Status: <strong>{{ app_labels.get(app_status, app_status) if app_status else "not started" }}</strong>
+  {% if cv %}· CV: {{ cv_label }}{% if cv["error"] %} — {{ cv["error"] }}{% endif %}{% endif %}</p>
+  {% if app_status == "withdrawn" %}
+  <p><strong>Reason:</strong> {{ withdraw_note or "—" }}</p>
+  {{ restore_form(cid, csrf_token, "job") }}
+  {% else %}
+  <form method="post" action="/jobs/{{ cid }}/status" class="inline stack">
+    {{ csrf(csrf_token) }}<input type="hidden" name="next" value="job">
+    <select name="status" aria-label="Status">
+      <option value=""{% if not manual_status %} selected{% endif %}>— auto —</option>
+      {% for s in statuses %}<option value="{{ s }}"{% if manual_status == s %} selected{% endif %}>{{ app_labels[s] }}</option>{% endfor %}
+    </select>
+    <textarea name="note" maxlength="2000" rows="2" placeholder="Note" aria-label="Note">{{ app["note"] if app and app["note"] else "" }}</textarea>
+    <button type="submit" class="btn">Save</button>
+  </form>
+  {% if app_status %}{{ withdraw_form(cid, csrf_token, reasons, "job") }}{% endif %}
+  {% endif %}
+  {% if events %}<ul class="plain muted">{% for e in events %}<li>{{ e["at"]|dt }} — {{ app_labels.get(e["status"], e["status"]) }}{% if e["note"] %}: {{ e["note"] }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+</section>
+
+{% if not closed %}
+<section class="card" id="extra">
+  <h2>Extra job description</h2>
+  <p class="muted">If the board gave little text, paste the description from the original posting here. It is external text: it goes into scoring and the resume as data, not as instructions.</p>
+  {% if cv and cv["status"] == "in_progress" %}<p class="notice">The resume is being prepared right now: the new text will not change it, rebuild it when it finishes.</p>{% endif %}
+  <form method="post" action="/jobs/{{ cid }}/extra" class="stack">
+    {{ csrf(csrf_token) }}
+    <textarea name="extra" rows="10" maxlength="{{ extra_max }}" aria-label="Extra job description" spellcheck="false">{{ extra["body"] if extra else "" }}</textarea>
+    <button type="submit" class="btn primary">Save description</button>
+  </form>
+  {% if extra %}
+  <div class="row">
+    <form method="post" action="/jobs/{{ cid }}/extra/rescore" class="inline">
+      {{ csrf(csrf_token) }}
+      <button type="submit" class="btn" {% if rescore_queued %}disabled{% endif %}>Re-score with the new description</button>
+    </form>
+    {% if cv and cv["status"] in ("done", "needs_review") %}
+    <form method="post" action="/jobs/{{ cid }}/extra/rebuild" class="inline">
+      {{ csrf(csrf_token) }}
+      <button type="submit" class="btn">Rebuild the resume with the new description</button>
+    </form>
+    {% endif %}
+  </div>
+  {% if rescore_queued %}<p class="muted">Re-score is queued (Haiku), up to 10 minutes.</p>{% endif %}
+  {% endif %}
+</section>
+{% endif %}
+
+{% include "partials/kit.html" %}
+
+{% if not closed %}
+<section class="card">
+  <h2>Description</h2>
+  {% if rep["description_html"] %}
+  <div class="desc">{{ rep["description_html"]|sanitize_html }}</div>
+  {% else %}
+  <div class="pre">{{ rep["description_text"] }}</div>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}

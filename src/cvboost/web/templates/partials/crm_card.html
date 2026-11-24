@@ -1,0 +1,21 @@
+{% from "macros.html" import csrf %}
+<article class="card crm-card{% if c.unread %} unread{% endif %}">
+  <h3 class="crm-name">{% if c.unread %}<span class="dot" title="Unread"></span> {% endif %}<a href="/crm/{{ c.id }}">{{ c.name }}</a></h3>
+  {% if c.headline %}<p class="muted">{{ c.headline }}</p>{% elif c.company %}<p class="muted">{{ c.company }}</p>{% endif %}
+  {% set e = last.get(c.id) %}
+  {% if e %}<p class="crm-snip">{{ event_labels[e.kind] }}{% if e.snippet %}: {{ e.snippet }}{% endif %}</p>{% endif %}
+  <p class="muted">{{ c.kind and kind_labels[c.kind] }} · {{ c.last_event_at|dt }}{% if c.next_step %} · ⏰ {{ c.due_at or "" }}{% endif %}</p>
+  <div class="inline">
+    {% if c.unread %}
+    <form method="post" action="/crm/{{ c.id }}/read" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="next" value="list"><button type="submit" class="btn">Mark read</button></form>
+    {% endif %}
+    {% if archived_view %}
+    <form method="post" action="/crm/{{ c.id }}/archive" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="restore" value="1"><button type="submit" class="btn">Restore</button></form>
+    {% else %}
+    <form method="post" action="/crm/{{ c.id }}/move" class="inline">{{ csrf(csrf_token) }}<input type="hidden" name="next" value="list">
+      {% for k in columns if k != c.col %}<button type="submit" name="col" value="{{ k }}" class="btn">→ {{ col_labels[k] }}</button>{% endfor %}
+    </form>
+    <form method="post" action="/crm/{{ c.id }}/archive" class="inline">{{ csrf(csrf_token) }}<button type="submit" class="btn" title="Not interested / archive">Archive</button></form>
+    {% endif %}
+  </div>
+</article>

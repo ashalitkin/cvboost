@@ -1,0 +1,170 @@
+# Human-facing facts per connector, merged with the connector metadata (kind, URL, interval,
+# keys, ToS note) by `cvboost sources --markdown` into SOURCES.md. Every connector needs an entry
+# (tests/onboarding/test_sources_doc.py). Fields:
+#   gives   what the source delivers, in one plain sentence
+#   where   where to get the key / what to set up (empty when nothing is needed)
+#   price   what it costs
+#   limits  what to know about volume, speed and quotas
+#   notes   optional: anything else the reader should know (caveats, how it ends up in the panel)
+remotive:
+  gives: A small curated list of remote jobs from Remotive (a handful of postings, delayed by 24 hours).
+  where: ""
+  price: Free, no account.
+  limits: The site asks for at most 4 requests a day; CVBoost asks every 6 hours.
+  notes: Postings are shown with a link back to Remotive. Applying may require an account on the site.
+remoteok:
+  gives: About 100 current remote jobs from Remote OK, tech heavy.
+  where: ""
+  price: Free, no account.
+  limits: One request an hour.
+  notes: The terms require a visible link back to Remote OK, which the panel shows.
+wwr:
+  gives: Remote jobs from We Work Remotely (programming, devops, marketing, product, management and other categories).
+  where: ""
+  price: Free to read; applying on the site may require a paid account.
+  limits: Seven category feeds, one request each per hour.
+  notes: Check on the site whether you can apply for free before relying on it.
+himalayas:
+  gives: Remote jobs from Himalayas, searched by a few analytics and data queries.
+  where: ""
+  price: Free to read; applying on the site may require a paid account.
+  limits: Shared public quota (no key), so HTTP 429 answers are possible. Every 4 hours.
+  notes: Himalayas asks that its apply link stays unchanged and that jobs are not passed on to other boards.
+jobicy:
+  gives: Remote jobs from Jobicy (up to 200 per run).
+  where: ""
+  price: Free, no account.
+  limits: Jobicy asks for no more than one request an hour; CVBoost asks every 6 hours.
+  notes: ""
+workingnomads:
+  gives: About 30 recent remote jobs from Working Nomads.
+  where: ""
+  price: Free, no account.
+  limits: One request every 6 hours.
+  notes: ""
+arbeitnow:
+  gives: German-market and European jobs (about the last 23 hours, hundreds of postings, many on-site in Germany).
+  where: ""
+  price: Free, no account.
+  limits: Published rate limit 50 requests; CVBoost makes one request every 6 hours.
+  notes: The rules drop most on-site postings automatically.
+hn_hiring:
+  gives: The monthly "Who is hiring" thread on Hacker News, one posting per top-level comment.
+  where: ""
+  price: Free, no account.
+  limits: No published limit; one run every 3 hours with 2 seconds between calls.
+  notes: Company, title and location are guessed from the first line of each comment, so some entries are rough.
+greenhouse:
+  gives: Jobs straight from the career pages of companies that use Greenhouse.
+  where: Add companies to config/companies.yaml (ats greenhouse, slug from the company's board URL), or run `cvboost companies discover`.
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each company at most every 6 hours.
+  notes: Only postings whose title matches your role terms in rules.yaml are stored.
+lever:
+  gives: Jobs straight from the career pages of companies that use Lever.
+  where: Add companies to config/companies.yaml (ats lever), or run `cvboost companies discover`.
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each company at most every 6 hours.
+  notes: The EU Lever host is not covered.
+ashby:
+  gives: Jobs straight from the career pages of companies that use Ashby, including salary ranges.
+  where: Add companies to config/companies.yaml (ats ashby), or run `cvboost companies discover`.
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each company at most every 6 hours.
+  notes: ""
+remotefirstjobs:
+  gives: Remote-first company jobs from Remote First Jobs.
+  where: ""
+  price: Free, no account.
+  limits: One request every 3 hours.
+  notes: The feed asks for a link back and that its jobs are not resubmitted to other job platforms.
+realworkfromanywhere:
+  gives: Work-from-anywhere jobs from Real Work From Anywhere.
+  where: ""
+  price: Free, no account.
+  limits: One request every 3 hours.
+  notes: ""
+hn_jobs:
+  gives: The "Jobs" section of Hacker News (companies hiring, mostly start-ups).
+  where: ""
+  price: Free, no account.
+  limits: No rate limit published; CVBoost makes at most 41 calls per run, every 6 hours.
+  notes: ""
+jobtech_se:
+  gives: Swedish jobs from the national employment service (Platsbanken).
+  where: ""
+  price: Free open data, no key.
+  limits: One run every 6 hours.
+  notes: Useful if you can work for Swedish employers; other users can disable it in the panel.
+jobindex_dk:
+  gives: Danish jobs from Jobindex.
+  where: ""
+  price: Free, no account.
+  limits: 10 seconds between requests; the site blocks some query shapes, so queries are kept simple.
+  notes: Useful if you can work for Danish employers; other users can disable it in the panel.
+mastodon:
+  gives: Job posts under a few hashtags on Mastodon.
+  where: Turn it on in the panel (Sources page).
+  price: Free, no account.
+  limits: One run every 3 hours.
+  notes: Off by default. Mastodon forbids training AI on posts; CVBoost only classifies them.
+workable:
+  gives: Jobs straight from the career pages of companies that use Workable.
+  where: Add companies to config/companies.yaml (ats workable).
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each at most every 6 hours.
+  notes: ""
+recruitee:
+  gives: Jobs straight from the career pages of companies that use Recruitee.
+  where: Add companies to config/companies.yaml (ats recruitee).
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each at most every 6 hours.
+  notes: ""
+teamtailor:
+  gives: Jobs straight from the career pages of companies that use Teamtailor.
+  where: Add companies to config/companies.yaml (ats teamtailor).
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each at most every 6 hours.
+  notes: ""
+personio:
+  gives: Jobs straight from the career pages of companies that use Personio (common in German-speaking Europe).
+  where: Add companies to config/companies.yaml (ats personio).
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each at most every 6 hours.
+  notes: ""
+gem:
+  gives: Jobs straight from the career pages of companies that use Gem (US-heavy).
+  where: Add companies to config/companies.yaml (ats gem).
+  price: Free, no account.
+  limits: At most 25 companies per run, 1 second between companies, each at most every 6 hours.
+  notes: ""
+email_alerts:
+  gives: Job-alert e-mails from LinkedIn, Indeed, Dice, Freelancermap and other senders, read from a mailbox you dedicate to this.
+  where: "Create saved searches with e-mail alerts on those sites, forward them to a dedicated Gmail account, create an App password for it (Google account, Security, 2-step verification, App passwords) and put CVBOOST_IMAP_USER and CVBOOST_IMAP_PASSWORD into .env."
+  price: Free (a Gmail account).
+  limits: The mailbox is read once per cycle, read-only. Unknown senders go through a capped LLM fallback (30 calls a day by default).
+  notes: This is how LinkedIn and Indeed are covered without scraping them. Links in the mails are never opened. Use a dedicated mailbox, never your main one.
+adzuna:
+  gives: A wide job aggregator (UK, Germany, Netherlands, Spain, Portugal, US, ...), searched with analytics and data queries.
+  where: Register for a free key at https://developer.adzuna.com and put ADZUNA_APP_ID and ADZUNA_APP_KEY into .env.
+  price: Free key; commercial use needs a paid licence.
+  limits: The plan limit is shown in your Adzuna account and is not published. CVBoost counts its calls (config/api_budget.yaml, default 30 a day, 800 a month) and pauses the source at the limit.
+  notes: Each advert is shown as "Jobs by Adzuna" with a link, as the terms require. Without the keys the source stays idle.
+reed:
+  gives: UK jobs from Reed.
+  where: Request a free key at https://www.reed.co.uk/developers and put REED_API_KEY into .env.
+  price: Free key.
+  limits: No limit published. CVBoost counts its calls (config/api_budget.yaml, default 24 a day, 600 a month).
+  notes: Without the key the source stays idle.
+itjobs:
+  gives: Portuguese IT jobs from ITJobs.pt.
+  where: Request a free read-only key at https://www.itjobs.pt/api (by e-mail) and put ITJOBS_API_KEY into .env.
+  price: Free key.
+  limits: No limit published. CVBoost counts its calls (config/api_budget.yaml, default 24 a day, 600 a month).
+  notes: Without the key the source stays idle.
+fractionaljobs:
+  gives: Fractional and part-time contract roles (data, engineering, marketing, product) from the Fractional Jobs board, many from small US companies.
+  where: ""
+  price: Free, no account.
+  limits: One page request plus at most 12 detail pages every 6 hours, 5 seconds apart. Many roles are US-only, so the location rules drop them.
+  notes: The board has no feed, so the public home page is read. Company names are often anonymised. The link goes to the posting on Fractional Jobs.

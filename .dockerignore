@@ -1,0 +1,11 @@
+.git
+.venv
+data
+.env*
+.worktrees
+tests
+scripts
+.claude
+docs
+# the profile (contacts, history) is mounted via ./config:/app/config:ro, never baked into the image
+config/resume

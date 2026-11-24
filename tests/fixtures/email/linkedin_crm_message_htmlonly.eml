@@ -1,0 +1,15 @@
+From: Mark Test via LinkedIn <hit-reply@linkedin.com>
+To: Jordan Example <alerts@example.com>
+Subject: Mark Test replied to your message
+Date: Tue, 10 Nov 2026 10:30:00 +0000
+Message-ID: <msg-html-004.linkedin@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<html><body>
+<p>Mark Test</p>
+<p>Founder at Test Agency</p>
+<p>"Yes, send me your rate and availability."</p>
+<p><a href="https://www.linkedin.com/comm/messaging/thread/2-HTML777/?trk=eml">View message</a></p>
+<p><a href="javascript:alert(1)">bad link</a></p>
+</body></html>

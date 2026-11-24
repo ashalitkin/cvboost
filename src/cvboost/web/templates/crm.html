@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}CRM{% endblock %}
+{% block content %}
+<div class="listhead"><h1>CRM <span class="muted">LinkedIn</span></h1>
+  <p class="muted">{% if show_archive %}<a href="/crm">Hide archive</a>{% else %}<a href="/crm?archive=1">Archive ({{ stats.archived }})</a>{% endif %}</p></div>
+<p class="muted crm-stats">Unread: <strong>{{ stats.unread }}</strong>
+  · accepted the invitation, 7 d: {{ stats.windows[7].accepted }}, of them wrote: {{ stats.windows[7].replied }}
+  · 30 d: {{ stats.windows[30].accepted }} / {{ stats.windows[30].replied }}
+  · in "Talking": {{ stats.talk }}</p>
+{% if not cols|map(attribute=2)|map("length")|sum and not archive %}<p class="card">No contacts yet. LinkedIn emails from hit-reply@linkedin.com will appear here after the mailbox is processed.</p>{% endif %}
+<div class="funnel crm-cols">
+{% set archived_view = false %}
+{% for key, label, items in cols %}
+  <section class="col">
+    <h2>{{ label }} <span class="muted">{{ stats.columns[key] }}</span></h2>
+    {% for c in items %}{% include "partials/crm_card.html" %}{% endfor %}
+    {% if not items %}<p class="muted">Empty.</p>{% endif %}
+  </section>
+{% endfor %}
+</div>
+{% if show_archive %}
+<h2>Archive</h2>
+<div class="funnel">
+  {% set archived_view = true %}
+  {% for c in archive %}{% include "partials/crm_card.html" %}{% endfor %}
+  {% if not archive %}<p class="muted">Empty.</p>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

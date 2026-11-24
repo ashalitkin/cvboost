@@ -1,0 +1,7 @@
+# Approved public links the CRM reply draft may use. The model may use ONLY these URLs; any other
+# URL in a draft is rejected by the validator. Add your own links here (https only), or leave the
+# list empty: drafts then contain no links.
+links: {}
+# links:
+#   case_studies: https://example.com/case-studies
+#   calendly: https://example.com/book-a-call

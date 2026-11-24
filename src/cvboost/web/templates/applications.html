@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% from "macros.html" import csrf, why_block, withdraw_form, restore_form %}
+{% block title %}Applications{% endblock %}
+{% block content %}
+<h1>Applications</h1>
+{% if not rows %}<p class="card">No applications yet. "Prepare CV" in the Inbox creates an entry here.</p>{% endif %}
+<div class="funnel">
+{% for status, items in columns %}{% if items or status in funnel %}
+  <section class="col{% if not items %} empty{% endif %}">
+    <h2>{{ app_labels.get(status, status) }} <span class="muted">{{ items|length }}</span></h2>
+    {% for r in items %}
+    <article class="card">
+      <h3><a href="/jobs/{{ r.canonical_id }}">{{ r.title }}</a></h3>
+      <p class="company">{{ r.company }}</p>
+      <p class="muted">
+        {% if r.cv_requested_at %}CV requested {{ r.cv_requested_at|dt }}{% endif %}
+        {% if r.cv_finished_at %} · ready {{ r.cv_finished_at|dt }}{% endif %}
+        {% if r.applied_at %} · applied {{ r.applied_at|dt }}{% endif %}
+      </p>
+      {{ why_block(whys[r.canonical_id], r.canonical_id) }}
+      {% if r.cv_error %}<p class="chip warn">{{ r.cv_error }}</p>{% endif %}
+      {% if r.note %}<p>{{ r.note }}</p>{% endif %}
+      {% if r.status == "withdrawn" %}
+      <p><strong>Reason:</strong> {{ r.withdraw_note or "—" }}</p>
+      {{ restore_form(r.canonical_id, csrf_token, "applications") }}
+      {% else %}
+      <form method="post" action="/applications/{{ r.canonical_id }}/status" class="inline stack">
+        {{ csrf(csrf_token) }}<input type="hidden" name="next" value="applications">
+        <select name="status" aria-label="Status">
+          <option value=""{% if not r.manual_status %} selected{% endif %}>— auto —</option>
+          {% for s in statuses %}<option value="{{ s }}"{% if r.manual_status == s %} selected{% endif %}>{{ app_labels[s] }}</option>{% endfor %}
+        </select>
+        <input type="text" name="note" maxlength="2000" value="{{ r.note or '' }}" placeholder="Note" aria-label="Note">
+        <button type="submit" class="btn">Save</button>
+      </form>
+      {{ withdraw_form(r.canonical_id, csrf_token, reasons, "applications") }}
+      {% endif %}
+    </article>
+    {% endfor %}
+  </section>
+{% endif %}{% endfor %}
+</div>
+{% endblock %}

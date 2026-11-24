@@ -1,0 +1,14 @@
+From: freelancermap <support@freelancermap.com>
+To: owner@example.com
+Subject: Owner, you've reached the project alert limit
+Date: Mon, 09 Nov 2026 18:26:24 +0000
+Message-ID: <synthetic-c8e37342bc1d@mail.example.com>
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@cioeu32916.freelancermap.com header.s=sel; spf=pass; dmarc=pass
+ header.from=freelancermap.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Account notification (stub).
+No job content.

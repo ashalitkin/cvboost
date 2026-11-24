@@ -1,0 +1,22 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+data/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Your personal setup: `cvboost init` copies config.example/ to config/ (or run /setup).
+# It stays on your machine, never in git.
+/config/
+
+.venv/
+__pycache__/
+*.pyc
+.worktrees/
+
+# Claude Code personal settings and notes
+.claude/settings.local.json
+CLAUDE.local.md
+.DS_Store

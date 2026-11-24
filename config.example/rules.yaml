@@ -1,0 +1,109 @@
+# Hard rules and cheap relevance (no AI). EXAMPLE values: `/setup` in Claude Code rewrites this file
+# for you (rates, home country, roles you do not want, your own title and skill terms).
+# Any change here changes rule_version: the next `cvboost triage` re-evaluates every job
+# (old verdicts are kept as history).
+# The built-in region lists (EU, US, UK, Asia, ...) assume a contractor living in the EU/EEA:
+# only the home country below is configurable.
+rate:
+  min_hourly_usd: 60
+  min_daily_usd: 480
+  min_annual_usd: 96000           # monthly minimum = annual / 12 = 8000 (full-time passes if the upper bound reaches it)
+  fx_to_usd:                      # approx, 2026-11
+    {USD: 1.0, EUR: 1.08, GBP: 1.27, CAD: 0.73, AUD: 0.66, CHF: 1.13, INR: 0.012, PLN: 0.25,
+     SEK: 0.095, NOK: 0.093, DKK: 0.145}
+  assume_currency: USD            # amount without a currency symbol
+  plausible:                      # outside the range -> treated as "rate unknown"
+    hour: [5, 1000]
+    day: [40, 5000]
+    month: [800, 100000]
+    year: [20000, 2000000]
+location:
+  allow: [germany, europe, european union, eu, eea, emea, iberia, western europe, southern europe,
+          worldwide, anywhere, global, globally, international]
+  # HOME COUNTRY (change this to where you live). A posting that names only it (or its cities)
+  # needs a stated rate: reasons/flags <code>_only -> <code>_no_rate / <code>_rate_check.
+  # Its terms must also stay in `allow` above. `code` is a short lower-case word, `label` is shown
+  # in the panel.
+  home:
+    code: germany
+    label: Germany
+    terms: [germany, berlin, munich, hamburg, frankfurt, cologne, stuttgart, dusseldorf, leipzig]
+    require_stated_rate: true
+languages:
+  allowed: [en]                   # language codes of postings you can read, e.g. [en, de]
+  min_words: 30
+unwanted_titles: [data scientist, data science,   # roles you do not want: hard reject
+  # Entries are regex fragments. Campaign operation (this example does analytics/tracking/data for
+  # marketing, not running ads); titles with analyst/analytics/measurement are exempt (rules.py).
+  'paid media', 'media buy(?:er|ing)', 'ppc', 'sem (?:specialist|manager)',
+  'paid (?:search|social) specialist', 'campaign manager', 'performance marketing (?:manager|lead|head|director)',
+  'head of (?:paid|performance|growth)', 'growth marketer',
+  'growth marketing (?:manager|lead|head|director)', 'user acquisition manager',
+  '(?:google|meta|facebook) ads specialist', 'performance marketers?']
+# Stacks you do not want: such jobs are rejected by rules (no LLM call), unless the stack is only
+# optional ("nice to have", "a plus", a "Preferred" section). Regex fragments, case-insensitive.
+unwanted_stack: ['(?:py)?spark', 'databricks spark', kafka, flink, kinesis, 'apache beam',
+  'stream processing', 'real[- ]time streaming', 'event streaming',
+  'streaming (?:data|pipelines?|platforms?|architecture|systems?|frameworks?|analytics)']
+blocked_companies: []             # company names as shown on boards; matched after normalisation
+dedupe:
+  window_days: 30
+relevance:
+  threshold: 30
+  weights: {title: 0.5, tags: 0.2, description: 0.3}
+  weights_no_tags: {title: 0.6, description: 0.4}
+  tags_saturation: 2
+  description_saturation: 6
+  negative_title_multiplier: 0.3
+  negative_title: [sales, account executive, account manager, sdr, bdr, recruit, nurse, physician,
+    designer, design, trainer, annotation, voice, data entry, clerk, accountant, bookkeep, payroll,
+    customer success, support, mechanical, clinical, legal, counsel, attorney, intern, praktikum,
+    student, assistant, frontend, front-end, backend, back-end, full stack, full-stack, fullstack,
+    mobile, ios, android, devops, sre, qa, security, threat, vue, react, .net, java, salesforce, sap,
+    magento, financial, finance, tax, esg, regulatory, master data, machine learning, sharepoint, power platform, power automate, dynamics, writer,
+    copywriter, content, video, community, events, brand, product marketing,
+    demand generation, field marketing, cryptography, medical, insurance, mortgage, loan, coding tasks]
+  profiles:
+    data_engineer:
+      title:
+        - {weight: 1.0, terms: [analytics engineer, data engineer, bi engineer, bi developer, bi lead,
+            bi architect, business intelligence, data warehouse, dwh, etl, elt, dbt, looker, dataops,
+            data architect, analytics lead, head of data, analytics architect, data analytics engineer]}
+        - {weight: 0.7, terms: [data analyst, bi analyst, analytics manager, reporting analyst, data modeler,
+            data modeller, sql developer, data platform, analytics, bigquery, snowflake]}
+        # dashboards-only / BI, analytics consultants, leads and architects. 0.9 groups keep
+        # negative_title active ("SAP BI Manager", "Sales Data Lead" stay out). Power BI / Tableau
+        # are gaps of the example profile: they pass with a lower score.
+        - {weight: 1.0, terms: [lookml, looker studio, dashboard developer, dashboard engineer,
+            data visualization developer, data visualization engineer, data visualisation developer,
+            data visualisation engineer, analytics tech lead, head of analytics, head of bi]}
+        - {weight: 0.9, terms: [data lead, bi specialist, bi manager, reporting engineer,
+            reporting developer, reporting manager, data engineering, technical lead - data,
+            tech lead - data, bi consultant, data consultant, data consulting, bi consulting,
+            analytics consultant, analytics consulting, business intelligence consultant]}
+        - {weight: 0.7, terms: [dashboard analyst, dashboard specialist, dashboard designer,
+            dashboards, power bi, powerbi, tableau, reporting specialist, reporting lead,
+            reporting & insights, reporting and insights]}
+        - {weight: 0.3, terms: [data]}
+      skills: [bigquery, snowflake, redshift, postgres, postgresql, sql, dbt, airflow, meltano, singer,
+        looker, lookml, looker studio, data warehouse, data warehousing, dwh, etl, elt, data pipeline,
+        data pipelines, data modeling, data modelling, dimensional model, semantic layer, star schema,
+        github actions, python, cohort, retention, ltv, churn]
+    marketing_analytics:
+      title:
+        # bare "GTM" is also go-to-market: only "server-side gtm" / "gtm tracking" are terms
+        - {weight: 1.0, terms: [marketing analytics, marketing analyst, marketing data, marketing science,
+            growth analyst, web analytics, web analyst, digital analytics, digital analyst,
+            paid media analyst, ppc analyst, product analytics, attribution, measurement,
+            tracking, martech, marketing engineer, ga4, conversion, server-side gtm, gtm tracking,
+            google tag manager, tag management, tagging specialist, tagging engineer,
+            server-side tagging, capi, conversions api, conversion api, analytics implementation,
+            ads data]}
+        - {weight: 0.9, terms: [marketing technology, marketing technologist, marketing technologies,
+            ad tech, adtech]}
+        - {weight: 0.7, terms: [ai engineer, ai agent, agentic, llm, ai automation, ai analyst, analytics]}
+        - {weight: 0.4, terms: [growth, marketing operations]}
+      skills: [ga4, google analytics, gtm, google tag manager, server-side, server side, conversions api,
+        capi, meta ads, facebook ads, google ads, tiktok, linkedin ads, attribution, roas, cac, utm,
+        shopify, stripe, bigquery, looker studio, sql, llm, llms, ai agents, agentic, claude,
+        marketing analytics, tracking]

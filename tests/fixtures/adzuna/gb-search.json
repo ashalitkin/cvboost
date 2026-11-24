@@ -1,0 +1,194 @@
+{
+ "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+ "count": 1234,
+ "mean": 65432.1,
+ "results": [
+  {
+   "id": "4600000001",
+   "title": "Senior Data Engineer (BigQuery, dbt)",
+   "description": "We are looking for a Data Engineer to build BigQuery and dbt pipelines. Remote-friendly within the UK&hellip;",
+   "created": "2026-11-02T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Northwind Analytics"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "London, UK",
+    "area": [
+     "UK",
+     "London"
+    ]
+   },
+   "salary_min": 85000,
+   "salary_max": 95000,
+   "salary_is_predicted": "0",
+   "contract_time": "full_time",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "IT Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000001?se=TOKEN1&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.1"
+  },
+  {
+   "id": "4600000002",
+   "title": "Analytics Engineer",
+   "description": "Own the dbt project and Looker models for our product analytics team&hellip;",
+   "created": "2026-11-03T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Contoso Data Ltd"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "Manchester, Greater Manchester",
+    "area": [
+     "Greater Manchester",
+     "Manchester"
+    ]
+   },
+   "salary_min": 60000,
+   "salary_max": 70000,
+   "salary_is_predicted": "1",
+   "contract_type": "permanent",
+   "contract_time": "full_time",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "IT Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000002?se=TOKEN2&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.2"
+  },
+  {
+   "id": "4600000003",
+   "title": "Contract Data Engineer - GCP",
+   "description": "6 month contract, outside IR35, day rate negotiable. BigQuery, Airflow, Terraform&hellip;",
+   "created": "2026-11-04T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Fabrikam Consulting"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "Remote, UK",
+    "area": [
+     "UK",
+     "Remote"
+    ]
+   },
+   "salary_min": null,
+   "salary_max": null,
+   "salary_is_predicted": "0",
+   "contract_type": "contract",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "IT Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000003?se=TOKEN3&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.3"
+  },
+  {
+   "id": "4600000004",
+   "title": "Marketing Analytics Manager",
+   "description": "Part-time role. GA4, GTM, attribution modelling&hellip;",
+   "created": "2026-11-05T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Tailspin Media"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "Bristol, Avon",
+    "area": [
+     "Avon",
+     "Bristol"
+    ]
+   },
+   "salary_min": 55000,
+   "salary_max": null,
+   "salary_is_predicted": "0",
+   "contract_type": "permanent",
+   "contract_time": "part_time",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "Marketing Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000004?se=TOKEN4&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.4"
+  },
+  {
+   "id": "4600000005",
+   "title": "Looker Developer",
+   "description": "LookML developer needed to maintain dashboards&hellip;",
+   "created": "2026-11-06T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Wingtip Toys"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "Leeds, West Yorkshire",
+    "area": [
+     "West Yorkshire",
+     "Leeds"
+    ]
+   },
+   "salary_min": null,
+   "salary_max": null,
+   "salary_is_predicted": "0",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "IT Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000005?se=TOKEN5&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.5"
+  },
+  {
+   "id": "4600000006",
+   "title": "Data Engineer",
+   "description": "Python, SQL, Snowflake&hellip;",
+   "created": "2026-11-07T09:30:00Z",
+   "company": {
+    "__CLASS__": "Adzuna::API::Response::Company",
+    "display_name": "Adventure Works"
+   },
+   "location": {
+    "__CLASS__": "Adzuna::API::Response::Location",
+    "display_name": "Cambridge, Cambridgeshire",
+    "area": [
+     "Cambridgeshire",
+     "Cambridge"
+    ]
+   },
+   "salary_min": 70000,
+   "salary_max": 70000,
+   "salary_is_predicted": "1",
+   "contract_time": "full_time",
+   "category": {
+    "__CLASS__": "Adzuna::API::Response::Category",
+    "tag": "it-jobs",
+    "label": "IT Jobs"
+   },
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4600000006?se=TOKEN6&utm_medium=api&utm_source=EXAMPLEAPPID&v=ABC",
+   "latitude": 51.5,
+   "longitude": -0.1,
+   "adref": "eyJhbGciOiJIUzI1NiJ9.6"
+  }
+ ]
+}
